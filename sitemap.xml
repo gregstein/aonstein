@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://ageofnotes.com/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="4.1.0" -->
-<!-- generated-on="May 18, 2020 1:30 am" -->
+<!-- generated-on="May 18, 2020 6:28 am" -->
 <sitemapindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<sitemap>
 		<loc>https://ageofnotes.com/sitemap-misc.xml</loc>
 		<lastmod>2020-04-29T11:29:15+00:00</lastmod>
@@ -64,4 +64,4 @@
 		<loc>https://ageofnotes.com/sitemap-pt-page-2017-10.xml</loc>
 		<lastmod>2017-11-21T00:20:30+00:00</lastmod>
 	</sitemap>
-</sitemapindex><!-- Request ID: f48f751ef9174e4424d205c6e91e7cea; Queries for sitemap: 5; Total queries: 20; Seconds: 0.01; Memory for sitemap: 0MB; Total memory: 14MB -->
+</sitemapindex><!-- Request ID: 173149765651b9108b3d0bc67ddd785c; Queries for sitemap: 5; Total queries: 22; Seconds: 0.01; Memory for sitemap: 0MB; Total memory: 14MB -->
