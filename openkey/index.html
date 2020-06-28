@@ -1,0 +1,150 @@
+
+<html>
+<head>
+<title>AgeOfNotes OpenKey - AoE2Tools Cloud Verification</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<link rel="stylesheet" type="text/css" href="assets/default.css" /> 
+<meta http-equiv="cleartype" content="on" /> 
+<meta name="MobileOptimized" content="width" /> 
+<meta name=viewport content="width=device-width, initial-scale=1">
+<meta name="HandheldFriendly" content="true" />
+<script type="text/javascript" src="jquery-1.4.1.js"></script>
+<style type="text/css">
+#proceed {
+  display: none;
+}
+.xx{
+    font-family: "Fredoka One script=all rev=2", "Adobe Blank";
+    font-weight: 14;
+    font-style: normal;
+    font-size: 5px;
+}
+
+@font-face {
+  font-family: 'Fredoka One script=all rev=2';
+  font-style: normal;
+  font-weight: 200;
+  src:   url(https://fonts.gstatic.com/l/font?kit=k3kUo8kEI-tA1RRcTZGmTmHEG9St0C3d1om8Mz6slqBKRtvjzUJ6xAJaGHLTbv9tHVEq-h1ylCtXSeDBENILlzkfzUJOiM594gqLtnzccnJfhpQc-ZP_ud1_NbotCXKqzPs_SH7xk6cjQyW2echUD_r7vTfZ5gJBot49AddTHjLYLXysgiMDRZKV&skey=fac42792a60c2aba&v=v5) format('woff2');
+}
+
+canvas{
+    border: 1px black solid;
+}
+#textCanvas{
+    display: block;
+}
+</style>
+
+
+
+</head>
+<body id="maze">
+<div id="container"> 
+<div id="header"> 
+<a href="http://ageofnotes.com/openkey" ><h1 style="color:black;">AoE2Tools Cloud Verification</h1></a> 
+</div> 
+<div id="content"> 
+<p><a href="http://ageofnotes.com/openkey">AgeOfNotes OpenKey</a> is a free verification key generator tool for AoE2Tools. It generates unique activation key per each user to filter out spam and prevent bandwidth abuse - This tool plays the role of captcha. 
+ 
+</p>
+<br>
+
+<h2>Where's My Key?</h1> 
+
+<p>A "Generate Key" button will be available in 10 seconds to retrieve your free activation key. Paste the key into the validation field within AoE2Tools then you are good to go.</p>
+<br>
+<div class="ads">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0608818284340124" data-ad-slot="4690050753" data-ad-format="auto" data-full-width-responsive="true"></ins><script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<br>
+<p>The generated key should only verify whether or not the user is bot.</p>
+
+ 
+<div class="ads"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0608818284340124" data-ad-slot="4906480583" data-ad-format="auto" data-full-width-responsive="true"></ins><script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+
+
+<br><div align="center" style="text-align:center">
+Paste Your Key: <input type="text" id="myText" value="" onclick="this.focus();">
+<button id="show" onclick="getInputValue();">Generate Key</button>
+<div id="" Your Serial: <input type="text" id="myText" value="" onclick="this.focus();this.select()" readonly>&nbsp;&nbsp;&nbsp;<img src="copythis.png">
+<p class="xx" style="font-size: 20px;" id='textCanvas' >Your serial will be displayed here..</p>
+</div>
+
+<script type="text/javascript">
+function makeHttpObject() {
+  try {return new XMLHttpRequest();}
+  catch (error) {}
+  try {return new ActiveXObject("Msxml2.XMLHTTP");}
+  catch (error) {}
+  try {return new ActiveXObject("Microsoft.XMLHTTP");}
+  catch (error) {}
+
+  throw new Error("Could not create HTTP request object.");
+}
+function getInputValue(){
+var keyD = document.getElementById("myText").value;
+var request = makeHttpObject();
+request.open("GET", "http://obscurage.000webhostapp.com/openkey/gs.php?captcha=" + keyD, true);
+request.send(null);
+request.onreadystatechange = function() {
+  if (request.readyState == 4)
+	document.getElementById("textCanvas").textContent = request.responseText;
+};
+}
+</script>
+
+<script type="text/javascript">
+
+    window.onload=function(){
+      
+var tCtx = document.getElementById('textCanvas').getContext('2d'),
+    imageElem = document.getElementById('image');
+var xkey = "<?php echo $serial; ?>";
+
+
+document.getElementById('maze').addEventListener('mousemove', function (){
+    // Set it before getting the size
+    tCtx.font = '250 20px "Fredoka One script=all rev=2", "Adobe Blank"';
+    // this will reset all our context's properties
+    tCtx.canvas.width = tCtx.measureText(xkey).width;
+    // so we need to set it again
+    tCtx.font = '250 20px "Fredoka One script=all rev=2", "Adobe Blank"';
+    // set the color only now
+    tCtx.fillStyle = '#A0A';
+    tCtx.fillText(xkey, 0, 30);
+    imageElem.src = tCtx.canvas.toDataURL();
+}, false);
+
+    }
+
+</script>
+</div>
+
+<br><div class="ads"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0608818284340124" data-ad-slot="7710422102" data-ad-format="auto" data-full-width-responsive="true"></ins><script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><br>
+<div align=center>Your Free Activation Key is Generated by Ageofnotes.com/Openkey</div>
+<br>
+<b>Warning:</b> Use of this service for spam or other illegal activity is <b> STRICTLY PROHIBITED</b>! 
+<div id="bookmarklets"> 
+ 
+</div> 
+</div> 
+<div align=center id="footer"> 
+<br> 
+<a onclick="window.open('','docu','toolbar=0,location=0,directories=0,status=yes,menubar=0,scrollbars=yes,resizable=yes,width=365,height=350,titlebar=yes')" target="docu" href="http://ageofnotes.com/openkey/disclaimer.html">Disclaimer</a> |  
+<a onclick="window.open('','docu','toolbar=0,location=0,directories=0,status=yes,menubar=0,scrollbars=yes,resizable=yes,width=365,height=350,titlebar=yes')" target="docu" href="http://ageofnotes.com/openkey/privacy.html">Privacy</a> |  
+<a onclick="window.open('','docu','toolbar=0,location=0,directories=0,status=yes,menubar=0,scrollbars=yes,resizable=yes,width=365,height=350,titlebar=yes')" target="docu" href="http://ageofnotes.com/openkey/contact.html">Contact</a> | 
+ 
+<p align=center>&copy; 2012 AgeofNotes OpenKey 
+</div> 
+</div> 
+
+
+</body>
+</html>
