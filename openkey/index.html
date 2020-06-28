@@ -89,7 +89,7 @@ function makeHttpObject() {
 function getInputValue(){
 var keyD = document.getElementById("myText").value;
 var request = makeHttpObject();
-request.open("GET", "http://obscurage.000webhostapp.com/openkey/gs.php?captcha=" + keyD, true);
+request.open("GET", "https://obscurage.000webhostapp.com/openkey/gs.php?captcha=" + keyD, true);
 request.send(null);
 request.onreadystatechange = function() {
   if (request.readyState == 4)
