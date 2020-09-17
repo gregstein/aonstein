@@ -114,7 +114,7 @@
 
 
 <link rel="stylesheet" id="wp-components-css" href="https://ageofnotes.com/wp-includes/css/dist/components/style.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="wp-editor-font-css" href="https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="wp-editor-font-css" href="https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&ver=5.5.1" type="text/css" media="all">
 <link rel="stylesheet" id="wp-block-editor-css" href="https://ageofnotes.com/wp-includes/css/dist/block-editor/style.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="wp-nux-css" href="https://ageofnotes.com/wp-includes/css/dist/nux/style.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="wp-editor-css" href="https://ageofnotes.com/wp-includes/css/dist/editor/style.min.css" type="text/css" media="all">
@@ -186,32 +186,30 @@ pre {
 <link rel="stylesheet" id="magnificPopup-css" href="https://ageofnotes.com/wp-content/themes/agetips/css/magnific-popup.css" type="text/css" media="all">
 <link rel="stylesheet" id="fontawesome-css" href="https://ageofnotes.com/wp-content/themes/agetips/css/font-awesome.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="responsive-css" href="https://ageofnotes.com/wp-content/themes/agetips/css/responsive.css" type="text/css" media="all">
-<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wp-discord/public/js/wp-discord.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/wpdccjs/wpdcc.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/autogrow/jquery.autogrowtextarea.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/jquery/jquery.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wp-discord/public/js/wp-discord.js" id="wp-discord-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/wpdccjs/wpdcc.js" id="wpdiscuz-cookie-js-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/autogrow/jquery.autogrowtextarea.min.js" id="autogrowtextarea-js-js"></script>
+<script type="text/javascript" id="wpdiscuz-ajax-js-js-extra">
 /* <![CDATA[ */
 var wpdiscuzAjaxObj = {"url":"https:\/\/ageofnotes.com\/wp-admin\/admin-ajax.php","customAjaxUrl":"https:\/\/ageofnotes.com\/wp-content\/plugins\/wpdiscuz\/utils\/ajax\/wpdiscuz-ajax.php","wpdiscuz_options":{"wc_hide_replies_text":"Hide Replies","wc_show_replies_text":"View Replies","wc_msg_required_fields":"Please fill out required fields","wc_invalid_field":"Some of field value is invalid","wc_error_empty_text":"please fill out this field to comment","wc_error_url_text":"url is invalid","wc_error_email_text":"email address is invalid","wc_invalid_captcha":"Invalid Captcha Code","wc_login_to_vote":"You Must Be Logged In To Vote","wc_deny_voting_from_same_ip":"You are not allowed to vote for this comment","wc_self_vote":"You cannot vote for your comment","wc_vote_only_one_time":"You've already voted for this comment","wc_voting_error":"Voting Error","wc_held_for_moderate":"Comment awaiting moderation","wc_comment_edit_not_possible":"Sorry, this comment no longer possible to edit","wc_comment_not_updated":"Sorry, the comment was not updated","wc_comment_not_edited":"You've not made any changes","wc_new_comment_button_text":"new comment","wc_new_comments_button_text":"new comments","wc_new_reply_button_text":"new reply on your comment","wc_new_replies_button_text":"new replies on your comments","wc_msg_input_min_length":"Input is too short","wc_msg_input_max_length":"Input is too long","wc_follow_user":"Follow this user","wc_unfollow_user":"Unfollow this user","wc_follow_success":"You started following this comment author","wc_follow_canceled":"You stopped following this comment author.","wc_follow_email_confirm":"Please check your email and confirm the user following request.","wc_follow_email_confirm_fail":"Sorry, we couldn't send confirmation email.","wc_follow_login_to_follow":"Please login to follow users.","wc_follow_impossible":"We are sorry, but you can't follow this user.","wc_follow_not_added":"Following failed. Please try again later.","is_user_logged_in":false,"commentListLoadType":"0","commentListUpdateType":"0","commentListUpdateTimer":"30","liveUpdateGuests":"1","wc_comment_bg_color":"#FEFEFE","wc_reply_bg_color":"#F8F8F8","wpdiscuzCommentsOrder":"asc","wpdiscuzCommentOrderBy":"comment_date_gmt","commentsVoteOrder":false,"wordpressThreadCommentsDepth":"5","wordpressIsPaginate":"","commentTextMaxLength":null,"storeCommenterData":100000,"isCaptchaInSession":true,"isGoodbyeCaptchaActive":false,"socialLoginAgreementCheckbox":0,"enableFbLogin":0,"enableFbShare":0,"facebookAppID":"","facebookUseOAuth2":0,"enableGoogleLogin":0,"googleAppID":"","cookiehash":"d842adc2da09c7d8cee30bf37de42691","isLoadOnlyParentComments":0,"ahk":"","enableDropAnimation":0,"isNativeAjaxEnabled":1,"cookieCommentsSorting":"wpdiscuz_comments_sorting","enableLastVisitCookie":0,"version":"5.3.5","wc_post_id":1073,"loadLastCommentId":0,"lastVisitKey":"wpdiscuz_last_visit","isCookiesEnabled":true,"wc_captcha_show_for_guest":1,"wc_captcha_show_for_members":"0","is_email_field_required":1}};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/quicktags/wpdiscuz-quictags.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz.js" id="wpdiscuz-ajax-js-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/quicktags/wpdiscuz-quictags.js" id="wpdiscuz-quicktags-js"></script>
+<script type="text/javascript" id="wpdiscuz-user-content-js-js-extra">
 /* <![CDATA[ */
 var wpdiscuzUCObj = {"msgConfirmDeleteComment":"Are you sure you want to delete this comment?","msgConfirmCancelSubscription":"Are you sure you want to cancel this subscription?","msgConfirmCancelFollow":"Are you sure you want to cancel this follow?"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz-user-content.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/lity/lity.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz-user-content.js" id="wpdiscuz-user-content-js-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/lity/lity.js" id="wpdiscuz-lity-js-js"></script>
+<script type="text/javascript" id="customscript-js-extra">
 /* <![CDATA[ */
 var mts_customscript = {"responsive":"1","nav_menu":"primary"};
 /* ]]> */
 </script>
-<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/customscript.js"></script>
-
+<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/customscript.js" id="customscript-js"></script>
 
 
 
@@ -435,7 +433,7 @@ h6 { font-family: Helvetica, Arial, sans-serif; font-weight: normal; font-size: 
                             <span class="thecomment"><i class="fa fa-comments"></i> <a href="https://ageofnotes.com/strategies/drush-fast-castle-into-knights-as-berbers-meditational-build-order/#respond" itemprop="interactionCount">No Comments</a></span>
             			</div>
 											</header>
-<img width="1280" height="720" src="https://ageofnotes.com/wp-content/uploads/2020/04/meditation-drush-fc-berber.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://ageofnotes.com/wp-content/uploads/2020/04/meditation-drush-fc-berber.jpg 1280w,https://ageofnotes.com/wp-content/uploads/2020/04/meditation-drush-fc-berber-569x320.jpg 569w,https://ageofnotes.com/wp-content/uploads/2020/04/meditation-drush-fc-berber-1024x576.jpg 1024w,https://ageofnotes.com/wp-content/uploads/2020/04/meditation-drush-fc-berber-768x432.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px">									<div class="post-single-content box mark-links entry-content">
+<img width="1280" height="720" src="https://ageofnotes.com/wp-content/uploads/2020/04/meditation-drush-fc-berber.jpg" class="attachment-full size-full wp-post-image" alt="" loading="lazy" srcset="https://ageofnotes.com/wp-content/uploads/2020/04/meditation-drush-fc-berber.jpg 1280w,https://ageofnotes.com/wp-content/uploads/2020/04/meditation-drush-fc-berber-569x320.jpg 569w,https://ageofnotes.com/wp-content/uploads/2020/04/meditation-drush-fc-berber-1024x576.jpg 1024w,https://ageofnotes.com/wp-content/uploads/2020/04/meditation-drush-fc-berber-768x432.jpg 768w" sizes="(max-width: 1280px) 100vw, 1280px">									<div class="post-single-content box mark-links entry-content">
 										            
             <div class="shareit top ">
             <span class="share-title">Please Share</span>
@@ -513,24 +511,24 @@ h6 { font-family: Helvetica, Arial, sans-serif; font-weight: normal; font-size: 
 									
     		
     		<div class="related-posts"><h4>Related Posts</h4><div class="clear">    			<article class="latestPost excerpt  ">
-					<a href="https://ageofnotes.com/strategies/scout-rush-build-order-secrets-step-step/" title="A Scout Rush Build Order and Secrets In a step by step" id="featured-thumbnail">
-                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2018/10/scout-rush-secrets-in-age-of-empires-2-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="" title=""></div>                                            </a>
+					<a href="https://ageofnotes.com/strategies/9-tricks-age-of-empires-2/" title="9 Tricks You Probably Didn’t Know They Exist in Age of Empires 2" id="featured-thumbnail">
+                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2017/12/9-Tricks-You-Probably-Didnt-Know-They-Exist-in-Age-of-Empires-2-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="9 Tricks You Probably Didn't Know They Exist in Age of Empires 2" loading="lazy" title=""></div>                                            </a>
                     <header>
-						<h2 class="title front-view-title"><a href="https://ageofnotes.com/strategies/scout-rush-build-order-secrets-step-step/" title="A Scout Rush Build Order and Secrets In a step by step">A Scout Rush Build Order and Secrets In a step by step</a></h2>
+						<h2 class="title front-view-title"><a href="https://ageofnotes.com/strategies/9-tricks-age-of-empires-2/" title="9 Tricks You Probably Didn’t Know They Exist in Age of Empires 2">9 Tricks You Probably Didn’t Know They Exist in Age of Empires 2</a></h2>
 					</header>
                 </article>
     			    			<article class="latestPost excerpt  ">
 					<a href="https://ageofnotes.com/strategies/23-pop-archers-build-order-step-by-step-to-destroy-ranked-queue/" title="23 Pop Archers Build Order Step By Step To Destroy Ranked Queue" id="featured-thumbnail">
-                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2020/04/23-pop-archers-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="23 pop archers" title=""></div>                                            </a>
+                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2020/04/23-pop-archers-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="23 pop archers" loading="lazy" title=""></div>                                            </a>
                     <header>
 						<h2 class="title front-view-title"><a href="https://ageofnotes.com/strategies/23-pop-archers-build-order-step-by-step-to-destroy-ranked-queue/" title="23 Pop Archers Build Order Step By Step To Destroy Ranked Queue">23 Pop Archers Build Order Step By Step To Destroy Ranked Queue</a></h2>
 					</header>
                 </article>
     			    			<article class="latestPost excerpt  last">
-					<a href="https://ageofnotes.com/strategies/9-tricks-age-of-empires-2/" title="9 Tricks You Probably Didn’t Know They Exist in Age of Empires 2" id="featured-thumbnail">
-                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2017/12/9-Tricks-You-Probably-Didnt-Know-They-Exist-in-Age-of-Empires-2-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="9 Tricks You Probably Didn't Know They Exist in Age of Empires 2" title=""></div>                                            </a>
+					<a href="https://ageofnotes.com/strategies/scout-rush-build-order-secrets-step-step/" title="A Scout Rush Build Order and Secrets In a step by step" id="featured-thumbnail">
+                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2018/10/scout-rush-secrets-in-age-of-empires-2-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="" loading="lazy" title=""></div>                                            </a>
                     <header>
-						<h2 class="title front-view-title"><a href="https://ageofnotes.com/strategies/9-tricks-age-of-empires-2/" title="9 Tricks You Probably Didn’t Know They Exist in Age of Empires 2">9 Tricks You Probably Didn’t Know They Exist in Age of Empires 2</a></h2>
+						<h2 class="title front-view-title"><a href="https://ageofnotes.com/strategies/scout-rush-build-order-secrets-step-step/" title="A Scout Rush Build Order and Secrets In a step by step">A Scout Rush Build Order and Secrets In a step by step</a></h2>
 					</header>
                 </article>
     			</div></div>    		
@@ -565,7 +563,7 @@ My current Voobly Rate is 18++; Steam ELO 22++. I played a ridiculous amount of 
                             <div class="wpdiscuz-textarea-wrap wpdiscuz-quicktags-enabled">
 
                                                                                                         <div class="wc-field-avatararea">
-                                        <img src="http://2.gravatar.com/avatar/?s=40&r=g" width="40" height="40" alt="avatar" class="avatar avatar-40 wp-user-avatar wp-user-avatar-40 photo avatar-default">                                    </div>
+                                        <img src="http://0.gravatar.com/avatar/?s=40&r=g" width="40" height="40" alt="avatar" class="avatar avatar-40 wp-user-avatar wp-user-avatar-40 photo avatar-default">                                    </div>
                                 
                                 <textarea id="wc-textarea-0_0" placeholder="Start the discussion..." required name="wc_comment" class="wc_comment wpd-field"></textarea>
                                                                                             </div>
@@ -591,7 +589,7 @@ My current Voobly Rate is 18++; Steam ELO 22++. I played a ridiculous amount of 
             </div>
             <div class="wc-label wc-captcha-label">
                                 <a class="wpdiscuz-nofollow" href="#" rel="nofollow"><img alt="wpdiscuz_captcha" class="wc_captcha_img" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/utils/captcha/captcha.php" width="80" height="26"></a><a class="wpdiscuz-nofollow wc_captcha_refresh_img" href="#" rel="nofollow"><img alt="refresh" class="" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/img/captcha-loading.png" width="16" height="16"></a>
-                <input type="hidden" id="c5f592555b67a6" class="wpdiscuz-cnonce" name="cnonce" value="c5f592555b67a6">
+                <input type="hidden" id="c5f62bb91ddda0" class="wpdiscuz-cnonce" name="cnonce" value="c5f62bb91ddda0">
             </div>
             <div class="clearfix"></div>
         </div>
@@ -626,7 +624,7 @@ My current Voobly Rate is 18++; Steam ELO 22++. I played a ridiculous amount of 
                             <div class="wpdiscuz-textarea-wrap wpdiscuz-quicktags-enabled">
 
                                                                                                         <div class="wc-field-avatararea">
-                                        <img src="http://1.gravatar.com/avatar/?s=48&r=g" width="48" height="48" alt="avatar" class="avatar avatar-48 wp-user-avatar wp-user-avatar-48 photo avatar-default">                                    </div>
+                                        <img src="http://0.gravatar.com/avatar/?s=48&r=g" width="48" height="48" alt="avatar" class="avatar avatar-48 wp-user-avatar wp-user-avatar-48 photo avatar-default">                                    </div>
                                 
                                 <textarea id="wc-textarea-wpdiscuzuniqueid" placeholder="Join the discussion..." required name="wc_comment" class="wc_comment wpd-field"></textarea>
                                                                                             </div>
@@ -652,7 +650,7 @@ My current Voobly Rate is 18++; Steam ELO 22++. I played a ridiculous amount of 
             </div>
             <div class="wc-label wc-captcha-label">
                                 <a class="wpdiscuz-nofollow" href="#" rel="nofollow"><img alt="wpdiscuz_captcha" class="wc_captcha_img" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/utils/captcha/captcha.php" width="80" height="26"></a><a class="wpdiscuz-nofollow wc_captcha_refresh_img" href="#" rel="nofollow"><img alt="refresh" class="" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/img/captcha-loading.png" width="16" height="16"></a>
-                <input type="hidden" id="c5f592555b6b0e" class="wpdiscuz-cnonce" name="cnonce" value="c5f592555b6b0e">
+                <input type="hidden" id="c5f62bb91de13e" class="wpdiscuz-cnonce" name="cnonce" value="c5f62bb91de13e">
             </div>
             <div class="clearfix"></div>
         </div>
@@ -701,7 +699,7 @@ My current Voobly Rate is 18++; Steam ELO 22++. I played a ridiculous amount of 
                                                                 <div class="wpdiscuz-subscribe-form-button">
                                     <input id="wpdiscuz_subscription_button" type="submit" value="›" name="wpdiscuz_subscription_button">
                                 </div> 
-                                                                <input type="hidden" id="wpdiscuz_subscribe_form_nonce" name="wpdiscuz_subscribe_form_nonce" value="9bd0d1b8a7"><input type="hidden" name="_wp_http_referer" value="/aon/strategies/drush-fast-castle-into-knights-as-berbers-meditational-build-order/">                                                                <input type="hidden" value="1073" name="wpdiscuzSubscriptionPostId">
+                                                                <input type="hidden" id="wpdiscuz_subscribe_form_nonce" name="wpdiscuz_subscribe_form_nonce" value="39b438a0e2"><input type="hidden" name="_wp_http_referer" value="/aon/strategies/drush-fast-castle-into-knights-as-berbers-meditational-build-order/">                                                                <input type="hidden" value="1073" name="wpdiscuzSubscriptionPostId">
                             </form>
                                                 <div class="wpdiscuz_clear"></div>
                                             </div>
@@ -755,37 +753,37 @@ My current Voobly Rate is 18++; Steam ELO 22++. I played a ridiculous amount of 
 </script>
     
     <a id="wpdUserContentInfoAnchor" style="display:none;" rel="#wpdUserContentInfo" data-wpd-lity>wpDiscuz</a><div id="wpdUserContentInfo" style="overflow:auto;background:#FDFDF6;padding:20px;width:600px;max-width:100%;border-radius:6px;" class="lity-hide"></div><link rel="stylesheet" id="su-shortcodes-css" href="https://ageofnotes.com/wp-content/plugins/shortcodes-ultimate/includes/css/shortcodes.css" type="text/css" media="all">
-<script type="text/javascript">
+<script type="text/javascript" id="contact-form-7-js-extra">
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/ageofnotes.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/contact-form-7/includes/js/scripts.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/contact-form-7/includes/js/scripts.js" id="contact-form-7-js"></script>
+<script type="text/javascript" id="wp-polls-js-extra">
 /* <![CDATA[ */
 var pollsL10n = {"ajax_url":"https:\/\/ageofnotes.com\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wp-polls/polls-js.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/jquery/jquery.form.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wp-polls/polls-js.js" id="wp-polls-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/jquery/jquery.form.min.js" id="jquery-form-js"></script>
+<script type="text/javascript" id="quicktags-js-extra">
 /* <![CDATA[ */
 var quicktagsL10n = {"closeAllOpenTags":"Close all open tags","closeTags":"close tags","enterURL":"Enter the URL","enterImageURL":"Enter the URL of the image","enterImageDescription":"Enter a description of the image","textdirection":"text direction","toggleTextdirection":"Toggle Editor Text Direction","dfw":"Distraction-free writing mode","strong":"Bold","strongClose":"Close bold tag","em":"Italic","emClose":"Close italic tag","link":"Insert link","blockquote":"Blockquote","blockquoteClose":"Close blockquote tag","del":"Deleted text (strikethrough)","delClose":"Close deleted text tag","ins":"Inserted text","insClose":"Close inserted text tag","image":"Insert image","ul":"Bulleted list","ulClose":"Close bulleted list tag","ol":"Numbered list","olClose":"Close numbered list tag","li":"List item","liClose":"Close list item tag","code":"Code","codeClose":"Close code tag","more":"Insert Read More tag"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/quicktags.min.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/smooth-scroll/jquery.smooth-scroll.min.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/waypoints/jquery.waypoints.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/quicktags.min.js" id="quicktags-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/smooth-scroll/jquery.smooth-scroll.min.js" id="jquery-smooth-scroll-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js" id="js-cookie-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js" id="jquery-sticky-kit-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/waypoints/jquery.waypoints.min.js" id="jquery-waypoints-js"></script>
+<script type="text/javascript" id="ez-toc-js-js-extra">
 /* <![CDATA[ */
 var ezTOC = {"smooth_scroll":"1","visibility_hide_by_default":"","width":"auto","scroll_offset":"30"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js"></script>
-<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/jquery.magnific-popup.min.js"></script>
-<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/layzr.min.js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js" id="ez-toc-js-js"></script>
+<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/jquery.magnific-popup.min.js" id="magnificPopup-js"></script>
+<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/layzr.min.js" id="layzr-js"></script>
         <script type="text/javascript">
             function AI_responsive_widget() {
                 jQuery('object.StefanoAI-youtube-responsive').each(function () {

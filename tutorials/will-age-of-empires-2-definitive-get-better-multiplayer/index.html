@@ -115,7 +115,7 @@
 
 
 <link rel="stylesheet" id="wp-components-css" href="https://ageofnotes.com/wp-includes/css/dist/components/style.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="wp-editor-font-css" href="https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="wp-editor-font-css" href="https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&ver=5.5.1" type="text/css" media="all">
 <link rel="stylesheet" id="wp-block-editor-css" href="https://ageofnotes.com/wp-includes/css/dist/block-editor/style.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="wp-nux-css" href="https://ageofnotes.com/wp-includes/css/dist/nux/style.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="wp-editor-css" href="https://ageofnotes.com/wp-includes/css/dist/editor/style.min.css" type="text/css" media="all">
@@ -187,32 +187,30 @@ pre {
 <link rel="stylesheet" id="magnificPopup-css" href="https://ageofnotes.com/wp-content/themes/agetips/css/magnific-popup.css" type="text/css" media="all">
 <link rel="stylesheet" id="fontawesome-css" href="https://ageofnotes.com/wp-content/themes/agetips/css/font-awesome.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="responsive-css" href="https://ageofnotes.com/wp-content/themes/agetips/css/responsive.css" type="text/css" media="all">
-<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wp-discord/public/js/wp-discord.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/wpdccjs/wpdcc.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/autogrow/jquery.autogrowtextarea.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/jquery/jquery.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wp-discord/public/js/wp-discord.js" id="wp-discord-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/wpdccjs/wpdcc.js" id="wpdiscuz-cookie-js-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/autogrow/jquery.autogrowtextarea.min.js" id="autogrowtextarea-js-js"></script>
+<script type="text/javascript" id="wpdiscuz-ajax-js-js-extra">
 /* <![CDATA[ */
 var wpdiscuzAjaxObj = {"url":"https:\/\/ageofnotes.com\/wp-admin\/admin-ajax.php","customAjaxUrl":"https:\/\/ageofnotes.com\/wp-content\/plugins\/wpdiscuz\/utils\/ajax\/wpdiscuz-ajax.php","wpdiscuz_options":{"wc_hide_replies_text":"Hide Replies","wc_show_replies_text":"View Replies","wc_msg_required_fields":"Please fill out required fields","wc_invalid_field":"Some of field value is invalid","wc_error_empty_text":"please fill out this field to comment","wc_error_url_text":"url is invalid","wc_error_email_text":"email address is invalid","wc_invalid_captcha":"Invalid Captcha Code","wc_login_to_vote":"You Must Be Logged In To Vote","wc_deny_voting_from_same_ip":"You are not allowed to vote for this comment","wc_self_vote":"You cannot vote for your comment","wc_vote_only_one_time":"You've already voted for this comment","wc_voting_error":"Voting Error","wc_held_for_moderate":"Comment awaiting moderation","wc_comment_edit_not_possible":"Sorry, this comment no longer possible to edit","wc_comment_not_updated":"Sorry, the comment was not updated","wc_comment_not_edited":"You've not made any changes","wc_new_comment_button_text":"new comment","wc_new_comments_button_text":"new comments","wc_new_reply_button_text":"new reply on your comment","wc_new_replies_button_text":"new replies on your comments","wc_msg_input_min_length":"Input is too short","wc_msg_input_max_length":"Input is too long","wc_follow_user":"Follow this user","wc_unfollow_user":"Unfollow this user","wc_follow_success":"You started following this comment author","wc_follow_canceled":"You stopped following this comment author.","wc_follow_email_confirm":"Please check your email and confirm the user following request.","wc_follow_email_confirm_fail":"Sorry, we couldn't send confirmation email.","wc_follow_login_to_follow":"Please login to follow users.","wc_follow_impossible":"We are sorry, but you can't follow this user.","wc_follow_not_added":"Following failed. Please try again later.","is_user_logged_in":false,"commentListLoadType":"0","commentListUpdateType":"0","commentListUpdateTimer":"30","liveUpdateGuests":"1","wc_comment_bg_color":"#FEFEFE","wc_reply_bg_color":"#F8F8F8","wpdiscuzCommentsOrder":"asc","wpdiscuzCommentOrderBy":"comment_date_gmt","commentsVoteOrder":false,"wordpressThreadCommentsDepth":"5","wordpressIsPaginate":"","commentTextMaxLength":null,"storeCommenterData":100000,"isCaptchaInSession":true,"isGoodbyeCaptchaActive":false,"socialLoginAgreementCheckbox":0,"enableFbLogin":0,"enableFbShare":0,"facebookAppID":"","facebookUseOAuth2":0,"enableGoogleLogin":0,"googleAppID":"","cookiehash":"d842adc2da09c7d8cee30bf37de42691","isLoadOnlyParentComments":0,"ahk":"","enableDropAnimation":0,"isNativeAjaxEnabled":1,"cookieCommentsSorting":"wpdiscuz_comments_sorting","enableLastVisitCookie":0,"version":"5.3.5","wc_post_id":897,"loadLastCommentId":0,"lastVisitKey":"wpdiscuz_last_visit","isCookiesEnabled":true,"wc_captcha_show_for_guest":1,"wc_captcha_show_for_members":"0","is_email_field_required":1}};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/quicktags/wpdiscuz-quictags.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz.js" id="wpdiscuz-ajax-js-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/quicktags/wpdiscuz-quictags.js" id="wpdiscuz-quicktags-js"></script>
+<script type="text/javascript" id="wpdiscuz-user-content-js-js-extra">
 /* <![CDATA[ */
 var wpdiscuzUCObj = {"msgConfirmDeleteComment":"Are you sure you want to delete this comment?","msgConfirmCancelSubscription":"Are you sure you want to cancel this subscription?","msgConfirmCancelFollow":"Are you sure you want to cancel this follow?"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz-user-content.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/lity/lity.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz-user-content.js" id="wpdiscuz-user-content-js-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/lity/lity.js" id="wpdiscuz-lity-js-js"></script>
+<script type="text/javascript" id="customscript-js-extra">
 /* <![CDATA[ */
 var mts_customscript = {"responsive":"1","nav_menu":"primary"};
 /* ]]> */
 </script>
-<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/customscript.js"></script>
-
+<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/customscript.js" id="customscript-js"></script>
 
 
 
@@ -436,7 +434,7 @@ h6 { font-family: Helvetica, Arial, sans-serif; font-weight: normal; font-size: 
                             <span class="thecomment"><i class="fa fa-comments"></i> <a href="https://ageofnotes.com/tutorials/will-age-of-empires-2-definitive-get-better-multiplayer/#respond" itemprop="interactionCount">No Comments</a></span>
             			</div>
 											</header>
-<img width="598" height="338" src="https://ageofnotes.com/wp-content/uploads/2019/06/age-of-empires-2-definitive-multiplayer.jpg" class="attachment-full size-full wp-post-image" alt="Will Age of Empires 2 Definitive Get Better Multiplayer?" srcset="https://ageofnotes.com/wp-content/uploads/2019/06/age-of-empires-2-definitive-multiplayer.jpg 598w,https://ageofnotes.com/wp-content/uploads/2019/06/age-of-empires-2-definitive-multiplayer-566x320.jpg 566w" sizes="(max-width: 598px) 100vw, 598px">									<div class="post-single-content box mark-links entry-content">
+<img width="598" height="338" src="https://ageofnotes.com/wp-content/uploads/2019/06/age-of-empires-2-definitive-multiplayer.jpg" class="attachment-full size-full wp-post-image" alt="Will Age of Empires 2 Definitive Get Better Multiplayer?" loading="lazy" srcset="https://ageofnotes.com/wp-content/uploads/2019/06/age-of-empires-2-definitive-multiplayer.jpg 598w,https://ageofnotes.com/wp-content/uploads/2019/06/age-of-empires-2-definitive-multiplayer-566x320.jpg 566w" sizes="(max-width: 598px) 100vw, 598px">									<div class="post-single-content box mark-links entry-content">
 										            
             <div class="shareit top ">
             <span class="share-title">Please Share</span>
@@ -461,12 +459,12 @@ h6 { font-family: Helvetica, Arial, sans-serif; font-weight: normal; font-size: 
             
         
 										<div class="thecontent">
-											<p>The same way AOE got re-polished, I am 100% positive Age of Empires 2 will be similarly enhanced.</p><p>The only matter that I am yet doubtful about is the network code. Are they taking the same road with Peer-to-Peer to run multiplayer? Or maybe switch to a client server approach?</p><div id="attachment_899" style="width: 560px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-899" class=" wp-image-899" src="" alt="Age of Empires Definitive Edition Comparison to Original version" width="550" height="313" srcset="https://ageofnotes.com/wp-content/uploads/2019/06/aoe-1-definitive-lookjpg.jpg 1200w,https://ageofnotes.com/wp-content/uploads/2019/06/aoe-1-definitive-lookjpg-563x320.jpg 563w,https://ageofnotes.com/wp-content/uploads/2019/06/aoe-1-definitive-lookjpg-768x436.jpg 768w,https://ageofnotes.com/wp-content/uploads/2019/06/aoe-1-definitive-lookjpg-1024x582.jpg 1024w" sizes="(max-width: 550px) 100vw, 550px" data-layzr="https://ageofnotes.com/wp-content/uploads/2019/06/aoe-1-definitive-lookjpg.jpg"><p id="caption-attachment-899" class="wp-caption-text">Age of Empires Definitive Edition Comparison to Original version</p></div><p>Let’s understand what I mean by peer-to-peer and client server.</p><div id="ez-toc-container" class="counter-hierarchy counter-decimal ez-toc-light-blue">
+											<p>The same way AOE got re-polished, I am 100% positive Age of Empires 2 will be similarly enhanced.</p><p>The only matter that I am yet doubtful about is the network code. Are they taking the same road with Peer-to-Peer to run multiplayer? Or maybe switch to a client server approach?</p><div id="attachment_899" style="width: 560px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-899" loading="lazy" class=" wp-image-899" src="" alt="Age of Empires Definitive Edition Comparison to Original version" width="550" height="313" srcset="https://ageofnotes.com/wp-content/uploads/2019/06/aoe-1-definitive-lookjpg.jpg 1200w,https://ageofnotes.com/wp-content/uploads/2019/06/aoe-1-definitive-lookjpg-563x320.jpg 563w,https://ageofnotes.com/wp-content/uploads/2019/06/aoe-1-definitive-lookjpg-768x436.jpg 768w,https://ageofnotes.com/wp-content/uploads/2019/06/aoe-1-definitive-lookjpg-1024x582.jpg 1024w" sizes="(max-width: 550px) 100vw, 550px" data-layzr="https://ageofnotes.com/wp-content/uploads/2019/06/aoe-1-definitive-lookjpg.jpg"><p id="caption-attachment-899" class="wp-caption-text">Age of Empires Definitive Edition Comparison to Original version</p></div><p>Let’s understand what I mean by peer-to-peer and client server.</p><div id="ez-toc-container" class="counter-hierarchy counter-decimal ez-toc-light-blue">
 <div class="ez-toc-title-container">
 <p class="ez-toc-title">Guide Contents</p>
 <span class="ez-toc-title-toggle"><a class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"><i class="ez-toc-glyphicon ez-toc-icon-toggle"></i></a></span></div>
 <nav><ul class="ez-toc-list"><li><a href="#Peer_to_Peer_Vs_Client_Server" title="Peer to Peer Vs Client Server">Peer to Peer Vs Client Server</a><ul><li><a href="#Peer_to_Peer" title="Peer to Peer">Peer to Peer</a></li><li><a href="#Client-Server" title="Client-Server">Client-Server</a></li><li><a href="#Who_wins" title="Who wins?">Who wins?</a></li><li><a href="#Good_News_and_Conclusion" title="Good News and Conclusion">Good News and Conclusion</a></li></ul></li></ul></nav></div>
-<h2><span class="ez-toc-section" id="Peer_to_Peer_Vs_Client_Server">Peer to Peer Vs Client Server</span></h2><p><img class=" wp-image-900 alignnone" src="" alt="Multiplayer lag in Age of Empires 2 hd" width="545" height="302" srcset="https://ageofnotes.com/wp-content/uploads/2019/06/ageofempires2-lag-multiplayer-e1560096858294.jpg 588w,https://ageofnotes.com/wp-content/uploads/2019/06/ageofempires2-lag-multiplayer-e1560096858294-577x320.jpg 577w" sizes="(max-width: 545px) 100vw, 545px" data-layzr="https://ageofnotes.com/wp-content/uploads/2019/06/ageofempires2-lag-multiplayer-e1560096858294.jpg"></p><p>I will give straight forward examples to paint the picture. To give these examples meaning, I have made up two players from my imagination to help you understand easier:<br>
+<h2><span class="ez-toc-section" id="Peer_to_Peer_Vs_Client_Server">Peer to Peer Vs Client Server</span></h2><p><img loading="lazy" class=" wp-image-900 alignnone" src="" alt="Multiplayer lag in Age of Empires 2 hd" width="545" height="302" srcset="https://ageofnotes.com/wp-content/uploads/2019/06/ageofempires2-lag-multiplayer-e1560096858294.jpg 588w,https://ageofnotes.com/wp-content/uploads/2019/06/ageofempires2-lag-multiplayer-e1560096858294-577x320.jpg 577w" sizes="(max-width: 545px) 100vw, 545px" data-layzr="https://ageofnotes.com/wp-content/uploads/2019/06/ageofempires2-lag-multiplayer-e1560096858294.jpg"></p><p>I will give straight forward examples to paint the picture. To give these examples meaning, I have made up two players from my imagination to help you understand easier:<br>
 <span style="color: #ff0000;">Laggerific </span>has a high ping (bad internet) and slow computer.</p><p><span style="color: #339966;">Rocketman</span> player has a low ping (good internet) and fast computer.</p><h3><span class="ez-toc-section" id="Peer_to_Peer">Peer to Peer</span></h3><p><strong>Peer to Peer</strong> Multiplayer e.g.</p><p><span style="color: #ff0000;">Laggerific</span> is playing against <span style="color: #339966;">Rocketman</span>. Peer-to-Peer network results  ==> <span style="color: #339966;">Rocketman</span> player with good internet/computer is impacted severely by <span style="color: #ff0000;">Laggerific </span>player ping and computer lag. End results, the game lags for everyone.</p><p>Explanation: <span style="color: #339966;">Rocketman</span> player awaits actions and commands to be executed and sent from <span style="color: #ff0000;">Laggerific </span>(the lagger), and that takes a long time (1, 2, 10, etc. seconds) – this is the definition of network lag.</p><h3><span class="ez-toc-section" id="Client-Server">Client-Server</span></h3><p><strong>Client Server</strong> Multiplayer e.g.</p><p><span style="color: #ff0000;">Laggerific </span>is playing against <span style="color: #339966;">Rocketman</span>. Client Server network result ==> <span style="color: #339966;">Rocketman</span> player is enjoying game after another without any lag impact from <span style="color: #ff0000;">Laggerific </span>the lagger.</p><p>Explanation: Actions and commands executed by both players <span style="color: #ff0000;">Laggerific </span>and <span style="color: #339966;">Rocketman</span> are decided by the server; therefore, <span style="color: #339966;">Rocketman</span> will have a clear advantage over <span style="color: #ff0000;">Laggerific </span>if ever the game goes down to micro.</p><h3><span class="ez-toc-section" id="Who_wins">Who wins?</span></h3><p>To conclude, Client Server multiplayer rewards players with good internet connection and decent computer. Peer-to-Peer punishes all players when one of players is lagging.</p><p><strong><span style="color: #0000ff;">Client Server wins.</span></strong></p><p>We will soon find out later today on E3 Expo…</p><h3><span class="ez-toc-section" id="Good_News_and_Conclusion">Good News and Conclusion</span></h3><p>As of today and after 4 days, It has been confirmed by <a href="https://www.aoezone.net/threads/june-12-17-45-gmt-aoe2-de-first-live-stream-with-cysion.156330/page-3#post-621888" target="_blank" rel="nofollow noopener noreferrer">Cysion in this post</a> that Age of Empires 2 DE will be getting Client Server multiplayer. Finally we can put the struggle of those laggy multiplayer behind us.</p>
 
             <script type="text/javascript">
@@ -501,31 +499,31 @@ h6 { font-family: Helvetica, Arial, sans-serif; font-weight: normal; font-size: 
 									
     		
     		<div class="related-posts"><h4>Related Posts</h4><div class="clear">    			<article class="latestPost excerpt  ">
-					<a href="https://ageofnotes.com/tutorials/counter-tower-rush-trush/" title="How To Counter A Tower Rush “Trush”" id="featured-thumbnail">
-                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2017/11/how-to-counter-tower-rush-trush-1-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt='How To Counter A Tower Rush "Trush"' title=""></div>                                            </a>
+					<a href="https://ageofnotes.com/tutorials/scout-age-empires-2/" title="3 Effective Ways of Scouting in Age Of Empires 2" id="featured-thumbnail">
+                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2017/11/scout-dying-to-tc-1-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="3 Effective Ways of Scouting in Age Of Empires 2" loading="lazy" title=""></div>                                            </a>
                     <header>
-						<h2 class="title front-view-title"><a href="https://ageofnotes.com/tutorials/counter-tower-rush-trush/" title="How To Counter A Tower Rush “Trush”">How To Counter A Tower Rush “Trush”</a></h2>
+						<h2 class="title front-view-title"><a href="https://ageofnotes.com/tutorials/scout-age-empires-2/" title="3 Effective Ways of Scouting in Age Of Empires 2">3 Effective Ways of Scouting in Age Of Empires 2</a></h2>
 					</header>
                 </article>
     			    			<article class="latestPost excerpt  ">
 					<a href="https://ageofnotes.com/tutorials/advanced-idle-pointer-is-out-for-aoe2-definitive-edition-offline-installer/" title="Advanced Idle Pointer is Out For AOE2 Definitive Edition + Offline Installer" id="featured-thumbnail">
-                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2019/12/advanced-idle-pointer-larger-pointers-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="Advanced Idle Pointer Larger Pointers" title=""></div>                                            </a>
+                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2019/12/advanced-idle-pointer-larger-pointers-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="Advanced Idle Pointer Larger Pointers" loading="lazy" title=""></div>                                            </a>
                     <header>
 						<h2 class="title front-view-title"><a href="https://ageofnotes.com/tutorials/advanced-idle-pointer-is-out-for-aoe2-definitive-edition-offline-installer/" title="Advanced Idle Pointer is Out For AOE2 Definitive Edition + Offline Installer">Advanced Idle Pointer is Out For AOE2 Definitive Edition + Offline Installer</a></h2>
 					</header>
                 </article>
     			    			<article class="latestPost excerpt  last">
-					<a href="https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/" title="Setting up Age of Empires 2 Multiplayer For Wine Linux 2019" id="featured-thumbnail">
-                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2019/03/SettingupVooblyinwine-300x160.png" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="" title=""></div>                                            </a>
+					<a href="https://ageofnotes.com/beginners/complete-hotkeys-guide-for-age-of-empires-2-definitive/" title="Complete Hotkeys Guide For Age Of Empires 2 Definitive" id="featured-thumbnail">
+                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2020/09/hotkeys-guide-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="Age of empires 2 definitive edition hotkeys guide" loading="lazy" title=""></div>                                            </a>
                     <header>
-						<h2 class="title front-view-title"><a href="https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/" title="Setting up Age of Empires 2 Multiplayer For Wine Linux 2019">Setting up Age of Empires 2 Multiplayer For Wine Linux 2019</a></h2>
+						<h2 class="title front-view-title"><a href="https://ageofnotes.com/beginners/complete-hotkeys-guide-for-age-of-empires-2-definitive/" title="Complete Hotkeys Guide For Age Of Empires 2 Definitive">Complete Hotkeys Guide For Age Of Empires 2 Definitive</a></h2>
 					</header>
                 </article>
     			    			<article class="latestPost excerpt  ">
-					<a href="https://ageofnotes.com/tutorials/scout-age-empires-2/" title="3 Effective Ways of Scouting in Age Of Empires 2" id="featured-thumbnail">
-                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2017/11/scout-dying-to-tc-1-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="3 Effective Ways of Scouting in Age Of Empires 2" title=""></div>                                            </a>
+					<a href="https://ageofnotes.com/tutorials/getting-started-with-age-of-empires-2-definitive-edition/" title="Getting Started With Age of Empires 2 Definitive Edition" id="featured-thumbnail">
+                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2019/11/getting-started-aoe2de-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="getting started with Age of Empires 2 Definitive" loading="lazy" title=""></div>                                            </a>
                     <header>
-						<h2 class="title front-view-title"><a href="https://ageofnotes.com/tutorials/scout-age-empires-2/" title="3 Effective Ways of Scouting in Age Of Empires 2">3 Effective Ways of Scouting in Age Of Empires 2</a></h2>
+						<h2 class="title front-view-title"><a href="https://ageofnotes.com/tutorials/getting-started-with-age-of-empires-2-definitive-edition/" title="Getting Started With Age of Empires 2 Definitive Edition">Getting Started With Age of Empires 2 Definitive Edition</a></h2>
 					</header>
                 </article>
     			</div></div>    		
@@ -560,7 +558,7 @@ My current Voobly Rate is 18++; Steam ELO 22++. I played a ridiculous amount of 
                             <div class="wpdiscuz-textarea-wrap wpdiscuz-quicktags-enabled">
 
                                                                                                         <div class="wc-field-avatararea">
-                                        <img src="http://1.gravatar.com/avatar/?s=40&r=g" width="40" height="40" alt="avatar" class="avatar avatar-40 wp-user-avatar wp-user-avatar-40 photo avatar-default">                                    </div>
+                                        <img src="http://2.gravatar.com/avatar/?s=40&r=g" width="40" height="40" alt="avatar" class="avatar avatar-40 wp-user-avatar wp-user-avatar-40 photo avatar-default">                                    </div>
                                 
                                 <textarea id="wc-textarea-0_0" placeholder="Start the discussion..." required name="wc_comment" class="wc_comment wpd-field"></textarea>
                                                                                             </div>
@@ -586,7 +584,7 @@ My current Voobly Rate is 18++; Steam ELO 22++. I played a ridiculous amount of 
             </div>
             <div class="wc-label wc-captcha-label">
                                 <a class="wpdiscuz-nofollow" href="#" rel="nofollow"><img alt="wpdiscuz_captcha" class="wc_captcha_img" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/utils/captcha/captcha.php" width="80" height="26"></a><a class="wpdiscuz-nofollow wc_captcha_refresh_img" href="#" rel="nofollow"><img alt="refresh" class="" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/img/captcha-loading.png" width="16" height="16"></a>
-                <input type="hidden" id="c5f5926145ea89" class="wpdiscuz-cnonce" name="cnonce" value="c5f5926145ea89">
+                <input type="hidden" id="c5f62bc571306d" class="wpdiscuz-cnonce" name="cnonce" value="c5f62bc571306d">
             </div>
             <div class="clearfix"></div>
         </div>
@@ -621,7 +619,7 @@ My current Voobly Rate is 18++; Steam ELO 22++. I played a ridiculous amount of 
                             <div class="wpdiscuz-textarea-wrap wpdiscuz-quicktags-enabled">
 
                                                                                                         <div class="wc-field-avatararea">
-                                        <img src="http://0.gravatar.com/avatar/?s=48&r=g" width="48" height="48" alt="avatar" class="avatar avatar-48 wp-user-avatar wp-user-avatar-48 photo avatar-default">                                    </div>
+                                        <img src="http://2.gravatar.com/avatar/?s=48&r=g" width="48" height="48" alt="avatar" class="avatar avatar-48 wp-user-avatar wp-user-avatar-48 photo avatar-default">                                    </div>
                                 
                                 <textarea id="wc-textarea-wpdiscuzuniqueid" placeholder="Join the discussion..." required name="wc_comment" class="wc_comment wpd-field"></textarea>
                                                                                             </div>
@@ -647,7 +645,7 @@ My current Voobly Rate is 18++; Steam ELO 22++. I played a ridiculous amount of 
             </div>
             <div class="wc-label wc-captcha-label">
                                 <a class="wpdiscuz-nofollow" href="#" rel="nofollow"><img alt="wpdiscuz_captcha" class="wc_captcha_img" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/utils/captcha/captcha.php" width="80" height="26"></a><a class="wpdiscuz-nofollow wc_captcha_refresh_img" href="#" rel="nofollow"><img alt="refresh" class="" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/img/captcha-loading.png" width="16" height="16"></a>
-                <input type="hidden" id="c5f5926145ee0d" class="wpdiscuz-cnonce" name="cnonce" value="c5f5926145ee0d">
+                <input type="hidden" id="c5f62bc57133f5" class="wpdiscuz-cnonce" name="cnonce" value="c5f62bc57133f5">
             </div>
             <div class="clearfix"></div>
         </div>
@@ -696,7 +694,7 @@ My current Voobly Rate is 18++; Steam ELO 22++. I played a ridiculous amount of 
                                                                 <div class="wpdiscuz-subscribe-form-button">
                                     <input id="wpdiscuz_subscription_button" type="submit" value="›" name="wpdiscuz_subscription_button">
                                 </div> 
-                                                                <input type="hidden" id="wpdiscuz_subscribe_form_nonce" name="wpdiscuz_subscribe_form_nonce" value="9bd0d1b8a7"><input type="hidden" name="_wp_http_referer" value="/aon/tutorials/will-age-of-empires-2-definitive-get-better-multiplayer/">                                                                <input type="hidden" value="897" name="wpdiscuzSubscriptionPostId">
+                                                                <input type="hidden" id="wpdiscuz_subscribe_form_nonce" name="wpdiscuz_subscribe_form_nonce" value="39b438a0e2"><input type="hidden" name="_wp_http_referer" value="/aon/tutorials/will-age-of-empires-2-definitive-get-better-multiplayer/">                                                                <input type="hidden" value="897" name="wpdiscuzSubscriptionPostId">
                             </form>
                                                 <div class="wpdiscuz_clear"></div>
                                             </div>
@@ -749,37 +747,37 @@ My current Voobly Rate is 18++; Steam ELO 22++. I played a ridiculous amount of 
   gtag('config', 'UA-109982216-1');
 </script>
     
-    <a id="wpdUserContentInfoAnchor" style="display:none;" rel="#wpdUserContentInfo" data-wpd-lity>wpDiscuz</a><div id="wpdUserContentInfo" style="overflow:auto;background:#FDFDF6;padding:20px;width:600px;max-width:100%;border-radius:6px;" class="lity-hide"></div><script type="text/javascript">
+    <a id="wpdUserContentInfoAnchor" style="display:none;" rel="#wpdUserContentInfo" data-wpd-lity>wpDiscuz</a><div id="wpdUserContentInfo" style="overflow:auto;background:#FDFDF6;padding:20px;width:600px;max-width:100%;border-radius:6px;" class="lity-hide"></div><script type="text/javascript" id="contact-form-7-js-extra">
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/ageofnotes.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/contact-form-7/includes/js/scripts.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/contact-form-7/includes/js/scripts.js" id="contact-form-7-js"></script>
+<script type="text/javascript" id="wp-polls-js-extra">
 /* <![CDATA[ */
 var pollsL10n = {"ajax_url":"https:\/\/ageofnotes.com\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wp-polls/polls-js.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/jquery/jquery.form.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wp-polls/polls-js.js" id="wp-polls-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/jquery/jquery.form.min.js" id="jquery-form-js"></script>
+<script type="text/javascript" id="quicktags-js-extra">
 /* <![CDATA[ */
 var quicktagsL10n = {"closeAllOpenTags":"Close all open tags","closeTags":"close tags","enterURL":"Enter the URL","enterImageURL":"Enter the URL of the image","enterImageDescription":"Enter a description of the image","textdirection":"text direction","toggleTextdirection":"Toggle Editor Text Direction","dfw":"Distraction-free writing mode","strong":"Bold","strongClose":"Close bold tag","em":"Italic","emClose":"Close italic tag","link":"Insert link","blockquote":"Blockquote","blockquoteClose":"Close blockquote tag","del":"Deleted text (strikethrough)","delClose":"Close deleted text tag","ins":"Inserted text","insClose":"Close inserted text tag","image":"Insert image","ul":"Bulleted list","ulClose":"Close bulleted list tag","ol":"Numbered list","olClose":"Close numbered list tag","li":"List item","liClose":"Close list item tag","code":"Code","codeClose":"Close code tag","more":"Insert Read More tag"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/quicktags.min.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/smooth-scroll/jquery.smooth-scroll.min.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/waypoints/jquery.waypoints.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/quicktags.min.js" id="quicktags-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/smooth-scroll/jquery.smooth-scroll.min.js" id="jquery-smooth-scroll-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js" id="js-cookie-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js" id="jquery-sticky-kit-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/waypoints/jquery.waypoints.min.js" id="jquery-waypoints-js"></script>
+<script type="text/javascript" id="ez-toc-js-js-extra">
 /* <![CDATA[ */
 var ezTOC = {"smooth_scroll":"1","visibility_hide_by_default":"","width":"auto","scroll_offset":"30"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js"></script>
-<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/jquery.magnific-popup.min.js"></script>
-<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/layzr.min.js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js" id="ez-toc-js-js"></script>
+<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/jquery.magnific-popup.min.js" id="magnificPopup-js"></script>
+<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/layzr.min.js" id="layzr-js"></script>
         <script type="text/javascript">
             function AI_responsive_widget() {
                 jQuery('object.StefanoAI-youtube-responsive').each(function () {

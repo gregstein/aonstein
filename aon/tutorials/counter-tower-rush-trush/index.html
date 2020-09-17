@@ -115,7 +115,7 @@
 
 
 <link rel="stylesheet" id="wp-components-css" href="https://ageofnotes.com/wp-includes/css/dist/components/style.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="wp-editor-font-css" href="https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="wp-editor-font-css" href="https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&ver=5.5.1" type="text/css" media="all">
 <link rel="stylesheet" id="wp-block-editor-css" href="https://ageofnotes.com/wp-includes/css/dist/block-editor/style.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="wp-nux-css" href="https://ageofnotes.com/wp-includes/css/dist/nux/style.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="wp-editor-css" href="https://ageofnotes.com/wp-includes/css/dist/editor/style.min.css" type="text/css" media="all">
@@ -187,32 +187,30 @@ pre {
 <link rel="stylesheet" id="magnificPopup-css" href="https://ageofnotes.com/wp-content/themes/agetips/css/magnific-popup.css" type="text/css" media="all">
 <link rel="stylesheet" id="fontawesome-css" href="https://ageofnotes.com/wp-content/themes/agetips/css/font-awesome.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="responsive-css" href="https://ageofnotes.com/wp-content/themes/agetips/css/responsive.css" type="text/css" media="all">
-<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wp-discord/public/js/wp-discord.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/wpdccjs/wpdcc.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/autogrow/jquery.autogrowtextarea.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/jquery/jquery.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wp-discord/public/js/wp-discord.js" id="wp-discord-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/wpdccjs/wpdcc.js" id="wpdiscuz-cookie-js-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/autogrow/jquery.autogrowtextarea.min.js" id="autogrowtextarea-js-js"></script>
+<script type="text/javascript" id="wpdiscuz-ajax-js-js-extra">
 /* <![CDATA[ */
 var wpdiscuzAjaxObj = {"url":"https:\/\/ageofnotes.com\/wp-admin\/admin-ajax.php","customAjaxUrl":"https:\/\/ageofnotes.com\/wp-content\/plugins\/wpdiscuz\/utils\/ajax\/wpdiscuz-ajax.php","wpdiscuz_options":{"wc_hide_replies_text":"Hide Replies","wc_show_replies_text":"View Replies","wc_msg_required_fields":"Please fill out required fields","wc_invalid_field":"Some of field value is invalid","wc_error_empty_text":"please fill out this field to comment","wc_error_url_text":"url is invalid","wc_error_email_text":"email address is invalid","wc_invalid_captcha":"Invalid Captcha Code","wc_login_to_vote":"You Must Be Logged In To Vote","wc_deny_voting_from_same_ip":"You are not allowed to vote for this comment","wc_self_vote":"You cannot vote for your comment","wc_vote_only_one_time":"You've already voted for this comment","wc_voting_error":"Voting Error","wc_held_for_moderate":"Comment awaiting moderation","wc_comment_edit_not_possible":"Sorry, this comment no longer possible to edit","wc_comment_not_updated":"Sorry, the comment was not updated","wc_comment_not_edited":"You've not made any changes","wc_new_comment_button_text":"new comment","wc_new_comments_button_text":"new comments","wc_new_reply_button_text":"new reply on your comment","wc_new_replies_button_text":"new replies on your comments","wc_msg_input_min_length":"Input is too short","wc_msg_input_max_length":"Input is too long","wc_follow_user":"Follow this user","wc_unfollow_user":"Unfollow this user","wc_follow_success":"You started following this comment author","wc_follow_canceled":"You stopped following this comment author.","wc_follow_email_confirm":"Please check your email and confirm the user following request.","wc_follow_email_confirm_fail":"Sorry, we couldn't send confirmation email.","wc_follow_login_to_follow":"Please login to follow users.","wc_follow_impossible":"We are sorry, but you can't follow this user.","wc_follow_not_added":"Following failed. Please try again later.","is_user_logged_in":false,"commentListLoadType":"0","commentListUpdateType":"0","commentListUpdateTimer":"30","liveUpdateGuests":"1","wc_comment_bg_color":"#FEFEFE","wc_reply_bg_color":"#F8F8F8","wpdiscuzCommentsOrder":"asc","wpdiscuzCommentOrderBy":"comment_date_gmt","commentsVoteOrder":false,"wordpressThreadCommentsDepth":"5","wordpressIsPaginate":"","commentTextMaxLength":null,"storeCommenterData":100000,"isCaptchaInSession":true,"isGoodbyeCaptchaActive":false,"socialLoginAgreementCheckbox":0,"enableFbLogin":0,"enableFbShare":0,"facebookAppID":"","facebookUseOAuth2":0,"enableGoogleLogin":0,"googleAppID":"","cookiehash":"d842adc2da09c7d8cee30bf37de42691","isLoadOnlyParentComments":0,"ahk":"","enableDropAnimation":0,"isNativeAjaxEnabled":1,"cookieCommentsSorting":"wpdiscuz_comments_sorting","enableLastVisitCookie":0,"version":"5.3.5","wc_post_id":105,"loadLastCommentId":0,"lastVisitKey":"wpdiscuz_last_visit","isCookiesEnabled":true,"wc_captcha_show_for_guest":1,"wc_captcha_show_for_members":"0","is_email_field_required":1}};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/quicktags/wpdiscuz-quictags.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz.js" id="wpdiscuz-ajax-js-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/quicktags/wpdiscuz-quictags.js" id="wpdiscuz-quicktags-js"></script>
+<script type="text/javascript" id="wpdiscuz-user-content-js-js-extra">
 /* <![CDATA[ */
 var wpdiscuzUCObj = {"msgConfirmDeleteComment":"Are you sure you want to delete this comment?","msgConfirmCancelSubscription":"Are you sure you want to cancel this subscription?","msgConfirmCancelFollow":"Are you sure you want to cancel this follow?"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz-user-content.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/lity/lity.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz-user-content.js" id="wpdiscuz-user-content-js-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/third-party/lity/lity.js" id="wpdiscuz-lity-js-js"></script>
+<script type="text/javascript" id="customscript-js-extra">
 /* <![CDATA[ */
 var mts_customscript = {"responsive":"1","nav_menu":"primary"};
 /* ]]> */
 </script>
-<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/customscript.js"></script>
-
+<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/customscript.js" id="customscript-js"></script>
 
 
 
@@ -436,7 +434,7 @@ h6 { font-family: Helvetica, Arial, sans-serif; font-weight: normal; font-size: 
                             <span class="thecomment"><i class="fa fa-comments"></i> <a href="https://ageofnotes.com/tutorials/counter-tower-rush-trush/#comments" itemprop="interactionCount">3 Comments</a></span>
             			</div>
 											</header>
-<img width="622" height="320" src="https://ageofnotes.com/wp-content/uploads/2017/11/how-to-counter-tower-rush-trush-1.jpg" class="attachment-full size-full wp-post-image" alt='How To Counter A Tower Rush "Trush"' srcset="https://ageofnotes.com/wp-content/uploads/2017/11/how-to-counter-tower-rush-trush-1.jpg 622w,https://ageofnotes.com/wp-content/uploads/2017/11/how-to-counter-tower-rush-trush-1-300x154.jpg 300w" sizes="(max-width: 622px) 100vw, 622px">									<div class="post-single-content box mark-links entry-content">
+<img width="622" height="320" src="https://ageofnotes.com/wp-content/uploads/2017/11/how-to-counter-tower-rush-trush-1.jpg" class="attachment-full size-full wp-post-image" alt='How To Counter A Tower Rush "Trush"' loading="lazy" srcset="https://ageofnotes.com/wp-content/uploads/2017/11/how-to-counter-tower-rush-trush-1.jpg 622w,https://ageofnotes.com/wp-content/uploads/2017/11/how-to-counter-tower-rush-trush-1-300x154.jpg 300w" sizes="(max-width: 622px) 100vw, 622px">									<div class="post-single-content box mark-links entry-content">
 										            
             <div class="shareit top ">
             <span class="share-title">Please Share</span>
@@ -476,12 +474,12 @@ h6 { font-family: Helvetica, Arial, sans-serif; font-weight: normal; font-size: 
 <li>Do you have a <strong>Forward</strong> Wood patch?</li>
 </ul><p><span style="color: #008000;">Tip:</span> Always and First of all take wood at the <strong>Back</strong> of your town center.</p><ul>
 <li>Do you randomly construct buildings?<span style="color: #008000;"> </span></li>
-</ul><p><span style="color: #008000;">Tip:</span> Construct your buildings <strong>Forward</strong> in a form of a <strong>Wall.</strong></p><p>There are certainly many ways to which you can stop a Trush. And I going to be covering as many as possible.</p><p>Let’s learn how to defend a Trush…</p><h3><span class="ez-toc-section" id="Standard_Economical_Defensive_Strategy">Standard Economical Defensive Strategy</span></h3><p>My personal favorite and by far the easiest and most successful. Especially when executed correctly.</p><p>This is a 22 pop standard scout rush build order. However, in the following example that you are about to see. Blue player built an archery range instead of a stable. Why? The <span style="color: #ff0000;">Red player</span> can <strong>NOT</strong> invest in an early skirmisher war because he only has few lumberjacks and low food income.</p><p>Which makes sense.. As in, later on, The <span style="color: #0000ff;">Blue player</span> will only make archers and farms to get ahead.</p><p><img class="alignnone wp-image-149 aligncenter" src="" alt="Build Forward Barrack " width="450" height="217" data-layzr="https://ageofnotes.com//wp-content/uploads/2017/11/trush-barrack-position.jpg"></p><p>Thanks to the forward barracks above, the <span style="color: #0000ff;">Blue Player <span style="color: #000000;">was able to spot the first tower from <span style="color: #ff0000;">Red Player</span></span></span></p><p><img class="wp-image-150 aligncenter" src="" alt="Barracks line of sight" width="460" height="256" data-layzr="https://ageofnotes.com//wp-content/uploads/2017/11/barrack-extra-vision.jpg"></p><p>Straight-up here is how <span style="color: #0000ff;">Blue player</span> reacted to that tower:</p><ul>
+</ul><p><span style="color: #008000;">Tip:</span> Construct your buildings <strong>Forward</strong> in a form of a <strong>Wall.</strong></p><p>There are certainly many ways to which you can stop a Trush. And I going to be covering as many as possible.</p><p>Let’s learn how to defend a Trush…</p><h3><span class="ez-toc-section" id="Standard_Economical_Defensive_Strategy">Standard Economical Defensive Strategy</span></h3><p>My personal favorite and by far the easiest and most successful. Especially when executed correctly.</p><p>This is a 22 pop standard scout rush build order. However, in the following example that you are about to see. Blue player built an archery range instead of a stable. Why? The <span style="color: #ff0000;">Red player</span> can <strong>NOT</strong> invest in an early skirmisher war because he only has few lumberjacks and low food income.</p><p>Which makes sense.. As in, later on, The <span style="color: #0000ff;">Blue player</span> will only make archers and farms to get ahead.</p><p><img loading="lazy" class="alignnone wp-image-149 aligncenter" src="" alt="Build Forward Barrack " width="450" height="217" data-layzr="https://ageofnotes.com//wp-content/uploads/2017/11/trush-barrack-position.jpg"></p><p>Thanks to the forward barracks above, the <span style="color: #0000ff;">Blue Player <span style="color: #000000;">was able to spot the first tower from <span style="color: #ff0000;">Red Player</span></span></span></p><p><img loading="lazy" class="wp-image-150 aligncenter" src="" alt="Barracks line of sight" width="460" height="256" data-layzr="https://ageofnotes.com//wp-content/uploads/2017/11/barrack-extra-vision.jpg"></p><p>Straight-up here is how <span style="color: #0000ff;">Blue player</span> reacted to that tower:</p><ul>
 <li>Queued 2 Militias at the barracks.</li>
 <li>Sent 3 more villagers + 2 builders which are a total of 5 villagers.</li>
 <li>Uses the scout carefully Not to lose it so he picks off running injured villagers.</li>
-</ul><p>Here are the results:</p><div id="attachment_152" style="width: 474px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-152" class="wp-image-152" src="" alt="Red Player: 4 Villagers and a scout are down." width="464" height="257" data-layzr="https://ageofnotes.com//wp-content/uploads/2017/11/defending-first-trusher-tower.jpg"><p id="caption-attachment-152" class="wp-caption-text">Red Player: 4 Villagers and a scout are down.</p></div><p>Seeing that he was winning the fight and denying an enemy building. He instantly sent 4 villagers to mine gold while he already built an archery range when the fight was taking place.</p><p>At this point, If you were the <span style="color: #0000ff;">Blue player</span> you would think that red would not Trush you anymore? Well! That’s wrong!</p><p><span style="color: #0000ff;">Blue Player</span> is an experienced player and He most certainly has played many Trushers before.</p><p><img class="wp-image-153 aligncenter" src="" alt="Outpost to counter a Trush" width="483" height="228" data-layzr="https://ageofnotes.com//wp-content/uploads/2017/11/outpost-counter-trush.jpg"></p><p>See what he did there? In the other side of the map where his lumberjacks are chopping trees. <span style="color: #0000ff;">Blue player</span> built an outpost in anticipation of another Trush attempt. Very small trick but It is certainly annoying for a Trusher to get busted by outposts.</p><p><span style="color: #0000ff;">The blue player</span> also used the palisade wall trick to spot the second Trush attempt <span style="color: #000000;">Without any scouting information</span>.</p><p>He was aware that <span style="color: #ff0000;">Red player</span> is slowly building towers towards his gold miners. So <span style="color: #0000ff;">Blue player</span> intentionally and smartly lets <span style="color: #ff0000;">Red player</span> waste stone on towers</p><p><img class="size-full wp-image-154 aligncenter" src="" alt="" width="906" height="336" data-layzr="https://ageofnotes.com//wp-content/uploads/2017/11/tower-rush-palisade-trick.jpg"></p><p>Once the <span style="color: #ff0000;">Red player</span> has finished building his ‘secret’ towers. Only now <span style="color: #0000ff;">Blue player</span> starts building a defensive tower</p><p><img class="alignnone wp-image-155 aligncenter" src="" alt="defensive gold tower" width="470" height="283" data-layzr="https://ageofnotes.com//wp-content/uploads/2017/11/defensive-gold-tower.jpg"></p><p>It is 22:00 mins (Ingame) And <span style="color: #0000ff;">Blue player</span> has already clicked Castle Age with 17 farms, 12 lumberjacks, 9 gold miners, and 3 stone miners. The score difference is huge. Clearly <span style="color: #0000ff;">Blue</span> is the obvious winner in this game.</p><div id="attachment_156" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-156" class=" wp-image-156" src="" alt="An eye for an eye! A Trush for a Trush" width="749" height="461" data-layzr="https://ageofnotes.com//wp-content/uploads/2017/11/karma-give-the-devil-his-due.jpg"><p id="caption-attachment-156" class="wp-caption-text">An eye for an eye! A Trush for a Trush!</p></div><p><strong>Could you be asking for any happier ending?</strong></p><p>The bottom line is you can go further than just defeating a Trush if you intelligently execute the strategy. Watch this recorded game [1.5 RC patch R5]
-</p><h3><span class="ez-toc-section" id="Busted_I_See_Your_Trush_Mate">Busted! “I See Your Trush Mate!”</span></h3><p>A Trush is originally meant to be secretly executed. Therefore, once It is detected – The chances of its success are less probable.</p><p>That is why sometimes just by <strong>Scouting</strong> your opponent mining stone <span style="color: #808080;">OR</span> <strong>Seeing</strong> forwarding villagers heading towards your town.</p><p>Your enemy might just give up his Trush and resigns <em><strong>OR</strong></em> return home to play defensive.</p><h3><span class="ez-toc-section" id="The_Trushee_Becomes_The_Trusher">The Trushee Becomes The Trusher</span></h3><p>The Trusher might hypothetically say “I will trush the woodline, berries and the main gold. And as long as I am doing my thing my town will remain safe.” He may not type that to you in chat though.</p><p>But that’s a fact! When an aggressive player is putting pressure. He only expects defensive reactions from the opponent.</p><p>Now, how about exceeding his expectations and execute The Trush yourself?</p><p>Trush his stone miners, his berries OR Wood line. He will be forced off Trushing your town. Instead, He will go back home and put defensive towers.</p><p>You can do something like that if you feel that your opponent does not match your <a href="https://ageofnotes.com//2017/10/21/improve-multitasking-age-empires-2/" target="_blank" rel="noopener">multitasking skills</a> or his macro is just the worst.</p><h3><span class="ez-toc-section" id="Be_The_Smart_Tower_Guy">Be The Smart Tower Guy</span></h3><p>Another option is while you are doing a standard 22 pop build order. You also add 4 stone miners and try to defend against his towers with efficiently positioned towers.</p><p><img class="wp-image-159 aligncenter" src="" alt="smart tower" width="569" height="329" data-layzr="https://ageofnotes.com//wp-content/uploads/2017/11/smart-tower-2.jpg"></p><p>Meantime, you are spamming lots of farms.</p><ul>
+</ul><p>Here are the results:</p><div id="attachment_152" style="width: 474px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-152" loading="lazy" class="wp-image-152" src="" alt="Red Player: 4 Villagers and a scout are down." width="464" height="257" data-layzr="https://ageofnotes.com//wp-content/uploads/2017/11/defending-first-trusher-tower.jpg"><p id="caption-attachment-152" class="wp-caption-text">Red Player: 4 Villagers and a scout are down.</p></div><p>Seeing that he was winning the fight and denying an enemy building. He instantly sent 4 villagers to mine gold while he already built an archery range when the fight was taking place.</p><p>At this point, If you were the <span style="color: #0000ff;">Blue player</span> you would think that red would not Trush you anymore? Well! That’s wrong!</p><p><span style="color: #0000ff;">Blue Player</span> is an experienced player and He most certainly has played many Trushers before.</p><p><img loading="lazy" class="wp-image-153 aligncenter" src="" alt="Outpost to counter a Trush" width="483" height="228" data-layzr="https://ageofnotes.com//wp-content/uploads/2017/11/outpost-counter-trush.jpg"></p><p>See what he did there? In the other side of the map where his lumberjacks are chopping trees. <span style="color: #0000ff;">Blue player</span> built an outpost in anticipation of another Trush attempt. Very small trick but It is certainly annoying for a Trusher to get busted by outposts.</p><p><span style="color: #0000ff;">The blue player</span> also used the palisade wall trick to spot the second Trush attempt <span style="color: #000000;">Without any scouting information</span>.</p><p>He was aware that <span style="color: #ff0000;">Red player</span> is slowly building towers towards his gold miners. So <span style="color: #0000ff;">Blue player</span> intentionally and smartly lets <span style="color: #ff0000;">Red player</span> waste stone on towers</p><p><img loading="lazy" class="size-full wp-image-154 aligncenter" src="" alt="" width="906" height="336" data-layzr="https://ageofnotes.com//wp-content/uploads/2017/11/tower-rush-palisade-trick.jpg"></p><p>Once the <span style="color: #ff0000;">Red player</span> has finished building his ‘secret’ towers. Only now <span style="color: #0000ff;">Blue player</span> starts building a defensive tower</p><p><img loading="lazy" class="alignnone wp-image-155 aligncenter" src="" alt="defensive gold tower" width="470" height="283" data-layzr="https://ageofnotes.com//wp-content/uploads/2017/11/defensive-gold-tower.jpg"></p><p>It is 22:00 mins (Ingame) And <span style="color: #0000ff;">Blue player</span> has already clicked Castle Age with 17 farms, 12 lumberjacks, 9 gold miners, and 3 stone miners. The score difference is huge. Clearly <span style="color: #0000ff;">Blue</span> is the obvious winner in this game.</p><div id="attachment_156" style="width: 759px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-156" loading="lazy" class=" wp-image-156" src="" alt="An eye for an eye! A Trush for a Trush" width="749" height="461" data-layzr="https://ageofnotes.com//wp-content/uploads/2017/11/karma-give-the-devil-his-due.jpg"><p id="caption-attachment-156" class="wp-caption-text">An eye for an eye! A Trush for a Trush!</p></div><p><strong>Could you be asking for any happier ending?</strong></p><p>The bottom line is you can go further than just defeating a Trush if you intelligently execute the strategy. Watch this recorded game [1.5 RC patch R5]
+</p><h3><span class="ez-toc-section" id="Busted_I_See_Your_Trush_Mate">Busted! “I See Your Trush Mate!”</span></h3><p>A Trush is originally meant to be secretly executed. Therefore, once It is detected – The chances of its success are less probable.</p><p>That is why sometimes just by <strong>Scouting</strong> your opponent mining stone <span style="color: #808080;">OR</span> <strong>Seeing</strong> forwarding villagers heading towards your town.</p><p>Your enemy might just give up his Trush and resigns <em><strong>OR</strong></em> return home to play defensive.</p><h3><span class="ez-toc-section" id="The_Trushee_Becomes_The_Trusher">The Trushee Becomes The Trusher</span></h3><p>The Trusher might hypothetically say “I will trush the woodline, berries and the main gold. And as long as I am doing my thing my town will remain safe.” He may not type that to you in chat though.</p><p>But that’s a fact! When an aggressive player is putting pressure. He only expects defensive reactions from the opponent.</p><p>Now, how about exceeding his expectations and execute The Trush yourself?</p><p>Trush his stone miners, his berries OR Wood line. He will be forced off Trushing your town. Instead, He will go back home and put defensive towers.</p><p>You can do something like that if you feel that your opponent does not match your <a href="https://ageofnotes.com//2017/10/21/improve-multitasking-age-empires-2/" target="_blank" rel="noopener">multitasking skills</a> or his macro is just the worst.</p><h3><span class="ez-toc-section" id="Be_The_Smart_Tower_Guy">Be The Smart Tower Guy</span></h3><p>Another option is while you are doing a standard 22 pop build order. You also add 4 stone miners and try to defend against his towers with efficiently positioned towers.</p><p><img loading="lazy" class="wp-image-159 aligncenter" src="" alt="smart tower" width="569" height="329" data-layzr="https://ageofnotes.com//wp-content/uploads/2017/11/smart-tower-2.jpg"></p><p>Meantime, you are spamming lots of farms.</p><ul>
 <li>By 16 mins research wheelbarrow</li>
 <li>By 17 mins you should have at least 15 farms.</li>
 <li>At 20, 21 or 22 mins you should be able to click castle age With <strong>6 Lumberjacks</strong>, <strong>11 gold miners</strong>, <strong>16 farms, 1 stone miner.</strong></li>
@@ -494,7 +492,7 @@ h6 { font-family: Helvetica, Arial, sans-serif; font-weight: normal; font-size: 
 <li>Use the forward villager to build a siege workshop and queue <strong>rams</strong> or <strong>mangonels</strong> (if the enemy has archers preferably mangonels then repair them using villagers).</li>
 <li>Queue knights from both stables.</li>
 <li>Upgrade chain barding armor at the Blacksmith.</li>
-</ul><p>Once chain barding armor is completed. Use your knights to get as many villagers kill as possible (ignore Town center or tower fire) Your knights absorb a lot of arrows and essentially take longer to die.</p><div id="attachment_160" style="width: 620px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-160" class=" wp-image-160" src="" alt="knights raid a trusher" width="610" height="316" data-layzr="https://ageofnotes.com//wp-content/uploads/2017/11/knights-raid-trusher.jpg"><p id="caption-attachment-160" class="wp-caption-text">knights raiding a trusher</p></div><p>When there is nothing to kill OR the enemy has way too many spears just retreat to spam more knights.</p><p>Eventually, if you play it cleverly the win is yours.</p><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0608818284340124" data-ad-slot="4690050753" data-ad-format="auto" data-full-width-responsive="true"></ins><script>
+</ul><p>Once chain barding armor is completed. Use your knights to get as many villagers kill as possible (ignore Town center or tower fire) Your knights absorb a lot of arrows and essentially take longer to die.</p><div id="attachment_160" style="width: 620px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-160" loading="lazy" class=" wp-image-160" src="" alt="knights raid a trusher" width="610" height="316" data-layzr="https://ageofnotes.com//wp-content/uploads/2017/11/knights-raid-trusher.jpg"><p id="caption-attachment-160" class="wp-caption-text">knights raiding a trusher</p></div><p>When there is nothing to kill OR the enemy has way too many spears just retreat to spam more knights.</p><p>Eventually, if you play it cleverly the win is yours.</p><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0608818284340124" data-ad-slot="4690050753" data-ad-format="auto" data-full-width-responsive="true"></ins><script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
@@ -530,31 +528,31 @@ h6 { font-family: Helvetica, Arial, sans-serif; font-weight: normal; font-size: 
 									
     		
     		<div class="related-posts"><h4>Related Posts</h4><div class="clear">    			<article class="latestPost excerpt  ">
+					<a href="https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/" title="Setting up Age of Empires 2 Multiplayer For Wine Linux 2019" id="featured-thumbnail">
+                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2019/03/SettingupVooblyinwine-300x160.png" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="" loading="lazy" title=""></div>                                            </a>
+                    <header>
+						<h2 class="title front-view-title"><a href="https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/" title="Setting up Age of Empires 2 Multiplayer For Wine Linux 2019">Setting up Age of Empires 2 Multiplayer For Wine Linux 2019</a></h2>
+					</header>
+                </article>
+    			    			<article class="latestPost excerpt  ">
+					<a href="https://ageofnotes.com/tutorials/questions-answers-for-aoe2-de-brand-new-multiplayer/" title="Questions & Answers For AoE2 DE Brand-new Multiplayer" id="featured-thumbnail">
+                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2019/06/aoe2de_multiplayer-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="Questions & Answers For AoE2 DE Brand-new Multiplayer" loading="lazy" title=""></div>                                            </a>
+                    <header>
+						<h2 class="title front-view-title"><a href="https://ageofnotes.com/tutorials/questions-answers-for-aoe2-de-brand-new-multiplayer/" title="Questions & Answers For AoE2 DE Brand-new Multiplayer">Questions & Answers For AoE2 DE Brand-new Multiplayer</a></h2>
+					</header>
+                </article>
+    			    			<article class="latestPost excerpt  last">
 					<a href="https://ageofnotes.com/beginners/complete-hotkeys-guide-for-age-of-empires-2-definitive/" title="Complete Hotkeys Guide For Age Of Empires 2 Definitive" id="featured-thumbnail">
-                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2020/09/hotkeys-guide-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="Age of empires 2 definitive edition hotkeys guide" title=""></div>                                            </a>
+                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2020/09/hotkeys-guide-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="Age of empires 2 definitive edition hotkeys guide" loading="lazy" title=""></div>                                            </a>
                     <header>
 						<h2 class="title front-view-title"><a href="https://ageofnotes.com/beginners/complete-hotkeys-guide-for-age-of-empires-2-definitive/" title="Complete Hotkeys Guide For Age Of Empires 2 Definitive">Complete Hotkeys Guide For Age Of Empires 2 Definitive</a></h2>
 					</header>
                 </article>
     			    			<article class="latestPost excerpt  ">
 					<a href="https://ageofnotes.com/tutorials/play-without-boars-and-sheep/" title="How To Play Without Boars And Sheep" id="featured-thumbnail">
-                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2018/10/How-To-Play-Without-Boars-And-Sheep-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="How To Play Without Boars And Sheep" title=""></div>                                            </a>
+                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2018/10/How-To-Play-Without-Boars-And-Sheep-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="How To Play Without Boars And Sheep" loading="lazy" title=""></div>                                            </a>
                     <header>
 						<h2 class="title front-view-title"><a href="https://ageofnotes.com/tutorials/play-without-boars-and-sheep/" title="How To Play Without Boars And Sheep">How To Play Without Boars And Sheep</a></h2>
-					</header>
-                </article>
-    			    			<article class="latestPost excerpt  last">
-					<a href="https://ageofnotes.com/tutorials/how-to-install-hotkey-profiles-from-pro-players/" title="How to Install Hotkey Profiles from Pro Players" id="featured-thumbnail">
-                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2019/04/hotkeys_setup_aoe2-1-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="" title=""></div>                                            </a>
-                    <header>
-						<h2 class="title front-view-title"><a href="https://ageofnotes.com/tutorials/how-to-install-hotkey-profiles-from-pro-players/" title="How to Install Hotkey Profiles from Pro Players">How to Install Hotkey Profiles from Pro Players</a></h2>
-					</header>
-                </article>
-    			    			<article class="latestPost excerpt  ">
-					<a href="https://ageofnotes.com/tutorials/advanced-idle-pointer-is-out-for-aoe2-definitive-edition-offline-installer/" title="Advanced Idle Pointer is Out For AOE2 Definitive Edition + Offline Installer" id="featured-thumbnail">
-                        <div class="featured-thumbnail"><img width="300" height="160" src="https://ageofnotes.com/wp-content/uploads/2019/12/advanced-idle-pointer-larger-pointers-300x160.jpg" class="attachment-authority-widgetfull size-authority-widgetfull wp-post-image" alt="Advanced Idle Pointer Larger Pointers" title=""></div>                                            </a>
-                    <header>
-						<h2 class="title front-view-title"><a href="https://ageofnotes.com/tutorials/advanced-idle-pointer-is-out-for-aoe2-definitive-edition-offline-installer/" title="Advanced Idle Pointer is Out For AOE2 Definitive Edition + Offline Installer">Advanced Idle Pointer is Out For AOE2 Definitive Edition + Offline Installer</a></h2>
 					</header>
                 </article>
     			</div></div>    		
@@ -593,7 +591,7 @@ My current Voobly Rate is 18++; Steam ELO 22++. I played a ridiculous amount of 
                             <div class="wpdiscuz-textarea-wrap wpdiscuz-quicktags-enabled">
 
                                                                                                         <div class="wc-field-avatararea">
-                                        <img src="http://1.gravatar.com/avatar/?s=40&r=g" width="40" height="40" alt="avatar" class="avatar avatar-40 wp-user-avatar wp-user-avatar-40 photo avatar-default">                                    </div>
+                                        <img src="http://2.gravatar.com/avatar/?s=40&r=g" width="40" height="40" alt="avatar" class="avatar avatar-40 wp-user-avatar wp-user-avatar-40 photo avatar-default">                                    </div>
                                 
                                 <textarea id="wc-textarea-0_0" placeholder="Join the discussion..." required name="wc_comment" class="wc_comment wpd-field"></textarea>
                                                                                             </div>
@@ -619,7 +617,7 @@ My current Voobly Rate is 18++; Steam ELO 22++. I played a ridiculous amount of 
             </div>
             <div class="wc-label wc-captcha-label">
                                 <a class="wpdiscuz-nofollow" href="#" rel="nofollow"><img alt="wpdiscuz_captcha" class="wc_captcha_img" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/utils/captcha/captcha.php" width="80" height="26"></a><a class="wpdiscuz-nofollow wc_captcha_refresh_img" href="#" rel="nofollow"><img alt="refresh" class="" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/img/captcha-loading.png" width="16" height="16"></a>
-                <input type="hidden" id="c5f59255e58181" class="wpdiscuz-cnonce" name="cnonce" value="c5f59255e58181">
+                <input type="hidden" id="c5f62bb9ad27c3" class="wpdiscuz-cnonce" name="cnonce" value="c5f62bb9ad27c3">
             </div>
             <div class="clearfix"></div>
         </div>
@@ -715,7 +713,7 @@ My current Voobly Rate is 18++; Steam ELO 22++. I played a ridiculous amount of 
             </div>
             <div class="wc-label wc-captcha-label">
                                 <a class="wpdiscuz-nofollow" href="#" rel="nofollow"><img alt="wpdiscuz_captcha" class="wc_captcha_img" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/utils/captcha/captcha.php" width="80" height="26"></a><a class="wpdiscuz-nofollow wc_captcha_refresh_img" href="#" rel="nofollow"><img alt="refresh" class="" src="https://ageofnotes.com/wp-content/plugins/wpdiscuz/assets/img/captcha-loading.png" width="16" height="16"></a>
-                <input type="hidden" id="c5f59255e596dc" class="wpdiscuz-cnonce" name="cnonce" value="c5f59255e596dc">
+                <input type="hidden" id="c5f62bb9ad3c60" class="wpdiscuz-cnonce" name="cnonce" value="c5f62bb9ad3c60">
             </div>
             <div class="clearfix"></div>
         </div>
@@ -771,7 +769,7 @@ My current Voobly Rate is 18++; Steam ELO 22++. I played a ridiculous amount of 
                                                                 <div class="wpdiscuz-subscribe-form-button">
                                     <input id="wpdiscuz_subscription_button" type="submit" value="›" name="wpdiscuz_subscription_button">
                                 </div> 
-                                                                <input type="hidden" id="wpdiscuz_subscribe_form_nonce" name="wpdiscuz_subscribe_form_nonce" value="9bd0d1b8a7"><input type="hidden" name="_wp_http_referer" value="/aon/tutorials/counter-tower-rush-trush/">                                                                <input type="hidden" value="105" name="wpdiscuzSubscriptionPostId">
+                                                                <input type="hidden" id="wpdiscuz_subscribe_form_nonce" name="wpdiscuz_subscribe_form_nonce" value="39b438a0e2"><input type="hidden" name="_wp_http_referer" value="/aon/tutorials/counter-tower-rush-trush/">                                                                <input type="hidden" value="105" name="wpdiscuzSubscriptionPostId">
                             </form>
                                                 <div class="wpdiscuz_clear"></div>
                                             </div>
@@ -828,37 +826,37 @@ Thanks</p>
   gtag('config', 'UA-109982216-1');
 </script>
     
-    <a id="wpdUserContentInfoAnchor" style="display:none;" rel="#wpdUserContentInfo" data-wpd-lity>wpDiscuz</a><div id="wpdUserContentInfo" style="overflow:auto;background:#FDFDF6;padding:20px;width:600px;max-width:100%;border-radius:6px;" class="lity-hide"></div><script type="text/javascript">
+    <a id="wpdUserContentInfoAnchor" style="display:none;" rel="#wpdUserContentInfo" data-wpd-lity>wpDiscuz</a><div id="wpdUserContentInfo" style="overflow:auto;background:#FDFDF6;padding:20px;width:600px;max-width:100%;border-radius:6px;" class="lity-hide"></div><script type="text/javascript" id="contact-form-7-js-extra">
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/ageofnotes.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/contact-form-7/includes/js/scripts.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/contact-form-7/includes/js/scripts.js" id="contact-form-7-js"></script>
+<script type="text/javascript" id="wp-polls-js-extra">
 /* <![CDATA[ */
 var pollsL10n = {"ajax_url":"https:\/\/ageofnotes.com\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wp-polls/polls-js.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/jquery/jquery.form.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wp-polls/polls-js.js" id="wp-polls-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/jquery/jquery.form.min.js" id="jquery-form-js"></script>
+<script type="text/javascript" id="quicktags-js-extra">
 /* <![CDATA[ */
 var quicktagsL10n = {"closeAllOpenTags":"Close all open tags","closeTags":"close tags","enterURL":"Enter the URL","enterImageURL":"Enter the URL of the image","enterImageDescription":"Enter a description of the image","textdirection":"text direction","toggleTextdirection":"Toggle Editor Text Direction","dfw":"Distraction-free writing mode","strong":"Bold","strongClose":"Close bold tag","em":"Italic","emClose":"Close italic tag","link":"Insert link","blockquote":"Blockquote","blockquoteClose":"Close blockquote tag","del":"Deleted text (strikethrough)","delClose":"Close deleted text tag","ins":"Inserted text","insClose":"Close inserted text tag","image":"Insert image","ul":"Bulleted list","ulClose":"Close bulleted list tag","ol":"Numbered list","olClose":"Close numbered list tag","li":"List item","liClose":"Close list item tag","code":"Code","codeClose":"Close code tag","more":"Insert Read More tag"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/quicktags.min.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/smooth-scroll/jquery.smooth-scroll.min.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/waypoints/jquery.waypoints.min.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/quicktags.min.js" id="quicktags-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/smooth-scroll/jquery.smooth-scroll.min.js" id="jquery-smooth-scroll-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js" id="js-cookie-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js" id="jquery-sticky-kit-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/vendor/waypoints/jquery.waypoints.min.js" id="jquery-waypoints-js"></script>
+<script type="text/javascript" id="ez-toc-js-js-extra">
 /* <![CDATA[ */
 var ezTOC = {"smooth_scroll":"1","visibility_hide_by_default":"","width":"auto","scroll_offset":"30"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js"></script>
-<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/jquery.magnific-popup.min.js"></script>
-<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/layzr.min.js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js" id="ez-toc-js-js"></script>
+<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/jquery.magnific-popup.min.js" id="magnificPopup-js"></script>
+<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/layzr.min.js" id="layzr-js"></script>
         <script type="text/javascript">
             function AI_responsive_widget() {
                 jQuery('object.StefanoAI-youtube-responsive').each(function () {

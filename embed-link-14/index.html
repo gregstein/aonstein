@@ -78,7 +78,7 @@
 
 
 <link rel="stylesheet" id="wp-components-css" href="https://ageofnotes.com/wp-includes/css/dist/components/style.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="wp-editor-font-css" href="https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="wp-editor-font-css" href="https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&ver=5.5.1" type="text/css" media="all">
 <link rel="stylesheet" id="wp-block-editor-css" href="https://ageofnotes.com/wp-includes/css/dist/block-editor/style.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="wp-nux-css" href="https://ageofnotes.com/wp-includes/css/dist/nux/style.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="wp-editor-css" href="https://ageofnotes.com/wp-includes/css/dist/editor/style.min.css" type="text/css" media="all">
@@ -147,16 +147,14 @@ pre {
 <link rel="stylesheet" id="magnificPopup-css" href="https://ageofnotes.com/wp-content/themes/agetips/css/magnific-popup.css" type="text/css" media="all">
 <link rel="stylesheet" id="fontawesome-css" href="https://ageofnotes.com/wp-content/themes/agetips/css/font-awesome.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="responsive-css" href="https://ageofnotes.com/wp-content/themes/agetips/css/responsive.css" type="text/css" media="all">
-<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wp-discord/public/js/wp-discord.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-includes/js/jquery/jquery.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wp-discord/public/js/wp-discord.js" id="wp-discord-js"></script>
+<script type="text/javascript" id="customscript-js-extra">
 /* <![CDATA[ */
 var mts_customscript = {"responsive":"1","nav_menu":"primary"};
 /* ]]> */
 </script>
-<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/customscript.js"></script>
-
+<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/customscript.js" id="customscript-js"></script>
 
 
 
@@ -281,40 +279,83 @@ h6 { font-family: Helvetica, Arial, sans-serif; font-weight: normal; font-size: 
 </script>
 </div>
 </div>
-			<div id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
-											<li>
-					<a href="https://ageofnotes.com/beginners/complete-hotkeys-guide-for-age-of-empires-2-definitive/">Complete Hotkeys Guide For Age Of Empires 2 Definitive</a>
-									</li>
-											<li>
-					<a href="https://ageofnotes.com/strategies/drush-fast-castle-into-knights-as-berbers-meditational-build-order/">Drush Fast Castle Into Knights as Berbers [Meditational Build Order]</a>
-									</li>
-											<li>
-					<a href="https://ageofnotes.com/strategies/23-pop-archers-build-order-step-by-step-to-destroy-ranked-queue/">23 Pop Archers Build Order Step By Step To Destroy Ranked Queue</a>
-									</li>
-											<li>
-					<a href="https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/">This is How I fixed Crashes and Improved Performance For Age of Empires 2 Definitive</a>
-									</li>
-											<li>
-					<a href="https://ageofnotes.com/tutorials/advanced-idle-pointer-is-out-for-aoe2-definitive-edition-offline-installer/">Advanced Idle Pointer is Out For AOE2 Definitive Edition + Offline Installer</a>
-									</li>
-					</ul>
-		</div><div id="custom_html-2" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><a title="Age of Empires 2 Blacksmith Upgrades Explained" href="https://ageofnotes.com/beginners/age-of-empires-2-blacksmith-upgrades-explained/"><img alt="Age of Empires 2 Blacksmith Upgrades Explained" src="https://ageofnotes.com/wp-content/uploads/2019/06/age-of-empires-2-blacksmith.jpg"></a></div></div><div id="polls-widget-3" class="widget widget_polls-widget"><h3 class="widget-title">Poll 1</h3><div id="polls-5" class="wp-polls">
-	<form id="polls_form_5" class="wp-polls-form" action="/aon/index.php" method="post">
-		<p style="display: none;"><input type="hidden" id="poll_5_nonce" name="wp-polls-nonce" value="5b6e705e46"></p>
-		<p style="display: none;"><input type="hidden" name="poll_id" value="5"></p>
-		<p style="text-align: center;"><strong>With a Malians ally, researching ballistics only takes 33 seconds instead of 60s.</strong></p><div id="polls-5-ans" class="wp-polls-ans"><ul class="wp-polls-ul">
-		<li><input type="radio" id="poll-answer-14" name="poll_5" value="14"> <label for="poll-answer-14">I didn't know that. Thanks</label></li>
-		<li><input type="radio" id="poll-answer-15" name="poll_5" value="15"> <label for="poll-answer-15">I know.</label></li>
-		</ul><p style="text-align: center;"><input type="button" name="vote" value="   Vote   " class="Buttons" onclick="poll_vote(5);"></p><p style="text-align: center;"><a href="#ViewPollResults" onclick="poll_result(5); return false;" title="View Results Of This Poll">View Results</a></p></div>
-	</form>
-</div>
-<div id="polls-5-loading" class="wp-polls-loading"><img src="https://ageofnotes.com/wp-content/plugins/wp-polls/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="wp-polls-image"> Loading ...</div>
-</div><div id="categories-2" class="widget widget_categories"><h3 class="widget-title">Browse Categories</h3><form action="https://ageofnotes.com" method="get"><label class="screen-reader-text" for="cat">Browse Categories</label><select name="cat" id="cat" class="postform">
+	<div id="mts_popular_posts_widget-2" class="widget widget_mts_popular_posts_widget horizontal-small"><h3 class="widget-title">Popular Reads</h3><ul class="popular-posts">			<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">								<div class="post-img">
+					<a href="https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/" title="This is How I fixed Crashes and Improved Performance For Age of Empires 2 Definitive">
+													<img width="75" height="63" src="https://ageofnotes.com/wp-content/uploads/2019/12/fix-crashes-for-ageofempires2-definitive-75x63.jpg" class="attachment-authority-widgetthumb size-authority-widgetthumb wp-post-image" alt="" loading="lazy" title="">											</a>
+				</div>
+								<div class="post-data">
+					<div class="post-data-container">
+						<div class="post-title">
+							<a href="https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/" title="This is How I fixed Crashes and Improved Performance For Age of Empires 2 Definitive">This is How I fixed Crashes and …</a>
+						</div>
+												<div class="post-info">
+															<span class="thetime updated"><i class="fa fa-clock-o"></i> December 29, 2019</span>
+																				</div> 
+																	</div>
+				</div>
+			</div></li>					<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">								<div class="post-img">
+					<a href="https://ageofnotes.com/tutorials/5-advanced-tips-to-become-better-at-age-of-empires-2-definitive/" title="5 Advanced Tips To Become Better At Age of Empires 2 Definitive">
+													<img width="75" height="63" src="https://ageofnotes.com/wp-content/uploads/2019/12/5-advanced-tips-aoe2de-75x63.jpg" class="attachment-authority-widgetthumb size-authority-widgetthumb wp-post-image" alt="" loading="lazy" title="">											</a>
+				</div>
+								<div class="post-data">
+					<div class="post-data-container">
+						<div class="post-title">
+							<a href="https://ageofnotes.com/tutorials/5-advanced-tips-to-become-better-at-age-of-empires-2-definitive/" title="5 Advanced Tips To Become Better At Age of Empires 2 Definitive">5 Advanced Tips To Become Better At …</a>
+						</div>
+												<div class="post-info">
+															<span class="thetime updated"><i class="fa fa-clock-o"></i> December 24, 2019</span>
+																				</div> 
+																	</div>
+				</div>
+			</div></li>					<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">								<div class="post-img">
+					<a href="https://ageofnotes.com/tutorials/advanced-idle-pointer-is-out-for-aoe2-definitive-edition-offline-installer/" title="Advanced Idle Pointer is Out For AOE2 Definitive Edition + Offline Installer">
+													<img width="75" height="63" src="https://ageofnotes.com/wp-content/uploads/2019/12/advanced-idle-pointer-larger-pointers-75x63.jpg" class="attachment-authority-widgetthumb size-authority-widgetthumb wp-post-image" alt="Advanced Idle Pointer Larger Pointers" loading="lazy" title="">											</a>
+				</div>
+								<div class="post-data">
+					<div class="post-data-container">
+						<div class="post-title">
+							<a href="https://ageofnotes.com/tutorials/advanced-idle-pointer-is-out-for-aoe2-definitive-edition-offline-installer/" title="Advanced Idle Pointer is Out For AOE2 Definitive Edition + Offline Installer">Advanced Idle Pointer is Out For AOE2 …</a>
+						</div>
+												<div class="post-info">
+															<span class="thetime updated"><i class="fa fa-clock-o"></i> December 27, 2019</span>
+																				</div> 
+																	</div>
+				</div>
+			</div></li>					<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">								<div class="post-img">
+					<a href="https://ageofnotes.com/strategies/23-pop-archers-build-order-step-by-step-to-destroy-ranked-queue/" title="23 Pop Archers Build Order Step By Step To Destroy Ranked Queue">
+													<img width="75" height="63" src="https://ageofnotes.com/wp-content/uploads/2020/04/23-pop-archers-75x63.jpg" class="attachment-authority-widgetthumb size-authority-widgetthumb wp-post-image" alt="23 pop archers" loading="lazy" title="">											</a>
+				</div>
+								<div class="post-data">
+					<div class="post-data-container">
+						<div class="post-title">
+							<a href="https://ageofnotes.com/strategies/23-pop-archers-build-order-step-by-step-to-destroy-ranked-queue/" title="23 Pop Archers Build Order Step By Step To Destroy Ranked Queue">23 Pop Archers Build Order Step By …</a>
+						</div>
+												<div class="post-info">
+															<span class="thetime updated"><i class="fa fa-clock-o"></i> April 18, 2020</span>
+																				</div> 
+																	</div>
+				</div>
+			</div></li>					<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">								<div class="post-img">
+					<a href="https://ageofnotes.com/beginners/complete-hotkeys-guide-for-age-of-empires-2-definitive/" title="Complete Hotkeys Guide For Age Of Empires 2 Definitive">
+													<img width="75" height="63" src="https://ageofnotes.com/wp-content/uploads/2020/09/hotkeys-guide-75x63.jpg" class="attachment-authority-widgetthumb size-authority-widgetthumb wp-post-image" alt="Age of empires 2 definitive edition hotkeys guide" loading="lazy" title="">											</a>
+				</div>
+								<div class="post-data">
+					<div class="post-data-container">
+						<div class="post-title">
+							<a href="https://ageofnotes.com/beginners/complete-hotkeys-guide-for-age-of-empires-2-definitive/" title="Complete Hotkeys Guide For Age Of Empires 2 Definitive">Complete Hotkeys Guide For Age Of Empires …</a>
+						</div>
+												<div class="post-info">
+															<span class="thetime updated"><i class="fa fa-clock-o"></i> September 6, 2020</span>
+																				</div> 
+																	</div>
+				</div>
+			</div></li>		</ul>
+</div><div id="custom_html-2" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><a title="Age of Empires 2 Blacksmith Upgrades Explained" href="https://ageofnotes.com/beginners/age-of-empires-2-blacksmith-upgrades-explained/"><img alt="Age of Empires 2 Blacksmith Upgrades Explained" src="https://ageofnotes.com/wp-content/uploads/2019/06/age-of-empires-2-blacksmith.jpg"></a></div></div><div id="categories-2" class="widget widget_categories"><h3 class="widget-title">Browse Categories</h3><form action="https://ageofnotes.com" method="get"><label class="screen-reader-text" for="cat">Browse Categories</label><select name="cat" id="cat" class="postform">
 	<option value="-1">Select Category</option>
-	<option class="level-0" value="3">Beginners  (6)</option>
+	<option class="level-0" value="3">Beginners  (7)</option>
 	<option class="level-0" value="4">Resolve Issues  (4)</option>
 	<option class="level-0" value="5">Strategies  (4)</option>
-	<option class="level-0" value="2">Tutorials  (11)</option>
+	<option class="level-0" value="2">Tutorials  (12)</option>
 </select>
 </form>
 <script type="text/javascript">
@@ -338,71 +379,71 @@ h6 { font-family: Helvetica, Arial, sans-serif; font-weight: normal; font-size: 
 <h3>AoE2Tools</h3>
 </div>
 <div class="wpd-info">
-<span><strong>38</strong> User(s) Online</span>
-<ul class="wpd-users"><li><img src="//cdn.discordapp.com/widget-avatars/a4wk9RvrSf5S2szrd6IIvS5hzNCA3oank3lXT4F7mKY/2V-a8ewtw-mxJj69XS9qGP3LYadj63eBdGYkrTGr51cV3LcqBL9ladHAdjp3rHXgW7ECCvaNqahiLVVqy2pzdLVyWR0LyU-2sBKhQsRWLeRJkvR18tqrYiktn5zU8Xm1v14vXrwEBD7fQg"><strong>T-West</strong><span class="wpd-status online"></span></li><li><img src="//cdn.discordapp.com/widget-avatars/kR0WCfduC53cTd42mOKNSrUjKjGsvv4B62SfxvEt8j8/l6PpWNyoNMEapol9oNygakbHY5D8EJW_89YATSpiOiOzSH1AG7YHEylE72NWj1toNKywsvSRcBYofQUybc6l0Q2pSJI63bqDIuiUrDiSUkOxCGHtlJVEMwWQylVpuGBUnqVC3-He3cTJAA"><strong>rockberta</strong><span class="wpd-status online"></span></li><li><img src="//cdn.discordapp.com/widget-avatars/o5GQ2q_f9_yZZhg7cPr674RBq5f9Tpt0W9nsML7UbVA/rRauiavvAHlJYHU5OMXUw9dnuNq23pBuCEE3SnfNNZew_TrHxW3b_F1poDFepYgXs0ImWzzYVYzy36mSSp3i0LRmnZXG17XrD0fiGPnHgUnB543wuaxN1YTDXOjbUz5WnP4Stzy5KybLEQ"><strong>hszemi</strong><span class="wpd-status online"></span></li></ul></div>
+<span><strong>33</strong> User(s) Online</span>
+<ul class="wpd-users"><li><img src="//cdn.discordapp.com/widget-avatars/7jl1Ozzljq3jYv5DRnSzDHtJjU73ZXFnd9PfmUDTjMk/0jjCn2WOMIuLBE2qhud28K6RGC2Fg9pRUax6GnMMvjpaNdaAMklYiW7FjQfez4pqvF_0lwgY85YTaXzyG1g"><strong>niccannor</strong><span class="wpd-status online"></span></li><li><img src="//cdn.discordapp.com/widget-avatars/ahXHH3-D-aFzzUHbPXsPKJI8AG8s9S9h3YOsIZA5APs/CxIr-1rXTGYhvYcEGCKtMoSn3_wIf0OExZ242-51H8GhNlA5zDBHt3MlPX3lUEKlH6MfCAukodKAojpEiEWVFhbjyCoG1KaxbapyPTMEZzvE58DD5xgK07eFeMJt8SA_77hM66JxW9sHog"><strong>nido-MA</strong><span class="wpd-status dnd"></span></li><li><img src="//cdn.discordapp.com/widget-avatars/wx5Mww164EYvT7jJj43U1LUwCKuOtIjrax4tKxlMHtc/K43mEb3irRTeErM-4Y63QC45EOnjO4vtA-RouCkMg38tFKrC_qGRt4Zn5BDPT7Ppzj08BfUkcSlrFL_CiNfpLkub0RPlW-oanXNUEjm1eb-7UT6JkkMx8jUxT7fmyFqMDWYoDfy5sNKc"><strong>ThundahStuck</strong><span class="wpd-status online"></span></li></ul></div>
 </div>
-<div id="single_category_posts_widget-2" class="widget widget_single_category_posts_widget horizontal-small"><h3 class="widget-title">Tutorials</h3><ul class="category-posts">			<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">								<div class="post-img">
-					<a href="https://ageofnotes.com/beginners/complete-hotkeys-guide-for-age-of-empires-2-definitive/" title="Complete Hotkeys Guide For Age Of Empires 2 Definitive">
-													<img width="75" height="63" src="https://ageofnotes.com/wp-content/uploads/2020/09/hotkeys-guide-75x63.jpg" class="attachment-authority-widgetthumb size-authority-widgetthumb wp-post-image" alt="Age of empires 2 definitive edition hotkeys guide" title="">											</a>
+<div id="single_category_posts_widget-2" class="widget widget_single_category_posts_widget horizontal-small"><h3 class="widget-title">Strategies</h3><ul class="category-posts">			<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">								<div class="post-img">
+					<a href="https://ageofnotes.com/strategies/drush-fast-castle-into-knights-as-berbers-meditational-build-order/" title="Drush Fast Castle Into Knights as Berbers [Meditational Build Order]">
+													<img width="75" height="63" src="https://ageofnotes.com/wp-content/uploads/2020/04/meditation-drush-fc-berber-75x63.jpg" class="attachment-authority-widgetthumb size-authority-widgetthumb wp-post-image" alt="" loading="lazy" title="">											</a>
 				</div>
 								<div class="post-data">
 					<div class="post-data-container">
 						<div class="post-title">
-							<a href="https://ageofnotes.com/beginners/complete-hotkeys-guide-for-age-of-empires-2-definitive/" title="Complete Hotkeys Guide For Age Of Empires 2 Definitive">Complete Hotkeys Guide For Age Of Empires …</a>
+							<a href="https://ageofnotes.com/strategies/drush-fast-castle-into-knights-as-berbers-meditational-build-order/" title="Drush Fast Castle Into Knights as Berbers [Meditational Build Order]">Drush Fast Castle Into Knights as Berbers …</a>
 						</div>
 												<div class="post-info">
-														<span class="thetime updated"><i class="fa fa-clock-o"></i> September 6, 2020</span>
+														<span class="thetime updated"><i class="fa fa-clock-o"></i> April 28, 2020</span>
 																				</div>
 																		<div class="post-excerpt">
-							This guide will teach you everything about hotkeys to take …						</div>
+							Learn how to execute a perfect Drush Fast Castle into …						</div>
 											</div>
 				</div>
 			</div></li>					<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">								<div class="post-img">
-					<a href="https://ageofnotes.com/tutorials/advanced-idle-pointer-is-out-for-aoe2-definitive-edition-offline-installer/" title="Advanced Idle Pointer is Out For AOE2 Definitive Edition + Offline Installer">
-													<img width="75" height="63" src="https://ageofnotes.com/wp-content/uploads/2019/12/advanced-idle-pointer-larger-pointers-75x63.jpg" class="attachment-authority-widgetthumb size-authority-widgetthumb wp-post-image" alt="Advanced Idle Pointer Larger Pointers" title="">											</a>
+					<a href="https://ageofnotes.com/strategies/23-pop-archers-build-order-step-by-step-to-destroy-ranked-queue/" title="23 Pop Archers Build Order Step By Step To Destroy Ranked Queue">
+													<img width="75" height="63" src="https://ageofnotes.com/wp-content/uploads/2020/04/23-pop-archers-75x63.jpg" class="attachment-authority-widgetthumb size-authority-widgetthumb wp-post-image" alt="23 pop archers" loading="lazy" title="">											</a>
 				</div>
 								<div class="post-data">
 					<div class="post-data-container">
 						<div class="post-title">
-							<a href="https://ageofnotes.com/tutorials/advanced-idle-pointer-is-out-for-aoe2-definitive-edition-offline-installer/" title="Advanced Idle Pointer is Out For AOE2 Definitive Edition + Offline Installer">Advanced Idle Pointer is Out For AOE2 …</a>
+							<a href="https://ageofnotes.com/strategies/23-pop-archers-build-order-step-by-step-to-destroy-ranked-queue/" title="23 Pop Archers Build Order Step By Step To Destroy Ranked Queue">23 Pop Archers Build Order Step By …</a>
 						</div>
 												<div class="post-info">
-														<span class="thetime updated"><i class="fa fa-clock-o"></i> December 27, 2019</span>
+														<span class="thetime updated"><i class="fa fa-clock-o"></i> April 18, 2020</span>
 																				</div>
 																		<div class="post-excerpt">
-							I know that many of you have been impatiently waiting …						</div>
+							Time has come to stop losing and gifting ELO in …						</div>
 											</div>
 				</div>
 			</div></li>					<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">								<div class="post-img">
-					<a href="https://ageofnotes.com/tutorials/5-advanced-tips-to-become-better-at-age-of-empires-2-definitive/" title="5 Advanced Tips To Become Better At Age of Empires 2 Definitive">
-													<img width="75" height="63" src="https://ageofnotes.com/wp-content/uploads/2019/12/5-advanced-tips-aoe2de-75x63.jpg" class="attachment-authority-widgetthumb size-authority-widgetthumb wp-post-image" alt="" title="">											</a>
+					<a href="https://ageofnotes.com/strategies/scout-rush-build-order-secrets-step-step/" title="A Scout Rush Build Order and Secrets In a step by step">
+													<img width="75" height="63" src="https://ageofnotes.com/wp-content/uploads/2018/10/scout-rush-secrets-in-age-of-empires-2-75x63.jpg" class="attachment-authority-widgetthumb size-authority-widgetthumb wp-post-image" alt="" loading="lazy" title="">											</a>
 				</div>
 								<div class="post-data">
 					<div class="post-data-container">
 						<div class="post-title">
-							<a href="https://ageofnotes.com/tutorials/5-advanced-tips-to-become-better-at-age-of-empires-2-definitive/" title="5 Advanced Tips To Become Better At Age of Empires 2 Definitive">5 Advanced Tips To Become Better At …</a>
+							<a href="https://ageofnotes.com/strategies/scout-rush-build-order-secrets-step-step/" title="A Scout Rush Build Order and Secrets In a step by step">A Scout Rush Build Order and Secrets …</a>
 						</div>
 												<div class="post-info">
-														<span class="thetime updated"><i class="fa fa-clock-o"></i> December 24, 2019</span>
+														<span class="thetime updated"><i class="fa fa-clock-o"></i> October 29, 2018</span>
 																				</div>
 																		<div class="post-excerpt">
-							How to get better at AoE2? This guide will help …						</div>
+							Are you new to a scout rush? Looking to improve …						</div>
 											</div>
 				</div>
 			</div></li>					<li class="post-box horizontal-small horizontal-container"><div class="horizontal-container-inner">								<div class="post-img">
-					<a href="https://ageofnotes.com/tutorials/getting-started-with-age-of-empires-2-definitive-edition/" title="Getting Started With Age of Empires 2 Definitive Edition">
-													<img width="75" height="63" src="https://ageofnotes.com/wp-content/uploads/2019/11/getting-started-aoe2de-75x63.jpg" class="attachment-authority-widgetthumb size-authority-widgetthumb wp-post-image" alt="getting started with Age of Empires 2 Definitive" title="">											</a>
+					<a href="https://ageofnotes.com/strategies/9-tricks-age-of-empires-2/" title="9 Tricks You Probably Didn’t Know They Exist in Age of Empires 2">
+													<img width="75" height="63" src="https://ageofnotes.com/wp-content/uploads/2017/12/9-Tricks-You-Probably-Didnt-Know-They-Exist-in-Age-of-Empires-2-75x63.jpg" class="attachment-authority-widgetthumb size-authority-widgetthumb wp-post-image" alt="9 Tricks You Probably Didn't Know They Exist in Age of Empires 2" loading="lazy" title="">											</a>
 				</div>
 								<div class="post-data">
 					<div class="post-data-container">
 						<div class="post-title">
-							<a href="https://ageofnotes.com/tutorials/getting-started-with-age-of-empires-2-definitive-edition/" title="Getting Started With Age of Empires 2 Definitive Edition">Getting Started With Age of Empires 2 …</a>
+							<a href="https://ageofnotes.com/strategies/9-tricks-age-of-empires-2/" title="9 Tricks You Probably Didn’t Know They Exist in Age of Empires 2">9 Tricks You Probably Didn’t Know They …</a>
 						</div>
 												<div class="post-info">
-														<span class="thetime updated"><i class="fa fa-clock-o"></i> November 28, 2019</span>
+														<span class="thetime updated"><i class="fa fa-clock-o"></i> December 3, 2017</span>
 																				</div>
 																		<div class="post-excerpt">
-							This guide is a combination of tips and a tour …						</div>
+							No matter how many hours you spent on playing Age …						</div>
 											</div>
 				</div>
 			</div></li>		</ul>
@@ -444,20 +485,20 @@ h6 { font-family: Helvetica, Arial, sans-serif; font-weight: normal; font-size: 
   gtag('config', 'UA-109982216-1');
 </script>
     
-    <script type="text/javascript">
+    <script type="text/javascript" id="contact-form-7-js-extra">
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"https:\/\/ageofnotes.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/contact-form-7/includes/js/scripts.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/contact-form-7/includes/js/scripts.js" id="contact-form-7-js"></script>
+<script type="text/javascript" id="wp-polls-js-extra">
 /* <![CDATA[ */
 var pollsL10n = {"ajax_url":"https:\/\/ageofnotes.com\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wp-polls/polls-js.js"></script>
-<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/jquery.magnific-popup.min.js"></script>
-<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/layzr.min.js"></script>
+<script type="text/javascript" src="https://ageofnotes.com/wp-content/plugins/wp-polls/polls-js.js" id="wp-polls-js"></script>
+<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/jquery.magnific-popup.min.js" id="magnificPopup-js"></script>
+<script type="text/javascript" async="async" src="https://ageofnotes.com/wp-content/themes/agetips/js/layzr.min.js" id="layzr-js"></script>
         <script type="text/javascript">
             function AI_responsive_widget() {
                 jQuery('object.StefanoAI-youtube-responsive').each(function () {
