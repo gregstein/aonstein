@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: How To Extract Age of Empires 2 Definitive Sounds	</title>
+	<atom:link href="https://ageofnotes.com/tutorials/how-to-extract-age-of-empires-2-definitive-sounds/feed/" rel="self" type="application/rss+xml" />
+	<link>https://ageofnotes.com/tutorials/how-to-extract-age-of-empires-2-definitive-sounds/</link>
+	<description>Learn and Play Age Of Empires 2 Just Better</description>
+	<lastBuildDate>Wed, 12 May 2021 22:57:32 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>
+		By: GregStein		</title>
+		<link>https://ageofnotes.com/tutorials/how-to-extract-age-of-empires-2-definitive-sounds/#comment-519</link>
+
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Wed, 12 May 2021 22:51:01 +0000</pubDate>
+		<guid isPermaLink="false">http://localhost/aon/?p=1106#comment-519</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/tutorials/how-to-extract-age-of-empires-2-definitive-sounds/#comment-518&quot;&gt;makemeet&lt;/a&gt;.
+
+I just did my &quot;SFX.bnk&quot; following the tutorial and everything converted instantly. Did you forget to put your .bnk file in &quot;1- Extract SFX.bat&quot; or your antivirus blocked/deleted something? Are you on windows 10 ?
+
+Don&#039;t forget that you *.ogg files can&#039;t be played by regular video/audio players. Audacity is a light program and does that for you.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://ageofnotes.com/tutorials/how-to-extract-age-of-empires-2-definitive-sounds/#comment-518">makemeet</a>.</p>
+<p>I just did my &#8220;SFX.bnk&#8221; following the tutorial and everything converted instantly. Did you forget to put your .bnk file in &#8220;1- Extract SFX.bat&#8221; or your antivirus blocked/deleted something? Are you on windows 10 ?</p>
+<p>Don&#8217;t forget that you *.ogg files can&#8217;t be played by regular video/audio players. Audacity is a light program and does that for you.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: makemeet		</title>
+		<link>https://ageofnotes.com/tutorials/how-to-extract-age-of-empires-2-definitive-sounds/#comment-518</link>
+
+		<dc:creator><![CDATA[makemeet]]></dc:creator>
+		<pubDate>Wed, 12 May 2021 16:36:01 +0000</pubDate>
+		<guid isPermaLink="false">http://localhost/aon/?p=1106#comment-518</guid>
+
+					<description><![CDATA[This message apper to all files..
+
+&lt;strong&gt;Input: 0105.wem&lt;/strong&gt;
+&lt;strong&gt;Parse error: expected 0x42 fmt if vorb missing&lt;/strong&gt;
+
+can be fixed??]]></description>
+			<content:encoded><![CDATA[<p>This message apper to all files..</p>
+<p><strong>Input: 0105.wem</strong><br />
+<strong>Parse error: expected 0x42 fmt if vorb missing</strong></p>
+<p>can be fixed??</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

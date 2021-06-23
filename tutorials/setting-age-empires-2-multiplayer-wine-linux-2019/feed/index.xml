@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Setting up Age of Empires 2 Multiplayer For Wine Linux 2019	</title>
+	<atom:link href="https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/feed/" rel="self" type="application/rss+xml" />
+	<link>https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/</link>
+	<description>Learn and Play Age Of Empires 2 Just Better</description>
+	<lastBuildDate>Tue, 11 May 2021 00:41:59 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<item>
+		<title>
+		By: GregStein		</title>
+		<link>https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/#comment-102</link>
+
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Wed, 20 Nov 2019 21:32:47 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=763#comment-102</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/#comment-101&quot;&gt;TOm1&lt;/a&gt;.
+
+This is the correct code and i have updated it:
+&lt;code&gt;file_get=$(wget -q -nv -O- https://api.github.com/repos/gregstein/AoE2Tools/releases/latest &#124;  jq -r &#039;.assets[] &#124; select(.browser_download_url &#124; contains(&quot;.exe&quot;)) &#124; .browser_download_url&#039;) &amp;&amp; wget --output-document=AoE2Tools.exe $file_get&lt;/code&gt;
+
+It was not your fault. My editor seemed to have replaced &#039;&amp;&#039; by &#039;&amp; amp;&#039; for some reason. Thank you for your comment as it helped fixing the typo issue.]]></description>
+			<content:encoded><![CDATA[<p>This is the correct code and i have updated it:<br />
+<code>file_get=$(wget -q -nv -O- https://api.github.com/repos/gregstein/AoE2Tools/releases/latest |  jq -r '.assets[] | select(.browser_download_url | contains(".exe")) | .browser_download_url') &#038;& wget --output-document=AoE2Tools.exe $file_get</code></p>
+<p>It was not your fault. My editor seemed to have replaced &#8216;&#038;&#8217; by &#8216;&#038; amp;&#8217; for some reason. Thank you for your comment as it helped fixing the typo issue.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: TOm1		</title>
+		<link>https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/#comment-101</link>
+
+		<dc:creator><![CDATA[TOm1]]></dc:creator>
+		<pubDate>Wed, 20 Nov 2019 16:04:40 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=763#comment-101</guid>
+
+					<description><![CDATA[first i want to deeply apologize for my newbieness 
+When i try to download aoe2tool it gives me syntax error near unexpected token &#039;;&#038;&#039; what am i missing? i know must be trivial again i&#039;m sorry]]></description>
+			<content:encoded><![CDATA[<p>first i want to deeply apologize for my newbieness<br />
+When i try to download aoe2tool it gives me syntax error near unexpected token &#8216;;&amp;&#8217; what am i missing? i know must be trivial again i&#8217;m sorry</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: GregStein		</title>
+		<link>https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/#comment-100</link>
+
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Thu, 10 Oct 2019 00:14:50 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=763#comment-100</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/#comment-96&quot;&gt;DJSapsan&lt;/a&gt;.
+
+It&#039;s fixed now on the latest version. Thank you for notifying!]]></description>
+			<content:encoded><![CDATA[<p>It&#8217;s fixed now on the latest version. Thank you for notifying!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: GregStein		</title>
+		<link>https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/#comment-98</link>
+
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Sun, 22 Sep 2019 19:34:41 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=763#comment-98</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/#comment-95&quot;&gt;DJSapsan&lt;/a&gt;.
+
+It looks like the installation is missing an &quot;icon&quot; Z:\home\user\data\icon.ico
+
+Here download it and put it in that location: https://ageofnotes.com/wp-content/uploads/2019/09/icon.ico]]></description>
+			<content:encoded><![CDATA[<p>It looks like the installation is missing an &#8220;icon&#8221; Z:\home\user\data\icon.ico</p>
+<p>Here download it and put it in that location: <a href="https://ageofnotes.com/wp-content/uploads/2019/09/icon.ico" rel="nofollow ugc">https://ageofnotes.com/wp-content/uploads/2019/09/icon.ico</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: GregStein		</title>
+		<link>https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/#comment-97</link>
+
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Sun, 22 Sep 2019 19:30:48 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=763#comment-97</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/#comment-96&quot;&gt;DJSapsan&lt;/a&gt;.
+
+Hello,
+
+Please refer to this post: https://github.com/gregstein/AoE2Tools/issues/24
+
+Chech the last reply there.]]></description>
+			<content:encoded><![CDATA[<p>Hello,</p>
+<p>Please refer to this post: <a href="https://github.com/gregstein/AoE2Tools/issues/24" rel="nofollow ugc">https://github.com/gregstein/AoE2Tools/issues/24</a></p>
+<p>Chech the last reply there.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: DJSapsan		</title>
+		<link>https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/#comment-96</link>
+
+		<dc:creator><![CDATA[DJSapsan]]></dc:creator>
+		<pubDate>Sun, 22 Sep 2019 17:28:51 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=763#comment-96</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/#comment-95&quot;&gt;DJSapsan&lt;/a&gt;.
+
+And there is another problem - i got a default hotkeys and not from steam.]]></description>
+			<content:encoded><![CDATA[<p>And there is another problem &#8211; i got a default hotkeys and not from steam.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: DJSapsan		</title>
+		<link>https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/#comment-95</link>
+
+		<dc:creator><![CDATA[DJSapsan]]></dc:creator>
+		<pubDate>Sun, 22 Sep 2019 17:19:34 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=763#comment-95</guid>
+
+					<description><![CDATA[Tested with winehq-development on virtual machine with Linux Mint. Not all dotnet i installed because it took too much time.
+During installation with AoE2ToolCloud i got error at &quot;Final configuration&quot; step. You can check error on pastebin https://pastebin.com/YAxg08cZ.
+After i got this error i closed it. Then run voobly and everything else was perfect. Game runs without any error. But only one minor problem - some graphical glitch and im pretty sure its because it runs on virtual machine without GPU and i connected via VNC.]]></description>
+			<content:encoded><![CDATA[<p>Tested with winehq-development on virtual machine with Linux Mint. Not all dotnet i installed because it took too much time.<br />
+During installation with AoE2ToolCloud i got error at &#8220;Final configuration&#8221; step. You can check error on pastebin <a href="https://pastebin.com/YAxg08cZ" rel="nofollow ugc">https://pastebin.com/YAxg08cZ</a>.<br />
+After i got this error i closed it. Then run voobly and everything else was perfect. Game runs without any error. But only one minor problem &#8211; some graphical glitch and im pretty sure its because it runs on virtual machine without GPU and i connected via VNC.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: GregStein		</title>
+		<link>https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/#comment-94</link>
+
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Sat, 31 Aug 2019 10:30:26 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=763#comment-94</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/#comment-93&quot;&gt;lionite2&lt;/a&gt;.
+
+Very much appreciated your feedback brother ❤]]></description>
+			<content:encoded><![CDATA[<p>Very much appreciated your feedback brother ❤</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: lionite2		</title>
+		<link>https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/#comment-93</link>
+
+		<dc:creator><![CDATA[lionite2]]></dc:creator>
+		<pubDate>Fri, 23 Aug 2019 11:47:09 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=763#comment-93</guid>
+
+					<description><![CDATA[I want to greet you, for this wonderful tutorial, works like a charm!!]]></description>
+			<content:encoded><![CDATA[<p>I want to greet you, for this wonderful tutorial, works like a charm!!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: GregStein		</title>
+		<link>https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/#comment-78</link>
+
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Fri, 28 Jun 2019 21:29:14 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=763#comment-78</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/#comment-77&quot;&gt;Rafael&lt;/a&gt;.
+
+Not native Steam client! In this guide We have used the Steam client of Windows which is installed in Wine32 installation.]]></description>
+			<content:encoded><![CDATA[<p>Not native Steam client! In this guide We have used the Steam client of Windows which is installed in Wine32 installation.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
