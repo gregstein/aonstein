@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>fast castle build order Archives - Age Of Notes</title>
+	<atom:link href="https://ageofnotes.com/tag/fast-castle-build-order/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Learn and Play Age Of Empires 2 Just Better</description>
+	<lastBuildDate>Mon, 18 Jul 2022 11:59:54 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>Fast Castle Build Order (Knights)</title>
+		<link>https://ageofnotes.com/build-orders/fast-castle-build-order-knights/</link>
+					<comments>https://ageofnotes.com/build-orders/fast-castle-build-order-knights/#comments</comments>
+		
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Tue, 28 Dec 2021 18:20:32 +0000</pubDate>
+				<category><![CDATA[Build Orders]]></category>
+		<category><![CDATA[fast castle build order]]></category>
+		<category><![CDATA[fast castle knight]]></category>
+		<category><![CDATA[fc]]></category>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=1934</guid>
+
+					<description><![CDATA[<p>A fast castle (FC) is the easiest beginner friendly builder order. This one is an FC knights into an all-in (mini-boom) or into a few knights 3 Town center boom. Basically you can play this build aggressive or defensive depending whether your opponent is open or fully walled. Analysis The aim of a Fast Castle [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://ageofnotes.com/build-orders/fast-castle-build-order-knights/">Fast Castle Build Order (Knights)</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com/">Age Of Notes</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>A fast castle (FC) is the easiest beginner friendly builder order. This one is an FC knights into an all-in (mini-boom) or into a few knights 3 Town center boom. Basically you can play this build aggressive or defensive depending whether your opponent is open or fully walled.</p>
+<h2>Analysis</h2>
+<p>The aim of a Fast Castle into Knights is to click up Feudal age with 26-27 population around 10 mins mark. With 4 foragers, 10 lumberjacks, 6 farmers, 4 gold miners you are bound to hit a decent Castle Age time with a decent economy to raid your opponent with non stop production of knights or just a few of them to delay him or force walls investment while you are booming with 3 town centers.</p>
+<figure id="attachment_1944" aria-describedby="caption-attachment-1944" style="width: 767px" class="wp-caption alignnone"><img decoding="async" loading="lazy" class="size-full wp-image-1944" src="https://ageofnotes.com/wp-content/uploads/2021/12/fast-castle-build-order.jpg" alt="Fast Castle build order" width="767" height="445" srcset="https://ageofnotes.com/wp-content/uploads/2021/12/fast-castle-build-order.jpg 767w, https://ageofnotes.com/wp-content/uploads/2021/12/fast-castle-build-order-285x165.jpg 285w" sizes="(max-width: 767px) 100vw, 767px" /><figcaption id="caption-attachment-1944" class="wp-caption-text">Fast Castle build order</figcaption></figure>
+<p>You do not want to fully commit to knights late Castle Age against Infantry/Camel civilizations especially Goths and Byzantines. Such civilizations can easily mass pike-men or camels. So you want to take a good look at your civilization tech tree and transition to either archery units or powder units.</p>
+<p>Archery civilizations on the other hand should be easier to counter as long as you upgrade the second horse armor (Chain Barding <img decoding="async" loading="lazy" src="https://ageofnotes.com/wp-content/uploads/2019/06/tech_chain-barding-armor.jpg" alt="chain barding armor" width="36" height="36" />) in your Blacksmith. In fact you can make the game even more stressful for the archery civilization by adding a forward siege workshop and queuing Mangonels.</p>
+<h2>Fast Castle Build Order</h2>
+  <style class="INLINE_PEN_STYLESHEET_ID">
+    /*** FONTS ***/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:900|Raleway:400,400i,700,700i);
+/*** VARIABLES ***/
+/* Colors */
+/*** EXTEND ***/
+/* box-shadow */
+ol.gradient-list > li::before, ol.gradient-list > li {
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+}
+
+/*** STYLE ***/
+
+icovil.img {
+    float: left;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+.pop {
+font-size: 16px !important;
+font-family: "Raleway", sans-serif;
+float:left;
+font-weight: bold;
+position: absolute;
+top: 0px;left: 0;
+background: linear-gradient(
+135deg, #83e4e2 0%, #a2ed56 100%);
+border-radius: 1rem 1rem rem 0 1rem;
+border-radius: 1rem 1rem 0 1rem;
+width: 4rem;min-height: 3rem;
+padding-left: 10px;
+
+}
+.taskbox{
+	font-family: "Raleway", sans-serif;
+ padding: 5px 5px 5px 5px;
+ 
+  margin: auto;
+  border-radius: 11px;
+  background: linear-gradient( 
+272deg, #83e4e238 0%, #a2ed5682 100%);
+}
+.taskimg{
+  padding: 10px 10px 10px;float:left;
+}
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 1rem;
+}
+
+ol.gradient-list {
+  counter-reset: gradient-counter;
+  list-style: none;
+  margin: 1.75rem 0;
+  font-family: "Raleway", sans-serif;
+}
+ol.gradient-list > li {
+  background: white;
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  counter-increment: gradient-counter;
+  margin-top: 1rem;
+  min-height: 3rem;
+  padding: 1rem 1rem 1rem 3rem;
+  position: relative;
+}
+ol.gradient-list > li::before, ol.gradient-list > li::after {
+  
+}
+ol.gradient-list > li::before {
+
+}
+ol.gradient-list > li:nth-child(10n+1):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.2) 0%, rgba(253, 220, 50, 0.2) 100%);
+}
+ol.gradient-list > li:nth-child(10n+2):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.4) 0%, rgba(253, 220, 50, 0.4) 100%);
+}
+ol.gradient-list > li:nth-child(10n+3):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.6) 0%, rgba(253, 220, 50, 0.6) 100%);
+}
+ol.gradient-list > li:nth-child(10n+4):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.8) 0%, rgba(253, 220, 50, 0.8) 100%);
+}
+ol.gradient-list > li:nth-child(10n+5):before {
+  background: linear-gradient(135deg, #a2ed56 0%, #fddc32 100%);
+}
+ol.gradient-list > li:nth-child(10n+6):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.8) 0%, rgba(253, 220, 50, 0.8) 100%);
+}
+ol.gradient-list > li:nth-child(10n+7):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.6) 0%, rgba(253, 220, 50, 0.6) 100%);
+}
+ol.gradient-list > li:nth-child(10n+8):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.4) 0%, rgba(253, 220, 50, 0.4) 100%);
+}
+ol.gradient-list > li:nth-child(10n+9):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0.2) 0%, rgba(253, 220, 50, 0.2) 100%);
+}
+ol.gradient-list > li:nth-child(10n+10):before {
+  background: linear-gradient(135deg, rgba(162, 237, 86, 0) 0%, rgba(253, 220, 50, 0) 100%);
+}
+ol.gradient-list > li + li {
+  margin-top: 2rem;
+}
+.el-content ol.gradient-list li.gradient-list::before {
+    content: none!important;
+
+}
+.taskbox p {
+	padding: 5px 5px 5px 5px;
+	  }
+	  .taskimg img {
+	padding: 5px 5px 5px 5px;
+	  }
+.el-content img {
+    margin-left: 16px !important;
+}
+.el-content ol.gradient-list li::before {
+    content: none !important;
+    margin-right: 20px;
+    font-size: 80%;
+    background-color: rgb(180, 180, 180);
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 11px;
+}
+  </style>
+ <ol class="gradient-list">
+<li><div class="pop">3 POP</div><img src="https://ageofnotes.com/imgs/builder.png" class="icovil"><p>3 Starting Villagers build 2 Houses</p></li>
+<li><div class="pop">7 POP</div><img src="https://ageofnotes.com/imgs/shepherd.png" class="icovil"><p>6 Villagers on Sheep</p></li>
+<li><div class="pop">8 POP</div><img src="https://ageofnotes.com/imgs/builderlumber.png" class="icovil"><p>1 Villager builds 1st Lumbercamp</p></li>
+<li><div class="pop">11 POP</div><img src="https://ageofnotes.com/imgs/lumberjack.png" class="icovil"><p>3 Villagers To Wood (Total 4 Lumberjacks)</p></li>
+<li><div class="pop">12 POP</div><img src="https://ageofnotes.com/imgs/hunter.png" class="icovil"><p>1 Villager hunts 1st boar</p></li>
+<div class="taskbox"><p><img src="https://ageofnotes.com/imgs/boar.png" class="icovil"> Move 6 Shephards + 1 Boar Hunter to boar meat</p></div>
+<li><div class="pop">13 POP</div><img src="https://ageofnotes.com/imgs/builder.png" class="icovil"><p>1 Villager builds 2 houses</p></li>
+<li><div class="pop">14 POP</div><img src="https://ageofnotes.com/imgs/buildermill.png" class="icovil"><p>1 Villager builds a Mill > becomes a Forager</p></li>
+<li><div class="pop">15 POP</div><img src="https://ageofnotes.com/imgs/forager.png" class="icovil"><p>1 Villager on Forage Bushes (Total 2 Foragers)</p></li>
+<li><div class="pop">16 POP</div><img src="https://ageofnotes.com/imgs/hunter.png" class="icovil"><p>1 Villager hunts 2nd boar</p></li>
+<li><div class="pop">18 POP</div><img src="https://ageofnotes.com/imgs/forager.png" class="icovil"><br><p>2 Villagers on Forage Bushes (Total 4 Foragers)</p></li>
+<div class="taskbox"><p><img src="https://ageofnotes.com/imgs/sheep.png" class="icovil"> Move all Boar Hunters to Sheep<br><img src="https://ageofnotes.com/imgs/farm.png" class="icovil"> Select an injured Shepherd to build the 1st farm</p></div>
+<li><div class="pop">19 POP</div><img src="https://ageofnotes.com/imgs/shepherd.png" class="icovil"><p>2 Villagers on Sheep</p></li>
+<li><div class="pop">20 POP</div><img src="https://ageofnotes.com/imgs/builderlumber.png" class="icovil"><p>1 Villager as a lumberjack builds 2nd Lumbercamp</p></li>
+<li><div class="pop">21 POP</div><img src="https://ageofnotes.com/imgs/lumberjack.png" class="icovil"><p>3 Villagers on Wood</p></li>
+<div class="taskbox"><p><img src="https://ageofnotes.com/imgs/farm.png" class="icovil"> Move 1 Shepherd to build the 2nd farm (Total 2)</p></div>
+<div class="taskbox"><p><img src="https://ageofnotes.com/imgs/builder.png" class="icovil"><p>Use any Villager to build 1 house</p></div>
+<li><div class="pop">24 POP</div><img src="https://ageofnotes.com/imgs/lumberjack.png" class="icovil"><p>2 Villagers on Wood (Total 10 Lumberjacks)</p></li>
+<div class="taskbox"><p><img src="https://ageofnotes.com/imgs/farm.png" class="icovil"> Move 2 Shepherds to build 2 more farms (Total 4)</p></div>
+<li><div class="pop">26 POP</div><img src="https://ageofnotes.com/imgs/lumberjack.png" class="icovil"><p>1 Villager build a mining camp near a gold patch</p></li>
+<li><div class="pop">27 POP</div><img src="https://ageofnotes.com/imgs/lumberjack.png" class="icovil"><p>2 Villager mines gold (Total 2)</p></li>
+<div class="taskbox"><p><img width="30px" height="30px" style="border-radius:50%;" src="https://ageofnotes.com/imgs/loom.jpg" class="icovil"> Research Loom <br> <img width="50px" height="50px" style="border-radius:50%;" src="https://ageofnotes.com/imgs/buildermining.png" class="icovil"> 2 Shepherd Villagers > mine gold (Total 4) <br> <img style="border-radius:50%;" width="50px" height="50px" src="https://ageofnotes.com/imgs/lumberjack.png" class="icovil">2 Shepherd Villagers > builds two farms (Total 6) <br> <img style="border-radius:50%;" width="50px" height="50px" src="https://ageofnotes.com/imgs/feudal.png" class="icovil">Click Feudal Age </p></div>
+
+	 <p>Workers Overview</p>
+<ol>
+	<li>10 Lumberjacks</li>
+	<li>4 Foragers</li>
+	<li>6 Farmers</li>
+	<li>4 Gold Miners</li>
+</ol>
+
+
+
+
+  </ol>
+<div class="su-service"><div class="su-service-title" style="padding-left:34px;min-height:20px;line-height:20px"><i class="sui sui-lightbulb-o" style="font-size:20px;color:#ede05a"></i> Build a Barracks (50% or 60% to Feudal Age)</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:34px">At 50% or 60% towards Feudal Age, build a barracks in a forward position (use any villagers from any resource)</div></div>
+<h3>Feudal Age</h3>
+<p>Instantly as you reach Feudal age:</p>
+<ol>
+<li>Create 2 new Villager to join gold miners</li>
+<li>Build a Blacksmith + Stable (Use Lumberjack villagers).</li>
+<li>Click Castle Age button</li>
+<li>Get Farm and Wood Upgrades</li>
+<li>At 175 wood available, build a second Stable (Total 2 Stables). Usually around 40% to Castle Age.</li>
+<li>Get Gold upgrade</li>
+<li>Get <img decoding="async" loading="lazy" src="https://ageofnotes.com/wp-content/uploads/2019/06/tech_scale-barding-armor.jpg" alt="scale barding armor" width="36" height="36" /> &amp; <img decoding="async" loading="lazy" src="https://ageofnotes.com/wp-content/uploads/2019/06/tech_bloodlines.jpg" alt="bloodlines" width="36" height="36" /> Only If your opponent has a mass of archers. Otherwise it&#8217;s preferable to save food for creating villagers and massing knights.</li>
+<li>At every 60 wood available, move a lumberjack to build a new farm.</li>
+</ol>
+<div class="su-service"><div class="su-service-title" style="padding-left:34px;min-height:20px;line-height:20px"><i class="sui sui-lightbulb-o" style="font-size:20px;color:#3abe87"></i> Decision Making</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:34px">You must make a decision before reaching Castle Age. All-in or Boom?</div></div>
+<h3>Castle Age</h3>
+<p>Instantly as you hit Castle age, Choose either of the following transitions:</p>
+<h4>Transition 1: Knights All-in (Aggressive with early game power)</h4>
+<ol>
+<li>Create knights non-stop from your stables</li>
+<li>Create villagers one by one to leave enough food for knights production</li>
+<li>Relocate Idle Foragers to build Farms</li>
+<li>New villagers go to gold until 14 miners</li>
+</ol>
+<h4>Transition 2: TCs Boom (Passive with Late game power)</h4>
+<ol>
+<li>Create only 4 knights from your stables and deal as damage as you can with them for the next 3 mins</li>
+<li>Upgrade (Bow Saw) the second Wood upgrade</li>
+<li>Create villagers non-stop and set the rally point to your wood lines</li>
+<li>As soon as you have 275 wood build a town center (you need 2 extra Town centers, a total of 3 tcs)</li>
+<li>All Town centers must be assigned to Wood lines. And every 60 wood must be converted into a farm</li>
+<li>Research Wheelbarrow at 20 or 21 mins</li>
+<li>At 20 mins assign the rally point of only 1 town center to your gold patch.</li>
+<li>(Start queuing knights only if your opponent is intending to attack you. If he is playing passive with no army keep making villagers and building farms)</li>
+<li>Aim at getting at least 30 farms at 26 mins</li>
+<li>At 26 mins research Hand cart as soon as 300 food 200 wood is available.</li>
+<li>Keep making farms nonstop</li>
+<li>At 28 &#8211; 29 mins click Imperial Age</li>
+<li>Research (Heavy Plow) the second farm upgrade</li>
+<li>Build forward siege workshop, Stables or Archery ranges which ever seems a better for your situation.</li>
+<li>Get all the upgrades for your army</li>
+</ol>
+<h3>Imperial Age</h3>
+<ol>
+<li>Get the new imperial age upgrades for your army</li>
+<li>Keep creating villagers</li>
+<li>Do whatever you want from this point</li>
+</ol>
+<p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="https://ageofnotes.com/build-orders/fast-castle-build-order-knights/">Fast Castle Build Order (Knights)</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com/">Age Of Notes</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://ageofnotes.com/build-orders/fast-castle-build-order-knights/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

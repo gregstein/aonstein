@@ -11,13 +11,178 @@
 	<atom:link href="https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/feed/" rel="self" type="application/rss+xml" />
 	<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/</link>
 	<description>Learn and Play Age Of Empires 2 Just Better</description>
-	<lastBuildDate>Sat, 27 Mar 2021 21:22:23 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 30 Oct 2022 17:39:46 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 	<item>
+		<title>
+		By: GregStein		</title>
+		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-596</link>
+
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Sun, 30 Oct 2022 17:39:46 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=987#comment-596</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-595&quot;&gt;JAY&lt;/a&gt;.
+
+Hello Jay,
+
+Very good description of the issue. Please start by updating sound drivers to the latest if it doesn&#039;t help try switch them to recommended factory version. Some sound card may not work on windows 11 yet so maybe downgrading to windows 10 could help the sound driver to operate the best. Trust me, huge part of your problem is sound, so do your best to investigate everything that is sound related, such as unplug bluetooth headset or use an external sound card usb (costs $2) then plug your audio devices into it. 
+
+If you are still lost come to my discord channel and tag me my id is GregStein#2970 and this my channel: https://discord.gg/cYxUn9WrDF]]></description>
+			<content:encoded><![CDATA[<p>Hello Jay,</p>
+<p>Very good description of the issue. Please start by updating sound drivers to the latest if it doesn&#8217;t help try switch them to recommended factory version. Some sound card may not work on windows 11 yet so maybe downgrading to windows 10 could help the sound driver to operate the best. Trust me, huge part of your problem is sound, so do your best to investigate everything that is sound related, such as unplug bluetooth headset or use an external sound card usb (costs $2) then plug your audio devices into it. </p>
+<p>If you are still lost come to my discord channel and tag me my id is GregStein#2970 and this my channel: <a href="https://discord.gg/cYxUn9WrDF" rel="nofollow ugc">https://discord.gg/cYxUn9WrDF</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: JAY		</title>
+		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-595</link>
+
+		<dc:creator><![CDATA[JAY]]></dc:creator>
+		<pubDate>Sun, 30 Oct 2022 17:20:22 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=987#comment-595</guid>
+
+					<description><![CDATA[Hello, i tried all of the above and it helped run the game better but it still crashes after reaching 30 villagers, i get like 1085 in the ranked benchmark but it still crashes mid game. i have 16gb ram, intel(R) Iris(R) Xe Graphics(integrated graphics) and 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz&#160;&#160;1.38 GHz (cpu). before it crashes it usually starts lagging, then the sound stops then it freezes and the sound returns for a second then it closes the game and gives no error. can u pls help?]]></description>
+			<content:encoded><![CDATA[<p>Hello, i tried all of the above and it helped run the game better but it still crashes after reaching 30 villagers, i get like 1085 in the ranked benchmark but it still crashes mid game. i have 16gb ram, intel(R) Iris(R) Xe Graphics(integrated graphics) and 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz&nbsp;&nbsp;1.38 GHz (cpu). before it crashes it usually starts lagging, then the sound stops then it freezes and the sound returns for a second then it closes the game and gives no error. can u pls help?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: GregStein		</title>
+		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-558</link>
+
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Mon, 21 Mar 2022 09:24:58 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=987#comment-558</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-557&quot;&gt;kadama&lt;/a&gt;.
+
+Hello friend,
+
+Sorry for the late response. You could run AoE2 DE through MS Store then open Task manager on the &quot;Details&quot; Tab find AoE2 DE exe then right click it &gt; Locate file and that should send you directly into the correct location of the exe.
+
+If you can&#039;t see the exe file after attempting to locating it I recommend you to use these registry hacks through cmd (run as admin) https://superuser.com/questions/1151844/how-to-toggle-show-hide-hidden-files-in-windows-through-command-line]]></description>
+			<content:encoded><![CDATA[<p>Hello friend,</p>
+<p>Sorry for the late response. You could run AoE2 DE through MS Store then open Task manager on the &#8220;Details&#8221; Tab find AoE2 DE exe then right click it > Locate file and that should send you directly into the correct location of the exe.</p>
+<p>If you can&#8217;t see the exe file after attempting to locating it I recommend you to use these registry hacks through cmd (run as admin) <a href="https://superuser.com/questions/1151844/how-to-toggle-show-hide-hidden-files-in-windows-through-command-line" rel="nofollow ugc">https://superuser.com/questions/1151844/how-to-toggle-show-hide-hidden-files-in-windows-through-command-line</a></p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: kadama		</title>
+		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-557</link>
+
+		<dc:creator><![CDATA[kadama]]></dc:creator>
+		<pubDate>Sat, 19 Mar 2022 16:49:41 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=987#comment-557</guid>
+
+					<description><![CDATA[Hi bro, as u know more and more people are playing through Microsoft platform .I would note that Sensei De did not work even after getting access permission to windowsapps folder.I&#039;m using a low end laptop to play aoe2de  .The exe aoe2de is not detected .are there any alternatives ? Thanks a lot for the content you provide]]></description>
+			<content:encoded><![CDATA[<p>Hi bro, as u know more and more people are playing through Microsoft platform .I would note that Sensei De did not work even after getting access permission to windowsapps folder.I&#8217;m using a low end laptop to play aoe2de  .The exe aoe2de is not detected .are there any alternatives ? Thanks a lot for the content you provide</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: GregStein		</title>
+		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-547</link>
+
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Wed, 12 Jan 2022 15:48:08 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=987#comment-547</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-533&quot;&gt;Zethex&lt;/a&gt;.
+
+Added a new section &quot;&lt;a href=&quot;https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#Tips_To_Fix_FPS_Drops_and_Crashes_Mid_Game&quot; style=&quot;background-color: rgb(237, 246, 255); color: rgb(68, 68, 68);&quot;&gt;Tips To Fix FPS Drops and Crashes Mid Game&lt;/a&gt;&quot; that touches your concerns. Another user with Radeon reported the same issue you have and he fixed it by enabling &lt;strong&gt;enhanced vsync&lt;/strong&gt;. In that section i put together almost all issues and solutions that user countered with age of empires 2 de.]]></description>
+			<content:encoded><![CDATA[<p>Added a new section &#8220;<a href="https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#Tips_To_Fix_FPS_Drops_and_Crashes_Mid_Game" style="background-color: rgb(237, 246, 255); color: rgb(68, 68, 68);">Tips To Fix FPS Drops and Crashes Mid Game</a>&#8221; that touches your concerns. Another user with Radeon reported the same issue you have and he fixed it by enabling <strong>enhanced vsync</strong>. In that section i put together almost all issues and solutions that user countered with age of empires 2 de.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: GregStein		</title>
+		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-537</link>
+
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Tue, 07 Dec 2021 06:26:11 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=987#comment-537</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-536&quot;&gt;Zethex&lt;/a&gt;.
+
+Ok! I will be available in exactly 5 - 6 hours.]]></description>
+			<content:encoded><![CDATA[<p>Ok! I will be available in exactly 5 &#8211; 6 hours.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Zethex		</title>
+		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-536</link>
+
+		<dc:creator><![CDATA[Zethex]]></dc:creator>
+		<pubDate>Mon, 06 Dec 2021 22:47:47 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=987#comment-536</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-535&quot;&gt;GregStein&lt;/a&gt;.
+
+Hey! Thanks for the reply. I would try that, i disabeled windows def, and nothing happened. I add you to discord so if i find you online you can guide me in the fix, 
+Thanks]]></description>
+			<content:encoded><![CDATA[<p>Hey! Thanks for the reply. I would try that, i disabeled windows def, and nothing happened. I add you to discord so if i find you online you can guide me in the fix,<br />
+Thanks</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: GregStein		</title>
+		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-535</link>
+
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Mon, 06 Dec 2021 10:07:29 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=987#comment-535</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-533&quot;&gt;Zethex&lt;/a&gt;.
+
+You have a memory leak from using overlays software. Please disable steam overlay and GeForce Experience overlay and discord overlay. I would even go a step forward and disable Windows Defender completely (temporarily).
+
+Anyhow here is my discord: GregStein#2970 Feel free to contact me to investigate with you more]]></description>
+			<content:encoded><![CDATA[<p>You have a memory leak from using overlays software. Please disable steam overlay and GeForce Experience overlay and discord overlay. I would even go a step forward and disable Windows Defender completely (temporarily).</p>
+<p>Anyhow here is my discord: GregStein#2970 Feel free to contact me to investigate with you more</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Zethex		</title>
+		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-533</link>
+
+		<dc:creator><![CDATA[Zethex]]></dc:creator>
+		<pubDate>Mon, 06 Dec 2021 00:30:04 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=987#comment-533</guid>
+
+					<description><![CDATA[Hello GregStein, i recently bought myself a desktop computer. It has the following components:
+
+- AMD Ryzen 7 5800x 8-core
+- AMD Radeon 6600 XT
+- SSD
+
+The problem is that when I play, be it multiplayer or single player, I start to lose frames. I already saw several ways to fix it with Vsync, but nothing works. It is not an internet issue, since when I play with the notebook I have no problem, besides that I also have the same problem in simple player. Can you guide me on how to solve it?]]></description>
+			<content:encoded><![CDATA[<p>Hello GregStein, i recently bought myself a desktop computer. It has the following components:</p>
+<p>&#8211; AMD Ryzen 7 5800x 8-core<br />
+&#8211; AMD Radeon 6600 XT<br />
+&#8211; SSD</p>
+<p>The problem is that when I play, be it multiplayer or single player, I start to lose frames. I already saw several ways to fix it with Vsync, but nothing works. It is not an internet issue, since when I play with the notebook I have no problem, besides that I also have the same problem in simple player. Can you guide me on how to solve it?</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
 		<title>
 		By: Dave		</title>
 		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-502</link>
@@ -28,140 +193,6 @@
 
 					<description><![CDATA[Excellent list of possible fixes. Well detailed and very helpful.]]></description>
 			<content:encoded><![CDATA[<p>Excellent list of possible fixes. Well detailed and very helpful.</p>
-]]></content:encoded>
-		
-			</item>
-		<item>
-		<title>
-		By: GregStein		</title>
-		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-450</link>
-
-		<dc:creator><![CDATA[GregStein]]></dc:creator>
-		<pubDate>Wed, 22 Apr 2020 12:29:01 +0000</pubDate>
-		<guid isPermaLink="false">https://ageofnotes.com/?p=987#comment-450</guid>
-
-					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-449&quot;&gt;Alexis&lt;/a&gt;.
-
-Thanks for sharing that &lt;3 Use your laptop sound instead of screen&#039;s and disable nvidia high definition audio as suggested in the guide. It should prevent any potential spikes that trigger crashes.]]></description>
-			<content:encoded><![CDATA[<p>Thanks for sharing that &lt;3 Use your laptop sound instead of screen's and disable nvidia high definition audio as suggested in the guide. It should prevent any potential spikes that trigger crashes.</p>
-]]></content:encoded>
-		
-			</item>
-		<item>
-		<title>
-		By: Alexis		</title>
-		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-449</link>
-
-		<dc:creator><![CDATA[Alexis]]></dc:creator>
-		<pubDate>Wed, 22 Apr 2020 08:04:20 +0000</pubDate>
-		<guid isPermaLink="false">https://ageofnotes.com/?p=987#comment-449</guid>
-
-					<description><![CDATA[I wish to share my experience here and maybe help some people. I had crashes on AoE2 DE on a regular basis, usually 25-30 min into a game, but not always. I am using a external screen plugged to my laptop through a docking station. And that seems to be where the issue came from. I didn&#039;t have these crashes before I used an external screen, and plugging my screen directly to the laptop fixed the issue, is also fixed crashes on other games.]]></description>
-			<content:encoded><![CDATA[<p>I wish to share my experience here and maybe help some people. I had crashes on AoE2 DE on a regular basis, usually 25-30 min into a game, but not always. I am using a external screen plugged to my laptop through a docking station. And that seems to be where the issue came from. I didn&#8217;t have these crashes before I used an external screen, and plugging my screen directly to the laptop fixed the issue, is also fixed crashes on other games.</p>
-]]></content:encoded>
-		
-			</item>
-		<item>
-		<title>
-		By: GregStein		</title>
-		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-447</link>
-
-		<dc:creator><![CDATA[GregStein]]></dc:creator>
-		<pubDate>Tue, 21 Apr 2020 16:31:51 +0000</pubDate>
-		<guid isPermaLink="false">https://ageofnotes.com/?p=987#comment-447</guid>
-
-					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-446&quot;&gt;MoN&lt;/a&gt;.
-
-No problem! And thanks for posting feedback as it means a lot to me &lt;3]]></description>
-			<content:encoded><![CDATA[<p>No problem! And thanks for posting feedback as it means a lot to me &lt;3</p>
-]]></content:encoded>
-		
-			</item>
-		<item>
-		<title>
-		By: MoN		</title>
-		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-446</link>
-
-		<dc:creator><![CDATA[MoN]]></dc:creator>
-		<pubDate>Tue, 21 Apr 2020 03:53:14 +0000</pubDate>
-		<guid isPermaLink="false">https://ageofnotes.com/?p=987#comment-446</guid>
-
-					<description><![CDATA[Thank you so much for this. It fixed my issues!]]></description>
-			<content:encoded><![CDATA[<p>Thank you so much for this. It fixed my issues!</p>
-]]></content:encoded>
-		
-			</item>
-		<item>
-		<title>
-		By: German Granados		</title>
-		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-322</link>
-
-		<dc:creator><![CDATA[German Granados]]></dc:creator>
-		<pubDate>Thu, 12 Mar 2020 22:41:14 +0000</pubDate>
-		<guid isPermaLink="false">https://ageofnotes.com/?p=987#comment-322</guid>
-
-					<description><![CDATA[Great job, thank you very much, my game went from 700 to 1130, I don&#039;t know why but Access, Xbox beta and Microsoft teams didn&#039;t work anymore, which I don&#039;t care because I can play ranked games now!]]></description>
-			<content:encoded><![CDATA[<p>Great job, thank you very much, my game went from 700 to 1130, I don&#8217;t know why but Access, Xbox beta and Microsoft teams didn&#8217;t work anymore, which I don&#8217;t care because I can play ranked games now!</p>
-]]></content:encoded>
-		
-			</item>
-		<item>
-		<title>
-		By: GregStein		</title>
-		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-106</link>
-
-		<dc:creator><![CDATA[GregStein]]></dc:creator>
-		<pubDate>Tue, 31 Dec 2019 21:19:51 +0000</pubDate>
-		<guid isPermaLink="false">https://ageofnotes.com/?p=987#comment-106</guid>
-
-					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-105&quot;&gt;digitalJE5U5&lt;/a&gt;.
-
-You&#039;re most welcome brother &lt;3]]></description>
-			<content:encoded><![CDATA[<p>You&#8217;re most welcome brother &lt;3</p>
-]]></content:encoded>
-		
-			</item>
-		<item>
-		<title>
-		By: digitalJE5U5		</title>
-		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-105</link>
-
-		<dc:creator><![CDATA[digitalJE5U5]]></dc:creator>
-		<pubDate>Tue, 31 Dec 2019 19:05:29 +0000</pubDate>
-		<guid isPermaLink="false">https://ageofnotes.com/?p=987#comment-105</guid>
-
-					<description><![CDATA[Thanks for putting this together.]]></description>
-			<content:encoded><![CDATA[<p>Thanks for putting this together.</p>
-]]></content:encoded>
-		
-			</item>
-		<item>
-		<title>
-		By: GregStein		</title>
-		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-104</link>
-
-		<dc:creator><![CDATA[GregStein]]></dc:creator>
-		<pubDate>Mon, 30 Dec 2019 18:15:04 +0000</pubDate>
-		<guid isPermaLink="false">https://ageofnotes.com/?p=987#comment-104</guid>
-
-					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-103&quot;&gt;Ivan Milani&lt;/a&gt;.
-
-Anytime brother! I appreciate the feedback &lt;3]]></description>
-			<content:encoded><![CDATA[<p>Anytime brother! I appreciate the feedback &lt;3</p>
-]]></content:encoded>
-		
-			</item>
-		<item>
-		<title>
-		By: Ivan Milani		</title>
-		<link>https://ageofnotes.com/resolve-issues/this-is-how-i-fixed-crashes-and-improved-performance-for-age-of-empires-2-definitive/#comment-103</link>
-
-		<dc:creator><![CDATA[Ivan Milani]]></dc:creator>
-		<pubDate>Mon, 30 Dec 2019 14:43:36 +0000</pubDate>
-		<guid isPermaLink="false">https://ageofnotes.com/?p=987#comment-103</guid>
-
-					<description><![CDATA[thanks for your effort GregStein]]></description>
-			<content:encoded><![CDATA[<p>thanks for your effort GregStein</p>
 ]]></content:encoded>
 		
 			</item>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: AoE2 DE lags due to excessive .PNG game assets	</title>
+	<atom:link href="https://ageofnotes.com/resolve-issues/aoe2-de-lags-due-to-png-game-assets/feed/" rel="self" type="application/rss+xml" />
+	<link>https://ageofnotes.com/resolve-issues/aoe2-de-lags-due-to-png-game-assets/</link>
+	<description>Learn and Play Age Of Empires 2 Just Better</description>
+	<lastBuildDate>Fri, 11 Feb 2022 15:05:55 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>
+		By: GregStein		</title>
+		<link>https://ageofnotes.com/resolve-issues/aoe2-de-lags-due-to-png-game-assets/#comment-555</link>
+
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Fri, 11 Feb 2022 15:05:55 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=2227#comment-555</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://ageofnotes.com/resolve-issues/aoe2-de-lags-due-to-png-game-assets/#comment-554&quot;&gt;Chris&lt;/a&gt;.
+
+I agree that one of the biggest issues for the game to lag to this extent is the single threaded genie engine used by aoe2 DE. The developer have locked the game fps to 60 to avoid crash and stutter issues since the game runs in a single thread.
+
+Microsoft recently bought Blizzard Inc so we can only hope to take advantage of StarCraft 2 engine. Because building an engine from scratch could take years.]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://ageofnotes.com/resolve-issues/aoe2-de-lags-due-to-png-game-assets/#comment-554">Chris</a>.</p>
+<p>I agree that one of the biggest issues for the game to lag to this extent is the single threaded genie engine used by aoe2 DE. The developer have locked the game fps to 60 to avoid crash and stutter issues since the game runs in a single thread.</p>
+<p>Microsoft recently bought Blizzard Inc so we can only hope to take advantage of StarCraft 2 engine. Because building an engine from scratch could take years.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Chris		</title>
+		<link>https://ageofnotes.com/resolve-issues/aoe2-de-lags-due-to-png-game-assets/#comment-554</link>
+
+		<dc:creator><![CDATA[Chris]]></dc:creator>
+		<pubDate>Wed, 09 Feb 2022 21:58:39 +0000</pubDate>
+		<guid isPermaLink="false">https://ageofnotes.com/?p=2227#comment-554</guid>
+
+					<description><![CDATA[before the last update GPU locked to screen in V-Sync 4k @ 120hz/fps always. 
+
+Since last update even the main menu only gets 60fps, 40fps soon as i start the game and as low as 10fps late game. 
+
+This is on a RTX 3080 i9 build, one of the fastest gaming PCs you can build. 
+
+build.https://www.userbenchmark.com/UserRun/49076605
+
+The aoe game engine is a complete joke. The developers need to be fired for their incompetence. There&#039;s clearly no accountability or management in Microsoft.]]></description>
+			<content:encoded><![CDATA[<p>before the last update GPU locked to screen in V-Sync 4k @ 120hz/fps always. </p>
+<p>Since last update even the main menu only gets 60fps, 40fps soon as i start the game and as low as 10fps late game. </p>
+<p>This is on a RTX 3080 i9 build, one of the fastest gaming PCs you can build. </p>
+<p>build.<a href="https://www.userbenchmark.com/UserRun/49076605" rel="nofollow ugc">https://www.userbenchmark.com/UserRun/49076605</a></p>
+<p>The aoe game engine is a complete joke. The developers need to be fired for their incompetence. There&#8217;s clearly no accountability or management in Microsoft.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

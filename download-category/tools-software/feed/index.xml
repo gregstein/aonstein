@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Tools &amp; Software Archives - Age Of Notes</title>
+	<atom:link href="https://ageofnotes.com/download-category/tools-software/feed/" rel="self" type="application/rss+xml" />
+	<link>https://ageofnotes.com/download-category/tools-software/</link>
+	<description>Learn and Play Age Of Empires 2 Just Better</description>
+	<lastBuildDate>Wed, 11 May 2022 18:46:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>AoE2 Switcher</title>
+		<link>https://ageofnotes.com/download/aoe2-switcher/</link>
+					<comments>https://ageofnotes.com/download/aoe2-switcher/#respond</comments>
+		
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Fri, 14 Jan 2022 23:18:59 +0000</pubDate>
+				<guid isPermaLink="false">https://ageofnotes.com/?post_type=wpdmpro&#038;p=2211</guid>
+
+					<description><![CDATA[<p>AoE2 Switcher lets you switch to any version of Age of Empires 2 supporting both expansions Age of Kings, The Conquerors. Besides additional features such as: Normal Mouse Cursor; Latest Compatibility Fix on Windows 7, 8, 10 and 11; Fix for Could not initialize graphics system. This tool has the ability to automatically detect your [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://ageofnotes.com/download/aoe2-switcher/">AoE2 Switcher</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com/">Age Of Notes</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>AoE2 Switcher lets you switch to any version of Age of Empires 2 supporting both expansions Age of Kings, The Conquerors. Besides additional features such as: Normal Mouse Cursor; Latest Compatibility Fix on Windows 7, 8, 10 and 11; Fix for Could not initialize graphics system.</p>
+<p>This tool has the ability to automatically detect your game installation or multiple game installations one as long as you have run any age of empires 2 version recently or set a custom game installation.</p>
+<h3><strong>Features List</strong></h3>
+<ul>
+<li>Auto detection of your game installation.</li>
+<li>AoC versions supported: 1.0, 1.0c ,1.0e ,1.4 ,1.5.</li>
+<li>AoK versions supported: 2.0, 2.0a,2.0b.</li>
+<li>Remembers changes you made to the settings.</li>
+<li>GameRanger Support.</li>
+<li>Voobly Support.</li>
+<li>Normal Mouse Cursor (Performance Tweak).</li>
+<li>Better Compatibility Fix on Windows 7/8/10/11.</li>
+<li>Language Support (EN, FR, BR, ES, PL, RU, AR)</li>
+<li>Run AoC &amp; AoK from the app</li>
+</ul>
+<h3><strong>How To Use?</strong></h3>
+<ol>
+<li>Extract &#8220;AoE2-Switcher-V2.zip&#8221; anywhere on your computer</li>
+<li>Open folder &#8220;\AoE2 Switcher\&#8221; then run <strong>AoE2 Switcher.exe</strong></li>
+</ol>
+<p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="https://ageofnotes.com/download/aoe2-switcher/">AoE2 Switcher</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com/">Age Of Notes</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss></wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Turtle Pack 1.6</title>
+		<link>https://ageofnotes.com/download/turtle-pack-1-6/</link>
+					<comments>https://ageofnotes.com/download/turtle-pack-1-6/#respond</comments>
+		
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Fri, 31 Dec 2021 15:27:32 +0000</pubDate>
+				<guid isPermaLink="false">https://ageofnotes.com/?post_type=wpdmpro&#038;p=2197</guid>
+
+					<description><![CDATA[<p>Turtle pack is lightweight tool to browse and extract, add, edit and delete (.slp , .wav, .bin) files from a .drs pack. An SLP file packs a set of imagery files which are  manipulatable in the same way by Turtle Pack using SLP editor tool. Turtle pack includes a third feature &#8220;Animation Preview&#8221; to visualize [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://ageofnotes.com/download/turtle-pack-1-6/">Turtle Pack 1.6</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com/">Age Of Notes</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Turtle pack is lightweight tool to browse and extract, add, edit and delete (<strong>.slp</strong> , .wav, .bin) files from a <strong>.drs</strong> pack. An SLP file packs a set of imagery files which are  manipulatable in the same way by Turtle Pack using SLP editor tool. Turtle pack includes a third feature &#8220;Animation Preview&#8221; to visualize your final slp file before production.</p>
+<p><strong>Features</strong></p>
+<ol>
+<li>DRS Editor: editor and management of slp, wav, bin files within a <strong>.drs</strong> pack.</li>
+<li>SLP Editor: modify images frames of any <strong>.slp</strong> file.</li>
+<li>Animation Preview: Visual evaluation for SLP images</li>
+</ol>
+<p><strong>Author</strong></p>
+<p>by Ruralist<br />
+web http://nniu.net/<br />
+2012.06.26</p>
+<p>The post <a rel="nofollow" href="https://ageofnotes.com/download/turtle-pack-1-6/">Turtle Pack 1.6</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com/">Age Of Notes</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss></wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Advanced Genie Editor</title>
+		<link>https://ageofnotes.com/download/advanced-genie-editor/</link>
+					<comments>https://ageofnotes.com/download/advanced-genie-editor/#respond</comments>
+		
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Fri, 31 Dec 2021 14:59:38 +0000</pubDate>
+				<guid isPermaLink="false">https://ageofnotes.com/?post_type=wpdmpro&#038;p=2194</guid>
+
+					<description><![CDATA[<p>a free software for for editing .dat and .dll files from Age of empires 2 Conquerors, Kings, Forgotten, Definitive and other expansions in the same series. Advanced Genie Editor lets you create, edit or delete properties of units, civilizations, technologies, graphics, terrains, sounds, player colors and so on. Tips You can have multiple search entries [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://ageofnotes.com/download/advanced-genie-editor/">Advanced Genie Editor</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com/">Age Of Notes</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>a free software for for editing .dat and .dll files from Age of empires 2 Conquerors, Kings, Forgotten, Definitive and other expansions in the same series. Advanced Genie Editor lets you create, edit or delete properties of units, civilizations, technologies, graphics, terrains, sounds, player colors and so on.</p>
+<p><b>Tips</b></p>
+<p>You can have multiple search entries separated with &#8220;|&#8221; letter.<br />
+Upper search boxes are inclusive and lower ones exclusive.</p>
+<p><span style="color: #339966;">Example: &#8220;tower|ship|ram&#8221;</span></p>
+<p>Use the check boxes to toggle matching between all and any entries.</p>
+<p><b>Developers</b></p>
+<ul>
+<li>Mikko &#8220;Tapsa&#8221; P</li>
+<li>Apre &#8211; genieutils</li>
+<li>Estien Nifo aka StSB77</li>
+</ul>
+<p><b>Credits</b></p>
+<ul>
+<li>Ykkrosh</li>
+<li>Scenario_t_c</li>
+<li>Alexandra &#8220;Taichi San&#8221;</li>
+<li>DarkRain654</li>
+<li>DiGiT, JustTesting1234</li>
+<li>Cysion, Kris, Sarthos</li>
+<li>Tevious</li>
+<li>Grenadier (RvA)</li>
+<li>withmorten</li>
+<li>BF_Tanks</li>
+<li>Donnieboy, Sarn, chab</li>
+<li>gagman</li>
+</ul>
+<p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="https://ageofnotes.com/download/advanced-genie-editor/">Advanced Genie Editor</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com/">Age Of Notes</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss></wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>AoE2 Graphics Fix 2.0</title>
+		<link>https://ageofnotes.com/download/aoe2-graphics-fix/</link>
+					<comments>https://ageofnotes.com/download/aoe2-graphics-fix/#respond</comments>
+		
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Thu, 30 Dec 2021 11:32:58 +0000</pubDate>
+				<guid isPermaLink="false">https://ageofnotes.com/?post_type=wpdmpro&#038;p=2177</guid>
+
+					<description><![CDATA[<p>a small tool to fix Age of Empires 2 Could not initialize graphics system. make sure that you video card and driver are compatible with DirectDraw (The Conquerors, Age of Kings) (Version 2.0 auto detect game path) Regardless&#8230; make sure the game path is correct then hit the &#8220;download &#38; apply fix&#8221; button (You need [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://ageofnotes.com/download/aoe2-graphics-fix/">AoE2 Graphics Fix 2.0</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com/">Age Of Notes</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>a small tool to fix Age of Empires 2 Could not initialize graphics system. make sure that you video card and driver are compatible with DirectDraw (The Conquerors, Age of Kings)</p>
+<p>(Version 2.0 auto detect game path) Regardless&#8230; make sure the game path is correct then hit the &#8220;download &amp; apply fix&#8221; button (You need internet to download the fixes). The tool include the color fix <del>without having to exit Explorer.exe.</del> UserPatch is also included as a resort in case the fix did not work.</p>
+<p>The post <a rel="nofollow" href="https://ageofnotes.com/download/aoe2-graphics-fix/">AoE2 Graphics Fix 2.0</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com/">Age Of Notes</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss></wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>DE Replays Manager</title>
+		<link>https://ageofnotes.com/download/de-replays-manager/</link>
+					<comments>https://ageofnotes.com/download/de-replays-manager/#respond</comments>
+		
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Wed, 29 Dec 2021 01:56:51 +0000</pubDate>
+				<guid isPermaLink="false">https://ageofnotes.com/?post_type=wpdmpro&#038;p=1949</guid>
+
+					<description><![CDATA[<p>DE Replays Manager is a lightweight tool dedicated to recorded games and downgrading Age of empires 2 Definitive Edition. DERM makes watching recorded games much easier and fun. You can drag and drop replays from ageofempires.com or locally directly to your replays folder and rename them on the fly. DE.R.M comes with Replays browser where [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://ageofnotes.com/download/de-replays-manager/">DE Replays Manager</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com/">Age Of Notes</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p dir="auto">DE Replays Manager is a lightweight tool dedicated to recorded games and downgrading Age of empires 2 Definitive Edition. DERM makes watching recorded games much easier and fun.</p>
+<p dir="auto">You can drag and drop replays from ageofempires.com or locally directly to your replays folder and rename them on the fly. DE.R.M comes with Replays browser where you can rename, delete or export your favorite replays directly from your savegame folder. And another section where you can search players and pull their ageofempires.com stats profile to download their recorded games.</p>
+<p>The post <a rel="nofollow" href="https://ageofnotes.com/download/de-replays-manager/">DE Replays Manager</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com/">Age Of Notes</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss></wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Mods Lockers V2</title>
+		<link>https://ageofnotes.com/download/mods-lockers-v2/</link>
+					<comments>https://ageofnotes.com/download/mods-lockers-v2/#respond</comments>
+		
+		<dc:creator><![CDATA[GregStein]]></dc:creator>
+		<pubDate>Mon, 27 Dec 2021 15:07:08 +0000</pubDate>
+				<guid isPermaLink="false">https://ageofnotes.com/?post_type=wpdmpro&#038;p=1868</guid>
+
+					<description><![CDATA[<p>A small tool that stops Age of Empires 2 Definitive Edition from disabling your mods or adding anniversary/achievement mods. Comes very handy when a new patch is released. Resulting into, all the mods you are subscribed to get disabled or lost . Mods Locker is an open source tool created by myself and available at [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://ageofnotes.com/download/mods-lockers-v2/">Mods Lockers V2</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com/">Age Of Notes</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>A small tool that stops Age of Empires 2 Definitive Edition from disabling your mods or adding anniversary/achievement mods. Comes very handy when a new patch is released. Resulting into, all the mods you are subscribed to get disabled or lost .<br />
+Mods Locker is an open source tool created by myself and available at my GitHub repo: <a href="https://github.com/gregstein/Mods-Locker-For-AoE2-DE" target="_blank" rel="noopener">Mods Locker For AoE2 DE</a></p>
+<p>The post <a rel="nofollow" href="https://ageofnotes.com/download/mods-lockers-v2/">Mods Lockers V2</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com/">Age Of Notes</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss></wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

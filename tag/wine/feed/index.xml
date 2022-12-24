@@ -8,9 +8,9 @@
 	>
 
 <channel>
-	<title>wine &#8211; Age Of Notes</title>
+	<title>wine Archives - Age Of Notes</title>
 	<atom:link href="https://ageofnotes.com/tag/wine/feed/" rel="self" type="application/rss+xml" />
-	<link>https://ageofnotes.com</link>
+	<link></link>
 	<description>Learn and Play Age Of Empires 2 Just Better</description>
 	<lastBuildDate>Tue, 11 May 2021 00:41:59 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 	<item>
 		<title>Setting up Age of Empires 2 Multiplayer For Wine Linux 2019</title>
 		<link>https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/</link>
@@ -34,8 +34,8 @@
 		<category><![CDATA[wine]]></category>
 		<guid isPermaLink="false">https://ageofnotes.com/?p=763</guid>
 
-					<description><![CDATA[<p>SHH&#8230; HAA&#8230; AoE2ToolsCloud has been released just today&#8230;Hooray! Q: What&#8217;s AoE2ToolsCloud? A: AoE2ToolsCloud Sets up Voobly and Age of Empires 2 for multiplayer in OneClick. You no longer have to waste time installing the game on windows, installing offline mods, installing UserPatch, installing Wololokingdoms then exporting everything to your linux system. And most of the times, it is a nightmare to set up Voobly and fixing stubborn issues with the game. Well, the good news is&#8230; AoE2ToolsCloud is fully supported on Wine. All you have to do is install steam through a wine32 bit installation (which I am going to </p>
-<p>The post <a rel="nofollow" href="https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/">Setting up Age of Empires 2 Multiplayer For Wine Linux 2019</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com">Age Of Notes</a>.</p>
+					<description><![CDATA[<p>SHH&#8230; HAA&#8230; AoE2ToolsCloud has been released just today&#8230;Hooray! Q: What&#8217;s AoE2ToolsCloud? A: AoE2ToolsCloud Sets up Voobly and Age of Empires 2 for multiplayer in OneClick. You no longer have to waste time installing the game on windows, installing offline mods, installing UserPatch, installing Wololokingdoms then exporting everything to your linux system. And most of the [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/">Setting up Age of Empires 2 Multiplayer For Wine Linux 2019</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com/">Age Of Notes</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[<p>SHH&#8230; HAA&#8230; AoE2ToolsCloud has been released just today&#8230;Hooray!</p>
 <p><span style="color: #ff0000;"><strong>Q:</strong></span> <strong>What&#8217;s AoE2ToolsCloud?</strong></p>
@@ -60,7 +60,7 @@ sudo apt-get update</pre><p>
 </em>Clean 32bit Wine Install With 32bit Prefix (NO MONO)</h3>
 <p>For this wine installation, we are going to use &#8220;<strong>Wine (development version)</strong>&#8221; and &#8220;<strong>winetricks</strong>&#8221; available on your Software Center.</p>
 <p><span style="color: #ff0000;">(YOU MUST INSTALL THROUGH SOFTWARE CENTER NOT TERMINAL ELSE IT WON&#8217;T WORK!!)</span></p>
-<p><img loading="lazy" class="aligncenter wp-image-803" src="https://ageofnotes.com/wp-content/uploads/2019/03/software-center-wine.png.jpg" alt="ubuntu software center wine" width="662" height="464" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/software-center-wine.png.jpg 1200w, https://ageofnotes.com/wp-content/uploads/2019/03/software-center-wine.png-457x320.jpg 457w, https://ageofnotes.com/wp-content/uploads/2019/03/software-center-wine.png-768x538.jpg 768w, https://ageofnotes.com/wp-content/uploads/2019/03/software-center-wine.png-1024x718.jpg 1024w" sizes="(max-width: 662px) 100vw, 662px" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-803" src="https://ageofnotes.com/wp-content/uploads/2019/03/software-center-wine.png.jpg" alt="ubuntu software center wine" width="662" height="464" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/software-center-wine.png.jpg 1200w, https://ageofnotes.com/wp-content/uploads/2019/03/software-center-wine.png-457x320.jpg 457w, https://ageofnotes.com/wp-content/uploads/2019/03/software-center-wine.png-768x538.jpg 768w, https://ageofnotes.com/wp-content/uploads/2019/03/software-center-wine.png-1024x718.jpg 1024w" sizes="(max-width: 662px) 100vw, 662px" /></p>
 <p>Once that&#8217;s done! Run the following command to set up wine32bit with a 32bit prefix:</p><pre class="urvanov-syntax-highlighter-plain-tag">WINEPREFIX=&quot;$HOME/win32&quot; WINEARCH=win32 wine wineboot</pre><p>
 Then you need to set your 32bit prefix to windows 10</p><pre class="urvanov-syntax-highlighter-plain-tag">WINEPREFIX=&quot;$HOME/win32&quot; WINEARCH=win32 winecfg</pre><p>
 Now your prefix should be ready for winetricks.</p>
@@ -87,9 +87,9 @@ WINEPREFIX=&quot;$HOME/win32&quot; WINEARCH=win32 winetricks wininet
 WINEPREFIX=&quot;$HOME/win32&quot; WINEARCH=win32 winetricks xact</pre>
 Once again let&#8217;s go back to winetricks<br />
 <pre class="urvanov-syntax-highlighter-plain-tag">WINEPREFIX=&quot;$HOME/win32&quot; WINEARCH=win32 winetricks</pre>
-<img loading="lazy" class="aligncenter size-full wp-image-800" src="https://ageofnotes.com/wp-content/uploads/2019/03/winetricks-directxdlls.png" alt="winetricks install all directx dlls" width="1010" height="530" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/winetricks-directxdlls.png 1010w, https://ageofnotes.com/wp-content/uploads/2019/03/winetricks-directxdlls-610x320.png 610w, https://ageofnotes.com/wp-content/uploads/2019/03/winetricks-directxdlls-768x403.png 768w" sizes="(max-width: 1010px) 100vw, 1010px" /></p>
+<img decoding="async" loading="lazy" class="aligncenter size-full wp-image-800" src="https://ageofnotes.com/wp-content/uploads/2019/03/winetricks-directxdlls.png" alt="winetricks install all directx dlls" width="1010" height="530" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/winetricks-directxdlls.png 1010w, https://ageofnotes.com/wp-content/uploads/2019/03/winetricks-directxdlls-610x320.png 610w, https://ageofnotes.com/wp-content/uploads/2019/03/winetricks-directxdlls-768x403.png 768w" sizes="(max-width: 1010px) 100vw, 1010px" /></p>
 <p>Check every directx dlls to ensure the best gaming  experience possible.</p>
-<p><img loading="lazy" class="aligncenter size-full wp-image-801" src="https://ageofnotes.com/wp-content/uploads/2019/03/all-directx-dlls.png" alt="check all directx dlls winetricks" width="1010" height="721" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/all-directx-dlls.png 1010w, https://ageofnotes.com/wp-content/uploads/2019/03/all-directx-dlls-448x320.png 448w, https://ageofnotes.com/wp-content/uploads/2019/03/all-directx-dlls-768x548.png 768w" sizes="(max-width: 1010px) 100vw, 1010px" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-801" src="https://ageofnotes.com/wp-content/uploads/2019/03/all-directx-dlls.png" alt="check all directx dlls winetricks" width="1010" height="721" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/all-directx-dlls.png 1010w, https://ageofnotes.com/wp-content/uploads/2019/03/all-directx-dlls-448x320.png 448w, https://ageofnotes.com/wp-content/uploads/2019/03/all-directx-dlls-768x548.png 768w" sizes="(max-width: 1010px) 100vw, 1010px" /></p>
 <p>&nbsp;</p>
 <p>Did you make it here? Well! Congratulations! Your wine installation is ready and looking all lovely.</p>
 <h2>Setting Up AoE2Tools Steam</h2>
@@ -109,26 +109,26 @@ This is similar to Steam installation, Press Next, Next and Finish.</p>
 <em>Don&#8217;t forget to change &#8220;</em><strong>yourname</strong><em>&#8221; to your system username.</em></p>
 <h2>Launching AoE2ToolsCloud</h2>
 <p>This is how the launcher looks like</p>
-<p><img loading="lazy" class="size-medium wp-image-783" src="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-535x320.jpg" alt="AoE2ToolsCloud" width="535" height="320" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-535x320.jpg 535w, https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud.jpg 582w" sizes="(max-width: 535px) 100vw, 535px" /></p>
+<p><img decoding="async" loading="lazy" class="size-medium wp-image-783" src="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-535x320.jpg" alt="AoE2ToolsCloud" width="535" height="320" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-535x320.jpg 535w, https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud.jpg 582w" sizes="(max-width: 535px) 100vw, 535px" /></p>
 <p>Press That Cloud Icon, indicated by the red arrows, to get access to the Cloud utility.</p>
-<div id="attachment_786" style="width: 503px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-786" loading="lazy" class="size-full wp-image-786" src="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Verification-Stage.jpg" alt="AoE2ToolsCloud Verification Stage" width="493" height="372" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Verification-Stage.jpg 493w, https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Verification-Stage-424x320.jpg 424w" sizes="(max-width: 493px) 100vw, 493px" /><p id="caption-attachment-786" class="wp-caption-text">Login to your steam account</p></div>
+<figure id="attachment_786" aria-describedby="caption-attachment-786" style="width: 493px" class="wp-caption aligncenter"><img decoding="async" loading="lazy" class="size-full wp-image-786" src="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Verification-Stage.jpg" alt="AoE2ToolsCloud Verification Stage" width="493" height="372" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Verification-Stage.jpg 493w, https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Verification-Stage-424x320.jpg 424w" sizes="(max-width: 493px) 100vw, 493px" /><figcaption id="caption-attachment-786" class="wp-caption-text">Login to your steam account</figcaption></figure>
 <p>Once you click that! Steam will be prompted to sign in if you weren&#8217;t already signed in.</p>
-<p><img loading="lazy" class="aligncenter size-full wp-image-784" src="https://ageofnotes.com/wp-content/uploads/2019/03/Screenshot_AoE2Toolscloud_ChooseBuild.jpg" alt="AoE2Toolscloud Choose your Build" width="794" height="593" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/Screenshot_AoE2Toolscloud_ChooseBuild.jpg 794w, https://ageofnotes.com/wp-content/uploads/2019/03/Screenshot_AoE2Toolscloud_ChooseBuild-428x320.jpg 428w, https://ageofnotes.com/wp-content/uploads/2019/03/Screenshot_AoE2Toolscloud_ChooseBuild-768x574.jpg 768w" sizes="(max-width: 794px) 100vw, 794px" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-784" src="https://ageofnotes.com/wp-content/uploads/2019/03/Screenshot_AoE2Toolscloud_ChooseBuild.jpg" alt="AoE2Toolscloud Choose your Build" width="794" height="593" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/Screenshot_AoE2Toolscloud_ChooseBuild.jpg 794w, https://ageofnotes.com/wp-content/uploads/2019/03/Screenshot_AoE2Toolscloud_ChooseBuild-428x320.jpg 428w, https://ageofnotes.com/wp-content/uploads/2019/03/Screenshot_AoE2Toolscloud_ChooseBuild-768x574.jpg 768w" sizes="(max-width: 794px) 100vw, 794px" /></p>
 <p>As you can see above, you can pick any installation build (Iron, Copper, Gold, Diamond, Painite) in a prestigious order. Please note that every build has or lacks mods and expansions, so take your time to preview them one by one by clicking the preview image on the top right-hand side of the window.</p>
 <p>Below the preview, you can find the featured offline visual mods, and expansions.</p>
 <p>Once you select the build of your choice, press Customize in the bottom of the window</p>
-<p><img loading="lazy" class="aligncenter size-full wp-image-785" src="https://ageofnotes.com/wp-content/uploads/2019/03/Screenshot_AoE2ToolsCloud_Config.jpg" alt="AoE2ToolsCloud Configuration Screen" width="793" height="595" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/Screenshot_AoE2ToolsCloud_Config.jpg 793w, https://ageofnotes.com/wp-content/uploads/2019/03/Screenshot_AoE2ToolsCloud_Config-426x320.jpg 426w, https://ageofnotes.com/wp-content/uploads/2019/03/Screenshot_AoE2ToolsCloud_Config-768x576.jpg 768w" sizes="(max-width: 793px) 100vw, 793px" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-785" src="https://ageofnotes.com/wp-content/uploads/2019/03/Screenshot_AoE2ToolsCloud_Config.jpg" alt="AoE2ToolsCloud Configuration Screen" width="793" height="595" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/Screenshot_AoE2ToolsCloud_Config.jpg 793w, https://ageofnotes.com/wp-content/uploads/2019/03/Screenshot_AoE2ToolsCloud_Config-426x320.jpg 426w, https://ageofnotes.com/wp-content/uploads/2019/03/Screenshot_AoE2ToolsCloud_Config-768x576.jpg 768w" sizes="(max-width: 793px) 100vw, 793px" /></p>
 <p>This is the final configuration step which you can just leave as it is unless you want to change Voobly Client language, installation path or import a custom hotkey profile, etc.</p>
 <p>Once you press &#8220;Download Install&#8221;</p>
-<p><img loading="lazy" class="aligncenter size-full wp-image-787" src="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Key.jpg" alt="AoE2ToolsCloud Code" width="793" height="595" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Key.jpg 793w, https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Key-426x320.jpg 426w, https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Key-768x576.jpg 768w" sizes="(max-width: 793px) 100vw, 793px" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-787" src="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Key.jpg" alt="AoE2ToolsCloud Code" width="793" height="595" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Key.jpg 793w, https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Key-426x320.jpg 426w, https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Key-768x576.jpg 768w" sizes="(max-width: 793px) 100vw, 793px" /></p>
 <p>This is how it looks, You simply need to press &#8220;Get My Key (Free)&#8221; where another tiny window pops up which you need to copy the code from it then Press &#8220;Enter Your Code&#8221;. That should take you to <a title="website to generate your personal key to activate AoE2ToolsCloud" href="https://ageofnotes.com/openkey/" target="_blank" rel="noopener noreferrer">https://ageofnotes.com/openkey/</a></p>
 <p>Where you are expected to paste your code and press Generate My Key as in the picture below:</p>
-<p><img loading="lazy" class="aligncenter size-medium wp-image-790" src="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Website-Key-541x320.jpg" alt="AoE2ToolsCloud Generate your Key" width="541" height="320" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Website-Key-541x320.jpg 541w, https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Website-Key-768x454.jpg 768w, https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Website-Key.jpg 938w" sizes="(max-width: 541px) 100vw, 541px" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter size-medium wp-image-790" src="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Website-Key-541x320.jpg" alt="AoE2ToolsCloud Generate your Key" width="541" height="320" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Website-Key-541x320.jpg 541w, https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Website-Key-768x454.jpg 768w, https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Website-Key.jpg 938w" sizes="(max-width: 541px) 100vw, 541px" /></p>
 <p>Press generate My Key and copy your free key to AoE2ToolsCloud</p>
 <p>E.g.</p>
-<p><img loading="lazy" class="aligncenter wp-image-792" src="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Key-Copy-1-622x233.jpg" alt="" width="406" height="152" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Key-Copy-1-622x233.jpg 622w, https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Key-Copy-1.jpg 691w" sizes="(max-width: 406px) 100vw, 406px" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-792" src="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Key-Copy-1-622x233.jpg" alt="" width="406" height="152" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Key-Copy-1-622x233.jpg 622w, https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Key-Copy-1.jpg 691w" sizes="(max-width: 406px) 100vw, 406px" /></p>
 <p>Finally, Paste your key to AoE2ToolsCloud and hit Validate button</p>
-<p><img loading="lazy" class="aligncenter size-full wp-image-793" src="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Validated.jpg" alt="AoE2ToolsCloud Validated" width="794" height="594" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Validated.jpg 794w, https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Validated-428x320.jpg 428w, https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Validated-768x575.jpg 768w" sizes="(max-width: 794px) 100vw, 794px" /></p>
+<p><img decoding="async" loading="lazy" class="aligncenter size-full wp-image-793" src="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Validated.jpg" alt="AoE2ToolsCloud Validated" width="794" height="594" srcset="https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Validated.jpg 794w, https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Validated-428x320.jpg 428w, https://ageofnotes.com/wp-content/uploads/2019/03/AoE2ToolsCloud-Validated-768x575.jpg 768w" sizes="(max-width: 794px) 100vw, 794px" /></p>
 <blockquote><p>While you are downloading or installing do not forget to use &#8220;Autologin Voobly&#8221; section so you would be automatically logged into Voobly and automatically joining the preferred lobby when the entire process is done.</p></blockquote>
 <p>&nbsp;</p>
 <p>That&#8217;s it, guys! Feel free to comment or post any issues. Also, remember not to run the game offline if you want to play single player or multiplayer you must use Voobly to do so. Until wine fixes it someday.</p>
@@ -140,11 +140,11 @@ This is similar to Steam installation, Press Next, Next and Finish.</p>
 <li><a href="https://discordapp.com/invite/jdCgCyx">Discord</a></li>
 </ul>
 <p>&nbsp;</p>
-<p>The post <a rel="nofollow" href="https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/">Setting up Age of Empires 2 Multiplayer For Wine Linux 2019</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com">Age Of Notes</a>.</p>
+<p>The post <a rel="nofollow" href="https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/">Setting up Age of Empires 2 Multiplayer For Wine Linux 2019</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com/">Age Of Notes</a>.</p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://ageofnotes.com/tutorials/setting-age-empires-2-multiplayer-wine-linux-2019/feed/</wfw:commentRss>
-			<slash:comments>30</slash:comments>
+			<slash:comments>31</slash:comments>
 		
 		
 			</item>

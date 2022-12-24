@@ -8,17 +8,17 @@
 	>
 
 <channel>
-	<title>could not initialize graphics system &#8211; Age Of Notes</title>
+	<title>could not initialize graphics system Archives - Age Of Notes</title>
 	<atom:link href="https://ageofnotes.com/tag/could-not-initialize-graphics-system/feed/" rel="self" type="application/rss+xml" />
-	<link>https://ageofnotes.com</link>
+	<link></link>
 	<description>Learn and Play Age Of Empires 2 Just Better</description>
-	<lastBuildDate>Wed, 02 Oct 2019 10:35:32 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 30 Dec 2021 15:36:35 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
 	<item>
 		<title>Could not initialize graphics system Age of Empires 2 [Fix]</title>
 		<link>https://ageofnotes.com/resolve-issues/how-to-fix-could-not-initialize-graphics-system-for-age-of-empires-2/</link>
@@ -31,37 +31,32 @@
 		<category><![CDATA[could not initialize graphics system]]></category>
 		<guid isPermaLink="false">https://ageofnotes.com/?p=885</guid>
 
-					<description><![CDATA[<p>To fix could not initialize graphics system.. directdraw for Age of Empires 2 we will need a tool called AoE2Tools. Step 1: Download &#38; Run AoE2Tools (skip this step if you already use AoE2Tools) Go to the official download page of AoE2Tools or Softpedia download page  to download the latest version. Once it&#8217;s installed, Run a scan Then after a few seconds, the button &#8220;2. Start&#8221; should be enabled for you to click it. &#160; Step 2: Apply The Fix Through AoE2Tools You can ignore any errors you see on AoE2Tools for now. All we need is to access the </p>
-<p>The post <a rel="nofollow" href="https://ageofnotes.com/resolve-issues/how-to-fix-could-not-initialize-graphics-system-for-age-of-empires-2/">Could not initialize graphics system Age of Empires 2 [Fix]</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com">Age Of Notes</a>.</p>
+					<description><![CDATA[<p>To fix could not initialize graphics system.. directdraw for Age of Empires 2 we will need a tool called AoE2 Graphics Fix. Feel free to checkout my tutorial on Youtube: https://www.youtube.com/watch?v=cnnffF7TPdo Step 1: Download &#38; Run AoE2 Graphics Fix Go to the AoE2 Graphics Fix and download the tool. Extract it to your desktop and [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://ageofnotes.com/resolve-issues/how-to-fix-could-not-initialize-graphics-system-for-age-of-empires-2/">Could not initialize graphics system Age of Empires 2 [Fix]</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com/">Age Of Notes</a>.</p>
 ]]></description>
-										<content:encoded><![CDATA[<p>To fix could not initialize graphics system.. directdraw for Age of Empires 2 we will need a tool called AoE2Tools.</p>
-<h3>Step 1: Download &amp; Run AoE2Tools</h3>
-<p><span style="color: #808080;"><em>(skip this step if you already use AoE2Tools)</em></span></p>
-<p>Go to the <a title="official download page of AoE2Tools" href="https://github.com/gregstein/AoE2Tools/releases" target="_blank" rel="nofollow noopener noreferrer">official download page of AoE2Tools</a> or <a href="https://games.softpedia.com/get/Tools/AoE2Tools.shtml" target="_blank" rel="nofollow noopener noreferrer">Softpedia download page </a> to download the latest version.</p>
-<p>Once it&#8217;s installed, Run a scan</p>
-<p><img loading="lazy" src="https://ageofnotes.com/wp-content/uploads/2019/06/aoe2tools_run_scan.jpg" alt="aoe2tools run scan" width="556" height="351" /></p>
-<p>Then after a few seconds, the button &#8220;2. Start&#8221; should be enabled for you to click it.</p>
-<div class="su-spoiler su-spoiler-style-fancy su-spoiler-icon-arrow su-spoiler-closed" data-scroll-offset="0" data-anchor-in-url="no"><div class="su-spoiler-title" tabindex="0" role="button"><span class="su-spoiler-icon"></span>'2. Start' Not Enabled ?</div><div class="su-spoiler-content su-u-clearfix su-u-trim">Press Windows button + R then type in: <strong>%appdata%\AoE2Tools</strong>. A folder will show up, find &#8220;AoE2Tools.exe&#8221; then right click it &gt; Run as administrator. At the bottom of the window, click <img loading="lazy" src="https://ageofnotes.com/wp-content/uploads/2019/06/settings_aoe2tools.jpg" alt="aoe2tools settings" width="83" height="36" /> then add the location of your game into &#8220;AoE2 Path&#8221; <img loading="lazy" class=" wp-image-888 alignnone" src="https://ageofnotes.com/wp-content/uploads/2019/06/aoe2tools_change_aoe2_path.jpg" alt="aoe2tools change aoe2 path" width="323" height="52" /></div></div>
-<p>&nbsp;</p>
-<h3>Step 2: Apply The Fix Through AoE2Tools</h3>
-<p>You can ignore any errors you see on AoE2Tools for now. All we need is to access the menu on the top left hand side of AoE2Tools</p>
-<p>Right click AoE2Tools Shield &gt; Voobly Medkit</p>
-<p><img loading="lazy" class=" wp-image-890 alignnone" src="https://ageofnotes.com/wp-content/uploads/2019/06/aoe2tools-right-click-menu.jpg" alt="aoe2tools right click menu" width="651" height="459" srcset="https://ageofnotes.com/wp-content/uploads/2019/06/aoe2tools-right-click-menu.jpg 989w, https://ageofnotes.com/wp-content/uploads/2019/06/aoe2tools-right-click-menu-454x320.jpg 454w, https://ageofnotes.com/wp-content/uploads/2019/06/aoe2tools-right-click-menu-768x541.jpg 768w" sizes="(max-width: 651px) 100vw, 651px" /></p>
-<p>Select &#8220;Fix Couldn&#8217;t Display Or DirectDraw Display Error&#8221; then hit apply button</p>
-<p><img loading="lazy" class=" wp-image-891 alignnone" src="https://ageofnotes.com/wp-content/uploads/2019/06/Fix-Couldnt-Display-Or-DirectDraw-Display-Error.jpg" alt="Fix Couldn't Display Or DirectDraw Display Error" width="644" height="376" srcset="https://ageofnotes.com/wp-content/uploads/2019/06/Fix-Couldnt-Display-Or-DirectDraw-Display-Error.jpg 1201w, https://ageofnotes.com/wp-content/uploads/2019/06/Fix-Couldnt-Display-Or-DirectDraw-Display-Error-548x320.jpg 548w, https://ageofnotes.com/wp-content/uploads/2019/06/Fix-Couldnt-Display-Or-DirectDraw-Display-Error-768x448.jpg 768w, https://ageofnotes.com/wp-content/uploads/2019/06/Fix-Couldnt-Display-Or-DirectDraw-Display-Error-1024x598.jpg 1024w" sizes="(max-width: 644px) 100vw, 644px" /></p>
-<p>Finally, Press &#8220;Download Now&#8221;.</p>
-<p><img loading="lazy" class=" wp-image-892 alignnone" src="https://ageofnotes.com/wp-content/uploads/2019/06/download_fix_directdraw_error.jpg" alt="download fix directdraw error" width="400" height="195" /></p>
-<p>Congratulations! Problem solved.</p>
-<p>Still not solved? Get down to the comment section, <strong>I quickly read and respond to questions and queries</strong>.</p>
-<p>Here are some links and videos that may help you:</p>
-<div class="flex-video flex-video-youtube"><iframe loading="lazy" title="Steam To Voobly Easy Setup Guide.. AoE2Tools" src="https://www.youtube.com/embed/Srhi14fjTkM?feature=oembed" width="620" height="349" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+										<content:encoded><![CDATA[<p>To fix could not initialize graphics system.. directdraw for Age of Empires 2 we will need a tool called AoE2 Graphics Fix.</p>
+<p>Feel free to checkout my tutorial on Youtube: <a href="https://www.youtube.com/watch?v=cnnffF7TPdo" target="_blank" rel="noopener">https://www.youtube.com/watch?v=cnnffF7TPdo</a></p>
+<h3>Step 1: Download &amp; Run AoE2 Graphics Fix</h3>
+<p>Go to the <a title="official download page of AoE2Tools" href="https://ageofnotes.com/download/aoe2-graphics-fix/" target="_blank" rel="nofollow noopener noreferrer">AoE2 Graphics Fix</a> and download the tool.</p>
+<p>Extract it to your desktop and run <strong>AoE2 Graphics Fix.exe </strong>(if the tool can not run please install <a href="https://www.microsoft.com/en-us/download/details.aspx?id=30653" target="_blank" rel="noopener">.NET Framework 4.5</a>)</p>
+<p><img decoding="async" loading="lazy" class="alignnone size-full wp-image-2181 aligncenter" src="https://ageofnotes.com/wp-content/uploads/2019/06/aoe2-graphics-fix-gamepath.jpg" alt="aoe2 graphics fix insert your game path" width="437" height="204" /></p>
+<h3>Step 2: Apply The Fix Through AoE2 Graphics Fix Tool</h3>
+<p>Find the location of your game and copy the path</p>
+<p style="text-align: center;"><img decoding="async" loading="lazy" class="alignnone size-full wp-image-2182" src="https://ageofnotes.com/wp-content/uploads/2019/06/aoe2-path.jpg" alt="copy age of empires 2 path" width="707" height="408" srcset="https://ageofnotes.com/wp-content/uploads/2019/06/aoe2-path.jpg 707w, https://ageofnotes.com/wp-content/uploads/2019/06/aoe2-path-285x165.jpg 285w" sizes="(max-width: 707px) 100vw, 707px" /></p>
+<p>Then paste it into Game Path field</p>
+<p><img decoding="async" loading="lazy" class="size-full wp-image-2178 aligncenter" src="https://ageofnotes.com/wp-content/uploads/2021/12/aoe2-graphics-fix.jpg" alt="" width="437" height="204" /></p>
+<p>Finally click &#8220;<strong>Download &amp; Apply Fix Now!</strong>&#8220;. Wait until the download and fix is applied. Then run age of empires 2 and see if the problem of &#8220;Could not initialize graphics system&#8221;.</p>
+<div class="su-service"><div class="su-service-title" style="padding-left:34px;min-height:20px;line-height:20px"><i class="sui sui-lightbulb-o" style="font-size:20px;color:#3abe87"></i> Method 2 to Fix</div><div class="su-service-content su-u-clearfix su-u-trim" style="padding-left:34px">If it&#8217;s not fixed go ahead and check &#8220;Install UserPatch&#8221;. A new windows will come up so just click update button and you&#8217;re done. Problem solved!</div></div>
+<h3>Does Multiplayer exit for Age of Empires 2?</h3>
+<p>Yes! Here are some links and videos that will help you play multiplayer with Age of empires 2:</p>
+<div class="flex-video flex-video-youtube"><iframe loading="lazy" width="620" height="349" title="Steam To Voobly Easy Setup Guide.. AoE2Tools" src="https://www.youtube.com/embed/Srhi14fjTkM?feature=oembed" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 <div><a title="AoE2Tools: Play On Voobly &amp; Manage Age of Empires 2" href="https://steamcommunity.com/sharedfiles/filedetails/?id=1459865719" target="_blank" rel="nofollow noopener noreferrer">AoE2Tools: Play On Voobly &amp; Manage Age of Empires 2</a></div>
 <p><a href="https://github.com/gregstein/AoE2Tools" target="_blank" rel="nofollow noopener noreferrer">https://github.com/gregstein/AoE2Tools</a></p>
-<p>The post <a rel="nofollow" href="https://ageofnotes.com/resolve-issues/how-to-fix-could-not-initialize-graphics-system-for-age-of-empires-2/">Could not initialize graphics system Age of Empires 2 [Fix]</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com">Age Of Notes</a>.</p>
+<p>The post <a rel="nofollow" href="https://ageofnotes.com/resolve-issues/how-to-fix-could-not-initialize-graphics-system-for-age-of-empires-2/">Could not initialize graphics system Age of Empires 2 [Fix]</a> appeared first on <a rel="nofollow" href="https://ageofnotes.com/">Age Of Notes</a>.</p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>https://ageofnotes.com/resolve-issues/how-to-fix-could-not-initialize-graphics-system-for-age-of-empires-2/feed/</wfw:commentRss>
-			<slash:comments>9</slash:comments>
+			<slash:comments>10</slash:comments>
 		
 		
 			</item>
